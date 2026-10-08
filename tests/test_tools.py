@@ -90,6 +90,7 @@ def test_emit_catalog_writes_pes_stat_rows(tmp_path):
     assert '{  0, 0x0000, uint32,1,  L("Player ID"), DontCare},' in text
     assert '{  1, -1, uint32,9,  L("Goals Scored"), false, false},' in text
     assert "PESstat pes19Stats[2]" in text
+    assert "extern const size_t pes19StatCount = 2;" in text   # const alone has internal linkage
 
 def test_main_compares_a_log_with_a_tap(tmp_path):
     ev = [{"type": "Event", "event": "Goal", "timestamp": 1, "gameMinute": 12.4, "team": "Home"}]

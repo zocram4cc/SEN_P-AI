@@ -24,8 +24,8 @@ def emit(path):
         off_text = "-1" if off == -1 else f"0x{off:04X}"
         lines.append(f'    {{{i:3}, {off_text}, {s["type"]},{s["count"]},  L("{s["name"]}"), {vis}}},'
                      f'  // {s["evidence"]}')
-    lines += ["};", f"const size_t {tag}StatCount = {len(rows)};",
-              f"const size_t {tag}EntrySize = {spec['entry_size']};", ""]
+    lines += ["};", f"extern const size_t {tag}StatCount = {len(rows)};",
+              f"extern const size_t {tag}EntrySize = {spec['entry_size']};", ""]
     return "\n".join(lines)
 
 
