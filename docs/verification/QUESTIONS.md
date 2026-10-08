@@ -26,3 +26,10 @@ Upstream's clock estimate can jump ahead at a substitution made during a stoppag
 ## Absent stats read as 0, not NaN (spec 4.5 vs 4.4)
 
 Spec 4.5 says a stat with offset -1 reads as NaN. With MatchReader unchanged (spec 4.4) that breaks the match: `collectStatChanges` tests `curr != prev`, which is always true for NaN, so every absent stat would log 9 changes per player per tick, and its segment search (`for(segment = 8; ... getSegmentDouble(...) == 0; --segment)`) never matches NaN, leaving segment 8 = penalties, so the clock would read `BENULDIES`. `PESstat::getSegmentDouble`/`getSegmentValue` therefore return 0 for offset -1: constant, never a change, written as 0 to `.sen`. Absent stats are `shown = false, logged = false`. PES 2017 has no absent stats, so its behaviour is unchanged.
+
+## PES 2019 findings (data differences, algorithm unchanged)
+
+- **Tick rate.** At Match Time 10 min, PES 2019 counts ≈356 ticks per game minute (PES 2017: 320 = 10 × 32). MatchReader's own ±32 correction settles at 352, so the `.sen` header stores match length 11. Measured in `measurements/pes19/layout.md`.
+- **40 squad slots.** The team table has 40 player pairs and 40 player entries per side (PES 2017: 32). SEN:P-AI keeps reading 32, as upstream (`MAX_PLAYERS`, `teamInfo::player[32]`); a squad above 32 players would be truncated.
+- **Condition byte** at entry+207 holds `0x10 | ordinal` (0 purple … 4 red) instead of PES 2017's 0x00–0x80. It is read raw; nothing uses it.
+- **Player Rating** is very likely the float at entry+0x17EC (PES 2017's relative position; 7.0 for a two-goal scorer). The rig's bot never opens the Player Ratings page on PES 2019, so by the catalog rules it is absent. Owner: open that page once (or allow the structural evidence) to enable it.
