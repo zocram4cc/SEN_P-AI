@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """SEN:P-AI parity check (spec section 7, item 1).
 
-Usage: diff_events.py A B [--tap]   A/B: event-log files (default) or senpai_tap frames.
+Usage: diff_events.py A B   A/B: event-log files or senpai_tap frames, each detected
+by its first byte (a log starts with '{'; a flag such as --tap is accepted and ignored).
 Exit 0 when (a) the non-clock events match in every field but timestamp, with
 minutes truncated, and (b) Clock Stopped counts differ by at most 2.
 """
@@ -59,8 +60,12 @@ def compare(a, b, stop_tolerance=2):
     return problems
 
 
+def load(path):
+    head = open(path, "rb").read(64).lstrip()
+    return load_log(path) if head.startswith(b"{") else load_tap(path)
+
+
 def main(argv):
-    load = load_tap if "--tap" in argv else load_log
     paths = [p for p in argv if not p.startswith("--")]
     problems = compare(load(paths[0]), load(paths[1]))
     for p in problems:
