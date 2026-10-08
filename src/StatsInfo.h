@@ -51,7 +51,7 @@ struct PESstat {
     }
 
     double getSegmentDouble(uint8_t *data, uint8_t segment = 0) const{
-        if(offset < 0) return std::nan("");
+        if(offset < 0) return 0; //absent in this version: constant, so MatchReader never sees a change (NaN != NaN would)
         if(segment >= count) return std::nan("");
         switch (statType) {
 #define CASE(VAL,TYPE) case VAL: return *(TYPE*)(data + offset + segment * sizeof(TYPE))
@@ -66,7 +66,7 @@ struct PESstat {
     }
 
     stat_value getSegmentValue(uint8_t *data, uint8_t segment = 0) const{
-        if(offset < 0) return stat_value{std::nanf("")};
+        if(offset < 0) return stat_value{};
         if(segment >= count) return stat_value{std::nanf("")};
         switch (statType) {
 #define CASE(VAL,TYPE) case VAL: return stat_value{*(TYPE*)(data + offset + segment * sizeof(TYPE))}

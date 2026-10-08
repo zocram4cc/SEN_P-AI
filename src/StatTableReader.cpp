@@ -118,10 +118,11 @@ static DWORD findPid(const wchar_t *name){
     DWORD pid = 0;
     PROCESSENTRY32 entry; entry.dwSize = sizeof(PROCESSENTRY32);
     HANDLE snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, NULL);
-    //Loop through every available proccess and compare its name to the target name
+    //Loop through every available proccess and compare its name to the target name. The first entry
+    //counts too: under Wine the game launched first in a wineserver is it (Windows lists the idle process first)
     if (Process32First(snapshot, &entry) == TRUE)
-        while (Process32Next(snapshot, &entry) == TRUE)
-            if (_wcsicmp(entry.szExeFile, name) == 0) { pid = entry.th32ProcessID; break; }
+        do if (_wcsicmp(entry.szExeFile, name) == 0) { pid = entry.th32ProcessID; break; }
+        while (Process32Next(snapshot, &entry) == TRUE);
     CloseHandle(snapshot);
     return pid;
 }
