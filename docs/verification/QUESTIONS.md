@@ -33,3 +33,11 @@ Spec 4.5 says a stat with offset -1 reads as NaN. With MatchReader unchanged (sp
 - **40 squad slots.** The team table has 40 player pairs and 40 player entries per side (PES 2017: 32). SEN:P-AI keeps reading 32, as upstream (`MAX_PLAYERS`, `teamInfo::player[32]`); a squad above 32 players would be truncated.
 - **Condition byte** at entry+207 holds `0x10 | ordinal` (0 purple … 4 red) instead of PES 2017's 0x00–0x80. It is read raw; nothing uses it.
 - **Player Rating** is very likely the float at entry+0x17EC (PES 2017's relative position; 7.0 for a two-goal scorer). The rig's bot never opens the Player Ratings page on PES 2019, so by the catalog rules it is absent. Owner: open that page once (or allow the structural evidence) to enable it.
+
+## Wine X11 abort
+
+The PES 2019 acceptance instance exited during the following match with `X Error of failed request: BadWindow (invalid Window parameter)`, `X_UnmapWindow`: Xlib's default handler ending the process inside Wine's X11 driver. Its debug log stops mid-tick. Observed once in about 4 h of runtime across instances. If it recurs, running SEN:P-AI with Wine's Wayland driver is the first thing to try.
+
+## The "mode" of Last Minute on Pitch is a max
+
+`MatchReader::calcUpdateTime` (`MatchReader.cpp:285-293`) calls `std::max_element` over an `unordered_map<int,int>` of minute → count. `pair` compares the key first, so it returns the largest minute, not the most common one. With 24 bench entries at −1 and 22 players on the pitch, a real mode would be −1, so the max is what makes the clock work. Left as upstream (spec 4.4).
