@@ -57,7 +57,7 @@ FORMS    += \
     ui/MatchReader.ui
 
 
-QMAKE_LFLAGS += /MANIFESTUAC:$$quote(\"level=\'requireAdministrator\' uiAccess=\'false\'\")
+win32-msvc*: QMAKE_LFLAGS += /MANIFESTUAC:$$quote(\"level=\'requireAdministrator\' uiAccess=\'false\'\")
 LIBS += -lAdvapi32
 RC_FILE = resources/resource.rc
 

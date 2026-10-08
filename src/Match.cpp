@@ -8,6 +8,7 @@
 #include <cmath>
 #include <type_traits>
 #include <memory>
+#include <cstring>
 
 #include "Common.h"
 
@@ -554,7 +555,7 @@ bool Match::file(Match *match, QString filename)
     sec->rwOffset<act>(f);
     forAllIn(m.events,[&](match_event &e, uint32_t){
         if(act == save) f.data(ptr2idx.at(e.when));
-        if(act == load) e.when = &m.updateTimes[f.get<uint32_t>()];
+        if(act == load) e.when = &m.updateTimes[f.template get<uint32_t>()];
         f.data(e.player1);
         f.data(e.player2);
         f.data(e.type);
@@ -573,7 +574,7 @@ bool Match::file(Match *match, QString filename)
     for(uint8_t p = 0; p < m.totalPlayers; ++p){
         loopAll(m.playerStatHistory[p],nPlayerChanges[p],[&](stat_change &c, uint32_t){
             if(act == save) f.data(ptr2idx.at(c.when));
-            if(act == load) c.when = &m.updateTimes[f.get<uint32_t>()];
+            if(act == load) c.when = &m.updateTimes[f.template get<uint32_t>()];
             f.data(c.statId);
             switch(statsInfo::getStat(c.statId).getStatValueType()){
             case  sint32: f.data(c.newVal.i); break;

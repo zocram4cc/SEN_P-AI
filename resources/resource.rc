@@ -1,1 +1,4 @@
 IDI_ICON1               ICON    DISCARDABLE     "ohayou_momiji.ico"
+#ifndef _MSC_VER
+1 24 "SEN_P-AI.exe.manifest"
+#endif

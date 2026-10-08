@@ -31,6 +31,7 @@ signals:
 
     void clock_stopped(quint64 timestamp, quint32 gameTick, float gameMinute, float injuryMinute);
     void clock_started(quint64 timestamp, quint32 gameTick, float gameMinute, float injuryMinute);
+    void clock_updated(quint64 timestamp, quint32 gameTick, float gameMinute, float injuryMinute);
     void newEvent(match_event event);
 
     void table_lost_event(match_time *when);

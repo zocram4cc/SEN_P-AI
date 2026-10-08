@@ -21,9 +21,11 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
     case QtCriticalMsg:msgType = "Critical"; break;
     case QtFatalMsg:   msgType =    "Fatal"; break;
     }
-    const char *fnName = std::strchr(context.function,'(')-1;
+    const char *function = context.function ? context.function : ""; //Qt's own messages carry no context
+    const char *paren = std::strchr(function,'(');
+    const char *fnName = (paren ? paren : function)-1;
     int fnNameLen = 0;
-    for(; fnName > context.function && *fnName != ' ';fnName--, fnNameLen++);
+    for(; fnName > function && *fnName != ' ';fnName--, fnNameLen++);
 
     QByteArray localMsg = msg.toLocal8Bit();
     std::fprintf(dbg,"%s: %-18s(line%4u of %.*s)\n", msgType, localMsg.constData(), context.line, fnNameLen,fnName+1);

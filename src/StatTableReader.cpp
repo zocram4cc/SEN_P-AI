@@ -311,6 +311,7 @@ bool StatTableReader::findStats(){
 
 
 #include "emmintrin.h"
+#include <cstring>
 bool StatTableReader::bruteForceStats(){
     qDebug("Function Entered");
     MEMORY_BASIC_INFORMATION info;
@@ -343,9 +344,11 @@ bool StatTableReader::bruteForceStats(){
             //For every 128bit vector in the valid search area
             for(size_t i = 0; i < numVectors; i++){
                 __m128i eq = _mm_cmpeq_epi32(_mm_load_si128(ptr+i),comp);
-                if(!_mm_test_all_zeros(eq,mask)){//If any elements matched
+                if(_mm_movemask_epi8(eq) != 0){//If any elements matched
+                    uint32_t lanes[4];
+                    std::memcpy(lanes, &ptr[i], sizeof lanes);
                     int j = -1;
-                    while(ptr[i].m128i_u32[++j] != player);//check which element matched
+                    while(lanes[++j] != player);//check which element matched
                     uintptr_t homeAddr = mappingAddr + ((i*4)+j)*4;
                     uintptr_t awayAddr = homeAddr + AWAY_DIFF;
 
