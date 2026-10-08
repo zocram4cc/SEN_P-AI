@@ -2,9 +2,10 @@
 # Build SEN_P-AI.exe with Windows Qt 5.15.2 / MinGW 8.1 under Wine.
 set -euo pipefail
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
-QT=$QT_WIN/5.15.2/mingw81_64
+# QT_WIN: the aqt output dir (-O) holding 5.15.2/mingw81_64 and Tools/mingw810_64.
+QT=${QT_WIN:?set QT_WIN to the aqtinstall output directory}/5.15.2/mingw81_64
 MW=$QT_WIN/Tools/mingw810_64
-export WINEPREFIX=${BUILD_PREFIX:-$BUILD_PREFIX}
+export WINEPREFIX=${BUILD_PREFIX:-$HOME/.local/share/wineprefixes/senpai-build}
 export WINEDEBUG=-all
 export WINEPATH="$(winepath -w "$QT/bin");$(winepath -w "$MW/bin")"
 mkdir -p "$ROOT/build"

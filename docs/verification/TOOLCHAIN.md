@@ -15,3 +15,19 @@ Build-script notes (toolchain, not source):
 
 - `CONFIG+=c++14` is passed to qmake. The `.pro` says `c++11`, but `Match.cpp` uses generic lambdas; MSVC, upstream's compiler, defaults to C++14.
 - `windeployqt` is replaced by an explicit copy of the Qt and MinGW runtime DLLs plus the `qwindows` and `qwindowsvistastyle` plugins: windeployqt classifies aqt's unstripped MinGW plugins as "debug" and refuses to deploy the platform plugin.
+
+## Path placeholders used in these docs
+
+Machine paths are written as variables; set them for your machine.
+
+| Variable | Meaning |
+|---|---|
+| `$RIG` | the rig's working directory (rigbot, venvs, dumps) |
+| `$RIGBOT` | the rigbot checkout; `tools/analyze/edit_names.py` and `hud_clock.py` read it from the environment |
+| `$RIG_VENV` | rigbot's Python virtualenv |
+| `$RIG_DOCS` | rig-side docs (the plan, spec and testbot scenario) |
+| `$SENPAI`, `$SENPAI_BASELINE` | this checkout, and a worktree of tag `baseline-pes17` |
+| `$QT_WIN`, `$AQT_VENV` | aqtinstall's output directory and its virtualenv; `tools/build-win.sh` requires `QT_WIN` |
+| `$BUILD_PREFIX` | the Wine prefix used only for building (default `~/.local/share/wineprefixes/senpai-build`) |
+| `$DUMPS` | scratch directory for memory dumps (never committed) |
+| `$HEROIC_PREFIXES` | Heroic's Wine prefix root; games run in `default`, `default/Pro Evolution Soccer 2017`, `default/eFootball PES 2021` |

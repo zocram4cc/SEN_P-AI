@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """A team's squad {playerId: name} from the game's EDIT file, via rigbot.
-CLI: edit_names.py VERSION TEAM_NAME   (run with $RIG_VENV/bin/python)
+CLI: edit_names.py VERSION TEAM_NAME   (RIGBOT = the rigbot checkout; run with rigbot's Python)
 
 Slots resolve exactly as rigbot.core.editfile.parse_squads does: by record ID
 where the layout says so (pes17), else the cumulative squad grid."""
 import json
+import os
 import sys
 
-sys.path.insert(0, "$RIGBOT")
+sys.path.insert(0, os.environ["RIGBOT"])
 from rigbot.core import editfile as E  # noqa: E402
 
 

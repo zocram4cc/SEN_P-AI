@@ -1,9 +1,9 @@
 """Read-only: sample every player's First/Last Minute on Pitch once a second (PES 2019 layout).
-python lmin_sampler.py BOTLOG AFTER_PATTERN SECONDS OUT.tsv"""
+python lmin_sampler.py BOTLOG AFTER_PATTERN SECONDS OUT.tsv   (WINEPREFIX = the game's prefix)"""
 import collections, struct, subprocess, sys, time, os
 LOG, AFTER, SECS, OUT = sys.argv[1], sys.argv[2], float(sys.argv[3]), sys.argv[4]
-ENV = dict(os.environ, WINEPREFIX="$HEROIC_PREFIXES/default", WINEDEBUG="-all")
-REG = "$SENPAI/tools/regions.exe"
+ENV = dict(os.environ, WINEDEBUG="-all")
+REG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "regions.exe")
 while True:
     text = open(LOG, errors="replace").read()
     if AFTER in text and "entering state MATCH_ONGOING" in text[text.index(AFTER):]:

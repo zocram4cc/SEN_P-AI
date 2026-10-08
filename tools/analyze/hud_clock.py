@@ -4,13 +4,14 @@
 Prints "epoch_ms<TAB>M:SS" whenever the reading changes, so SEN:P-AI event
 timestamps (ms since epoch) can be compared with the on-screen clock.
 Uses rigbot's own clock region and parse_clock; never sends input.
-CLI: hud_clock.py VERSION   (run with $RIG_VENV/bin/python)"""
+CLI: hud_clock.py VERSION   (RIGBOT = the rigbot checkout; run with rigbot's Python)"""
 import asyncio
+import os
 import sys
 import time
 from pathlib import Path
 
-RIGBOT = Path("$RIGBOT")
+RIGBOT = Path(os.environ["RIGBOT"])
 sys.path.insert(0, str(RIGBOT))
 import easyocr  # noqa: E402
 from obswebsocket import obsws  # noqa: E402
