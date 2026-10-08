@@ -99,3 +99,49 @@ def test_main_compares_a_log_with_a_tap(tmp_path):
     other = [dict(ev[0], team="Away")]
     tap.write_bytes(b"".join(struct.pack("<I", len(b := json.dumps(e).encode())) + b for e in other))
     assert diff_events.main([str(_log(tmp_path, ev)), str(tap)]) == 1
+
+import align_catalog
+
+P17 = [  # (offset, type, count, name, vis) - a toy PES 2017 catalog: id, 4 blocks, 2 tail bytes
+    (0x00, "uint32", 1, "Player ID", "DontCare"),
+    (0x04, "uint32", 9, "Goals Scored", "Important"),
+    (0x28, "uint32", 9, "Own Goals Scored", "Unknown"),
+    (0x4C, "uint32", 9, "Shots", "Normal"),
+    (0x70, "uint32", 9, "Passes", "Normal"),
+    (0x94, "sint8", 1, "First Minute on Pitch", "Normal"),
+    (0x95, "uint8", 1, "?UNKNOWN 6", "Unknown"),
+]
+
+def _spec(anchors, blocks_end, entry_size, tail=None):
+    return {"tag": "t", "entry_size": entry_size, "blocks_end": blocks_end,
+            "anchors": {k: {"offset": v, "evidence": "e"} for k, v in anchors.items()},
+            "tail": tail or {}}
+
+def test_align_maps_equal_gaps_in_order_and_unequal_gaps_to_unknown():
+    # new layout: Goals, Own Goals, Shots, 2 extra blocks, Passes -> gap Shots..Passes differs
+    rows = align_catalog.align(P17, _spec({"Goals Scored": 0x04, "Shots": 0x4C, "Passes": 0xB8}, 0xDC, 0xE0))
+    by = {r["name"]: r for r in rows}
+    assert by["Own Goals Scored"]["offset"] == 0x28            # 1 block between, both sides
+    assert [r["offset"] for r in rows if r["name"].startswith("?UNKNOWN")][:2] == [0x70, 0x94]
+    assert by["First Minute on Pitch"]["offset"] == -1         # tail stat without a measurement is absent
+
+def test_align_drops_pes17_names_from_an_unequal_gap():
+    rows = align_catalog.align(P17, _spec({"Goals Scored": 0x04, "Passes": 0x94}, 0xB8, 0xBC))
+    by = {r["name"]: r for r in rows}
+    assert by["Own Goals Scored"]["offset"] == -1 and by["Shots"]["offset"] == -1
+
+def test_align_covers_every_byte_exactly_once():
+    tail = {"First Minute on Pitch": {"offset": 0x94, "type": "sint8", "count": 1, "evidence": "e"}}
+    rows = align_catalog.align(P17, _spec({"Goals Scored": 0x04, "Passes": 0x70}, 0x94, 0xA0, tail))
+    size = {"uint32": 4, "sint8": 1, "uint8": 1, "uint16": 2, "float32": 4}
+    covered = sorted(b for r in rows if r["offset"] >= 0
+                     for b in range(r["offset"], r["offset"] + size[r["type"]] * r["count"]))
+    assert covered == list(range(0xA0))
+
+def test_invariants_flag_made_above_attempts():
+    rows = [{"name": "Passes", "offset": 4, "type": "uint32", "count": 9},
+            {"name": "Passes Made", "offset": 40, "type": "uint32", "count": 9}]
+    good = struct.pack("<I9I9I", 72101, 5, *[0] * 8, 4, *[0] * 8)
+    bad = struct.pack("<I9I9I", 72102, 1, *[0] * 8, 3, *[0] * 8)
+    assert align_catalog.invariants(rows, [good]) == []
+    assert align_catalog.invariants(rows, [good, bad]) == [("Passes Made", "Passes", 72102, 3, 1)]
