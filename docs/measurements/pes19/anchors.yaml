@@ -1,0 +1,28 @@
+# Catalog anchors for PES 2019 (Task 12 rules 1 and 5). Input of tools/analyze/align_catalog.py.
+# M1 = 2026-10-08 19:26 /g/ 3-4 /sp/, M2 = 19:55 /g/ 0-3 /sp/; full-time dumps of the stats table at MATCH_FINISH,
+# oracle = Team Stats and Match Events pages (oracle/). Sums are (home, away) over all 23+23 entries.
+tag: pes19
+entry_size: 8176
+blocks_end: 0x17A4
+anchors:
+  Goals Scored: {offset: 0x0004, evidence: "M1 (3,4) M2 (0,3) = final score; per player Terry A. Davis 2, Install Gentoo 1, PUNISHED MESSI 4 = Match Events"}
+  Assists: {offset: 0x0094, evidence: "M1 per player = Match Events assists (>A fucking cheese grater, NGUBU, >HE DOES IT FOR FREE, Install Gentoo, GEORGE COSTANZA, >SCHALKE)"}
+  Shots: {offset: 0x00DC, evidence: "Team Stats Shots M1 (5,5) M2 (6,3); only block matching both"}
+  Shots on Target: {offset: 0x0268, evidence: "Team Stats (On Target) M1 (5,5) M2 (4,3); only block matching both"}
+  Passes: {offset: 0x031C, evidence: "Team Stats Passes M1 (146,109) M2 (141,127)"}
+  Passes Made: {offset: 0x0340, evidence: "Team Stats (Made) M1 (135,98) M2 (120,105); 0x0A24 also fits, 0x0340 follows Passes as in PES 2017"}
+  Crosses: {offset: 0x043C, evidence: "Team Stats Crosses M1 (2,6) M2 (11,6)"}
+  Tackles Won: {offset: 0x070C, evidence: "Team Stats 'Tackles' M1 (5,5) M2 (4,0); the page shows Tackles Won (PES 2017 calibration)"}
+  Fouls: {offset: 0x07C0, evidence: "Team Stats Fouls M1 (2,1) M2 (0,3)"}
+  Free Kicks: {offset: 0x0898, evidence: "Team Stats Free Kicks M1 (1,2) M2 (3,0)"}
+  Corner Kicks: {offset: 0x08E0, evidence: "Team Stats Corner Kicks M1 (0,2) M2 (3,2)"}
+  Interceptions: {offset: 0x0AFC, evidence: "Team Stats Interceptions M1 (8,5) M2 (7,5)"}
+  Shots Faced: {offset: 0x1228, evidence: "= opponent's Team Stats Shots: M1 (5,5) M2 (3,6); only goalkeepers non-zero"}
+  Shots Faced On Target: {offset: 0x124C, evidence: "= opponent's (On Target): M1 (5,5) M2 (3,4)"}
+  Saves: {offset: 0x1270, evidence: "Team Stats Saves M1 (1,2) M2 (0,3)"}
+tail:
+  First Minute on Pitch: {offset: 0x17A4, type: sint8, count: 1, evidence: "-1 bench, 0 starters; subs WOBBIE 22, Techtubers 42, EL VAR SINSON 71 (M1) = Match Events minutes"}
+  Last Minute on Pitch: {offset: 0x17A5, type: sint8, count: 1, evidence: "16 for every player on the pitch at HUD 16:17; 90 at full time; subbed-off players 22/42/71"}
+  Current Playing Position: {offset: 0x17B0, type: uint32, count: 1, evidence: "M1 full time: GK 0 Stallman, RB 3, CMF 5, LMF 6, RMF 7, AMF 8, CF 12 = formation screen; bench 13"}
+  Game Ticks Played: {offset: 0x17B4, type: uint32, count: 13, evidence: "13 per-position counters (GK slot for Stallman, CB slot for Torvalds); grow during play, frozen while paused; next field at 0x17E8"}
+  Realtime (sec) on Pitch: {offset: 0x1A20, type: uint32, count: 1, evidence: "starters 612-615 s at full time; APOLOGIZE (off 22') 146, Thinkpad (off 42') 277, WOBBIE (on 22') 469"}

@@ -1,0 +1,28 @@
+# PES 2019 memory layout, measured 2026-10-08 on the rig (see layout.md for commands and output).
+# Matches: testbot scenario docs/plans/senpai/scenario_subs_bestxi.yaml, /g/ (721) vs /sp/ (749):
+#   M1 19:26-19:49 (3-4), M2 19:55-20:16 (0-3). Prefix $HEROIC_PREFIXES/default.
+teamRegionSize: {value: 0x50000, evidence: "regions.exe scan 72101: team pairs only in a 0x50000 region; base 2d1c0000 in M1 pre-game, M1 live and M2 pre-game"}
+teamTableOffset: {value: 0x32A58, evidence: "home team name at region+207452 (find_team_table name_at), table starts 4 bytes earlier (validPair) as in PES 2017; same in M2"}
+homePairMarker: {value: 0xFFFD, evidence: "find_team_table 721 /g/: 23 pairs, marker 0xfffd"}
+awayPairMarker: {value: 0xFFFE, evidence: "find_team_table 749 /sp/: 23 pairs, marker 0xfffe"}
+teamTable:
+  size: {value: 22652, evidence: "awayPlayersOffset + 32 * playerStride (the reader reads 32 of the 40 slots)"}
+  sideStride: {value: 1516, evidence: "away pairs 209236 - home pairs 207720; away name 208968 - home name 207452"}
+  teamNameOffset: {value: 4, evidence: "name_at - table start"}
+  teamNameMax: {value: 70, evidence: "team name NUL-padded to +70, scoreboard code 'G' at +74 (as PES 2017 teamName[70])"}
+  pairsOffset: {value: 272, evidence: "home pairs 207720 - table start 207448"}
+  teamIdOffset: {value: 596, evidence: "u32 721 (home) / 749 (away) at name+592, after 40 pairs (320 bytes) and a 4-byte validPair"}
+  playersOffset: {value: 4220, evidence: "first home player name 211724 (player_entries g.json) - 56 - table start; entry k-1 ends with PES 2017's 01 00 00 00 15 00 00 00 at name-64"}
+  awayPlayersOffset: {value: 14460, evidence: "first away name 221964 (player_entries sp.json) - 56 - table start; 40 home entries of 256 bytes"}
+  playerStride: {value: 256, evidence: "player_entries stride 256, both squads"}
+  playerNameOffset: {value: 56, evidence: "entry start = name - 56"}
+  playerNameMax: {value: 46, evidence: "print name (e.g. 'OUR SAVIOR') starts at name+46, as PES 2017"}
+  playerIdOffset: {value: 48, evidence: "player_entries name_minus_id [4, 8]: ID at name-8, copy at name-4 (as PES 2017)"}
+  playerConditionOffset: {value: 207, evidence: "byte at name+151: low 3 bits = condition ordinal (0 purple .. 4 red), 23/23 /g/ players equal the Team Sheet arrows (M1 pre-game); values 0x10-0x13. PES 2017 stores 0x00-0x80 in the top 3 bits; the value is not used by any output"}
+statsRegionSize: {value: 0x190000, evidence: "both teams' stride-8176 runs only in a 0x190000 region; base 7f320000 (M1), 7f690000 (M2)"}
+homeStatsOffset: {value: 0x7B5A4, evidence: "find_stats_blocks 721: [[505252, 23, 8176]] in M1 and M2"}
+awayStatsOffset: {value: 0xD18EC, evidence: "find_stats_blocks 749: [[858348, 23, 8176]] in M1 and M2"}
+awayStatsDiff: {value: 0x56348, evidence: "858348 - 505252"}
+statEntrySize: {value: 8176, evidence: "find_stats_blocks stride, both teams, both matches"}
+playerIdMin: {value: 70099, evidence: "spec 6"}
+playerIdMax: {value: 91100, evidence: "spec 6: EDIT IDs span 70101-91023"}
