@@ -1,0 +1,30 @@
+# Catalog anchors for PES 2021 (Task 12 rules 1 and 5). Input of tools/analyze/align_catalog.py.
+# M1 = 2026-10-08 22:01 /g/ 1-0 /sp/, M2 = 22:22 /g/ 0-0 /sp/ (5-4 on penalties); stats table dumped at 90:00 (MATCH_FINISH)
+# of both and again after M2's shoot-out. Oracle = Team Stats, Player Ratings and Match Events pages (oracle/).
+# Sums are (home, away) over all 23+23 entries. "only" = the only block with those sums in both matches.
+tag: pes21
+entry_size: 8500
+blocks_end: 0x18E8
+anchors:
+  Goals Scored: {offset: 0x0004, evidence: "M1 (1,0) M2 (0,0) = score; per player INSTALL GENTOO 1 = Match Events; shoot-out adds 5-4 in segment 8"}
+  Assists: {offset: 0x0094, evidence: "M1 per player TERRY A. DAVIS 1 = Match Events assist"}
+  Shots: {offset: 0x00DC, evidence: "Team Stats Shots M1 (8,1) M2 (7,3); only"}
+  Shots on Target: {offset: 0x0268, evidence: "Team Stats (On Target) M1 (5,1) M2 (6,1); only"}
+  Passes: {offset: 0x031C, evidence: "Team Stats Passes M1 (177,76) M2 (147,83); only"}
+  Passes Made: {offset: 0x0340, evidence: "Team Stats (Successful) M1 (152,53) M2 (130,63); 0x0A24 also fits, 0x0340 follows Passes as in PES 2017 and PES 2019"}
+  Crosses: {offset: 0x043C, evidence: "Team Stats Crosses M1 (7,2) M2 (4,5); only"}
+  Tackles Won: {offset: 0x070C, evidence: "Team Stats 'Tackles' M1 (0,2) M2 (1,3); only; the page shows Tackles Won (PES 2017 calibration)"}
+  Fouls: {offset: 0x07C0, evidence: "Team Stats Fouls M1 (0,1) M2 (0,1); blocks 39 and 55 fit, 55 = PES 2019's position"}
+  Free Kicks: {offset: 0x0898, evidence: "Team Stats Free Kicks M1 (1,0) M2 (1,0); only"}
+  Corner Kicks: {offset: 0x08E0, evidence: "Team Stats Corner Kicks M1 (2,1) M2 (2,1); only"}
+  Interceptions: {offset: 0x0AFC, evidence: "Team Stats Interceptions M1 (17,10) M2 (12,13); blocks 78 and 153 fit, 78 = PES 2019's position"}
+  Shots Faced: {offset: 0x1270, evidence: "= opponent's Shots: M1 (1,8) M2 (3,7); only"}
+  Shots Faced On Target: {offset: 0x1294, evidence: "= opponent's On Target: M1 (1,5) M2 (1,6); only"}
+  Saves: {offset: 0x12B8, evidence: "Team Stats Saves M1 (1,3) M2 (2,5); only"}
+tail:
+  First Minute on Pitch: {offset: 0x18E8, type: sint8, count: 1, evidence: "-1 bench, 0 starters; GIMI 30, NGUBU 67 (M1) = Match Events minutes"}
+  Last Minute on Pitch: {offset: 0x18E9, type: sint8, count: 1, evidence: "90 at full time for players on the pitch; PERRO CACA 30, GIMI 67 (subbed off, M1)"}
+  Current Playing Position: {offset: 0x18F4, type: uint32, count: 1, evidence: "GK 0 (STALLMAN, SO, IT HAPPENED AGAIN), CF 12 (TSUUUUUUUUUU), bench 13; same tail offset as PES 2019"}
+  Game Ticks Played: {offset: 0x18F8, type: uint32, count: 13, evidence: "13 per-position counters; 33376 for every full-match player in M1; same tail offset as PES 2019"}
+  Player Rating: {offset: 0x1930, type: float32, count: 1, evidence: "equals the Player Ratings page for 8 players in M1 (6.0, 6.0, 6.0, 7.0, 4.5, 4.5, 5.5, 5.0); 0 on the bench"}
+  Realtime (sec) on Pitch: {offset: 0x1B64, type: uint32, count: 1, evidence: "616-620 s for full-match players in M1, 0 on the bench; same tail offset as PES 2019"}

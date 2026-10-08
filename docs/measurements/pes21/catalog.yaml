@@ -1,0 +1,4317 @@
+tag: pes21
+entry_size: 8500
+stats:
+- name: Player ID
+  offset: 0
+  type: uint32
+  count: 1
+  vis: DontCare
+  evidence: u32 player ID at entry start (find_stats_blocks run)
+- name: Goals Scored
+  offset: 4
+  type: uint32
+  count: 9
+  vis: Important
+  evidence: M1 (1,0) M2 (0,0) = score; per player INSTALL GENTOO 1 = Match Events; shoot-out adds 5-4 in segment 8
+- name: Own Goals Scored
+  offset: 40
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Goals Scored and Assists'
+- name: Free kicks scored
+  offset: 76
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Goals Scored and Assists'
+- name: Penalties scored
+  offset: 112
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Goals Scored and Assists'
+- name: Assists
+  offset: 148
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: M1 per player TERRY A. DAVIS 1 = Match Events assist
+- name: ?UNKNOWN 6
+  offset: 184
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 1 blocks between Assists and Shots vs PES 2017 0'
+- name: Shots
+  offset: 220
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Shots M1 (8,1) M2 (7,3); only
+- name: ?UNKNOWN 8
+  offset: 256
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 9
+  offset: 292
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 10
+  offset: 328
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 11
+  offset: 364
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 12
+  offset: 400
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 13
+  offset: 436
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 14
+  offset: 472
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 15
+  offset: 508
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 16
+  offset: 544
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: ?UNKNOWN 17
+  offset: 580
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 10 blocks between Shots and Shots on Target vs PES 2017 4'
+- name: Shots on Target
+  offset: 616
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats (On Target) M1 (5,1) M2 (6,1); only
+- name: ?UNKNOWN 19
+  offset: 652
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 4 blocks between Shots on Target and Passes vs PES 2017 2'
+- name: ?UNKNOWN 20
+  offset: 688
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 4 blocks between Shots on Target and Passes vs PES 2017 2'
+- name: ?UNKNOWN 21
+  offset: 724
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 4 blocks between Shots on Target and Passes vs PES 2017 2'
+- name: ?UNKNOWN 22
+  offset: 760
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 4 blocks between Shots on Target and Passes vs PES 2017 2'
+- name: Passes
+  offset: 796
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Passes M1 (177,76) M2 (147,83); only
+- name: Passes Made
+  offset: 832
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats (Successful) M1 (152,53) M2 (130,63); 0x0A24 also fits, 0x0340 follows Passes as in PES 2017 and PES 2019
+- name: Low Passes
+  offset: 868
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Passes Made and Crosses'
+- name: Low Passes Made
+  offset: 904
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Passes Made and Crosses'
+- name: Through Balls
+  offset: 940
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Passes Made and Crosses'
+- name: Through Balls Made
+  offset: 976
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Passes Made and Crosses'
+- name: Lofted/High Passes
+  offset: 1012
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Passes Made and Crosses'
+- name: Lofted/High Passes Made
+  offset: 1048
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Passes Made and Crosses'
+- name: Crosses
+  offset: 1084
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Crosses M1 (7,2) M2 (4,5); only
+- name: ?UNKNOWN 32
+  offset: 1120
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 33
+  offset: 1156
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 34
+  offset: 1192
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 35
+  offset: 1228
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 36
+  offset: 1264
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 37
+  offset: 1300
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 38
+  offset: 1336
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 39
+  offset: 1372
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 40
+  offset: 1408
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 41
+  offset: 1444
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 42
+  offset: 1480
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 43
+  offset: 1516
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 44
+  offset: 1552
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 45
+  offset: 1588
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 46
+  offset: 1624
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 47
+  offset: 1660
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 48
+  offset: 1696
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 49
+  offset: 1732
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: ?UNKNOWN 50
+  offset: 1768
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 19 blocks between Crosses and Tackles Won vs PES 2017 16'
+- name: Tackles Won
+  offset: 1804
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats 'Tackles' M1 (0,2) M2 (1,3); only; the page shows Tackles Won (PES 2017 calibration)
+- name: ?UNKNOWN 40
+  offset: 1840
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Tackles Won and Fouls'
+- name: ?UNKNOWN 41
+  offset: 1876
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Tackles Won and Fouls'
+- name: ?UNKNOWN 42
+  offset: 1912
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Tackles Won and Fouls'
+- name: Clearances
+  offset: 1948
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Tackles Won and Fouls'
+- name: Fouls
+  offset: 1984
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Fouls M1 (0,1) M2 (0,1); blocks 39 and 55 fit, 55 = PES 2019's position
+- name: Fouls Offside
+  offset: 2020
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'rule 2: in order between Fouls and Free Kicks'
+- name: Yellow Cards
+  offset: 2056
+  type: uint32
+  count: 9
+  vis: Important
+  evidence: 'rule 2: in order between Fouls and Free Kicks'
+- name: Red Cards
+  offset: 2092
+  type: uint32
+  count: 9
+  vis: Important
+  evidence: 'rule 2: in order between Fouls and Free Kicks'
+- name: ?UNKNOWN 48
+  offset: 2128
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Fouls and Free Kicks'
+- name: ?UNKNOWN 49
+  offset: 2164
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Fouls and Free Kicks'
+- name: Free Kicks
+  offset: 2200
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Free Kicks M1 (1,0) M2 (1,0); only
+- name: ?UNKNOWN 51
+  offset: 2236
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: in order between Free Kicks and Corner Kicks'
+- name: Corner Kicks
+  offset: 2272
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Corner Kicks M1 (2,1) M2 (2,1); only
+- name: ?UNKNOWN 65
+  offset: 2308
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 66
+  offset: 2344
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 67
+  offset: 2380
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 68
+  offset: 2416
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 69
+  offset: 2452
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 70
+  offset: 2488
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 71
+  offset: 2524
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 72
+  offset: 2560
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 73
+  offset: 2596
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 74
+  offset: 2632
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 75
+  offset: 2668
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 76
+  offset: 2704
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 77
+  offset: 2740
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: ?UNKNOWN 78
+  offset: 2776
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 14 blocks between Corner Kicks and Interceptions vs PES 2017 10'
+- name: Interceptions
+  offset: 2812
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Interceptions M1 (17,10) M2 (12,13); blocks 78 and 153 fit, 78 = PES 2019's position
+- name: ?UNKNOWN 80
+  offset: 2848
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 81
+  offset: 2884
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 82
+  offset: 2920
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 83
+  offset: 2956
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 84
+  offset: 2992
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 85
+  offset: 3028
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 86
+  offset: 3064
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 87
+  offset: 3100
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 88
+  offset: 3136
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 89
+  offset: 3172
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 90
+  offset: 3208
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 91
+  offset: 3244
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 92
+  offset: 3280
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 93
+  offset: 3316
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 94
+  offset: 3352
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 95
+  offset: 3388
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 96
+  offset: 3424
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 97
+  offset: 3460
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 98
+  offset: 3496
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 99
+  offset: 3532
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 100
+  offset: 3568
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 101
+  offset: 3604
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 102
+  offset: 3640
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 103
+  offset: 3676
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 104
+  offset: 3712
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 105
+  offset: 3748
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 106
+  offset: 3784
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 107
+  offset: 3820
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 108
+  offset: 3856
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 109
+  offset: 3892
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 110
+  offset: 3928
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 111
+  offset: 3964
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 112
+  offset: 4000
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 113
+  offset: 4036
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 114
+  offset: 4072
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 115
+  offset: 4108
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 116
+  offset: 4144
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 117
+  offset: 4180
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 118
+  offset: 4216
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 119
+  offset: 4252
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 120
+  offset: 4288
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 121
+  offset: 4324
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 122
+  offset: 4360
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 123
+  offset: 4396
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 124
+  offset: 4432
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 125
+  offset: 4468
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 126
+  offset: 4504
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 127
+  offset: 4540
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 128
+  offset: 4576
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 129
+  offset: 4612
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 130
+  offset: 4648
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: ?UNKNOWN 131
+  offset: 4684
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 52 blocks between Interceptions and Shots Faced vs PES 2017 46'
+- name: Shots Faced
+  offset: 4720
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: '= opponent''s Shots: M1 (1,8) M2 (3,7); only'
+- name: Shots Faced On Target
+  offset: 4756
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: '= opponent''s On Target: M1 (1,5) M2 (1,6); only'
+- name: Saves
+  offset: 4792
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: Team Stats Saves M1 (1,3) M2 (2,5); only
+- name: ?UNKNOWN 135
+  offset: 4828
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 136
+  offset: 4864
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 137
+  offset: 4900
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 138
+  offset: 4936
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 139
+  offset: 4972
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 140
+  offset: 5008
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 141
+  offset: 5044
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 142
+  offset: 5080
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 143
+  offset: 5116
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 144
+  offset: 5152
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 145
+  offset: 5188
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 146
+  offset: 5224
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 147
+  offset: 5260
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 148
+  offset: 5296
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 149
+  offset: 5332
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 150
+  offset: 5368
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 151
+  offset: 5404
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 152
+  offset: 5440
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 153
+  offset: 5476
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 154
+  offset: 5512
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 155
+  offset: 5548
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 156
+  offset: 5584
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 157
+  offset: 5620
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 158
+  offset: 5656
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 159
+  offset: 5692
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 160
+  offset: 5728
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 161
+  offset: 5764
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 162
+  offset: 5800
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 163
+  offset: 5836
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 164
+  offset: 5872
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 165
+  offset: 5908
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 166
+  offset: 5944
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 167
+  offset: 5980
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 168
+  offset: 6016
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 169
+  offset: 6052
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 170
+  offset: 6088
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 171
+  offset: 6124
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 172
+  offset: 6160
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 173
+  offset: 6196
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 174
+  offset: 6232
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 175
+  offset: 6268
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 176
+  offset: 6304
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: ?UNKNOWN 177
+  offset: 6340
+  type: uint32
+  count: 9
+  vis: Unknown
+  evidence: 'rule 2: 43 blocks between Saves and end vs PES 2017 1'
+- name: First Minute on Pitch
+  offset: 6376
+  type: sint8
+  count: 1
+  vis: Normal
+  evidence: -1 bench, 0 starters; GIMI 30, NGUBU 67 (M1) = Match Events minutes
+- name: Last Minute on Pitch
+  offset: 6377
+  type: sint8
+  count: 1
+  vis: Normal
+  evidence: 90 at full time for players on the pitch; PERRO CACA 30, GIMI 67 (subbed off, M1)
+- name: ?UNKNOWN 180 FLAG
+  offset: 6378
+  type: uint8
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 181 FLAG
+  offset: 6379
+  type: uint8
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 182
+  offset: 6380
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 183
+  offset: 6384
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: Current Playing Position
+  offset: 6388
+  type: uint32
+  count: 1
+  vis: Normal
+  evidence: GK 0 (STALLMAN, SO, IT HAPPENED AGAIN), CF 12 (TSUUUUUUUUUU), bench 13; same tail offset as PES 2019
+- name: Game Ticks Played
+  offset: 6392
+  type: uint32
+  count: 13
+  vis: DontCare
+  evidence: 13 per-position counters; 33376 for every full-match player in M1; same tail offset as PES 2019
+- name: ?UNKNOWN 186
+  offset: 6444
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: Player Rating
+  offset: 6448
+  type: float32
+  count: 1
+  vis: Normal
+  evidence: equals the Player Ratings page for 8 players in M1 (6.0, 6.0, 6.0, 7.0, 4.5, 4.5, 5.5, 5.0); 0 on the bench
+- name: ?UNKNOWN 188
+  offset: 6452
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 189
+  offset: 6456
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 190
+  offset: 6460
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 191
+  offset: 6464
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 192
+  offset: 6468
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 193
+  offset: 6472
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 194
+  offset: 6476
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 195
+  offset: 6480
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 196
+  offset: 6484
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 197
+  offset: 6488
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 198
+  offset: 6492
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 199
+  offset: 6496
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 200
+  offset: 6500
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 201
+  offset: 6504
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 202
+  offset: 6508
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 203
+  offset: 6512
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 204
+  offset: 6516
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 205
+  offset: 6520
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 206
+  offset: 6524
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 207
+  offset: 6528
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 208
+  offset: 6532
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 209
+  offset: 6536
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 210
+  offset: 6540
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 211
+  offset: 6544
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 212
+  offset: 6548
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 213
+  offset: 6552
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 214
+  offset: 6556
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 215
+  offset: 6560
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 216
+  offset: 6564
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 217
+  offset: 6568
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 218
+  offset: 6572
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 219
+  offset: 6576
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 220
+  offset: 6580
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 221
+  offset: 6584
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 222
+  offset: 6588
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 223
+  offset: 6592
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 224
+  offset: 6596
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 225
+  offset: 6600
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 226
+  offset: 6604
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 227
+  offset: 6608
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 228
+  offset: 6612
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 229
+  offset: 6616
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 230
+  offset: 6620
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 231
+  offset: 6624
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 232
+  offset: 6628
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 233
+  offset: 6632
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 234
+  offset: 6636
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 235
+  offset: 6640
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 236
+  offset: 6644
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 237
+  offset: 6648
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 238
+  offset: 6652
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 239
+  offset: 6656
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 240
+  offset: 6660
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 241
+  offset: 6664
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 242
+  offset: 6668
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 243
+  offset: 6672
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 244
+  offset: 6676
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 245
+  offset: 6680
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 246
+  offset: 6684
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 247
+  offset: 6688
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 248
+  offset: 6692
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 249
+  offset: 6696
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 250
+  offset: 6700
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 251
+  offset: 6704
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 252
+  offset: 6708
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 253
+  offset: 6712
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 254
+  offset: 6716
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 255
+  offset: 6720
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 256
+  offset: 6724
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 257
+  offset: 6728
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 258
+  offset: 6732
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 259
+  offset: 6736
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 260
+  offset: 6740
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 261
+  offset: 6744
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 262
+  offset: 6748
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 263
+  offset: 6752
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 264
+  offset: 6756
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 265
+  offset: 6760
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 266
+  offset: 6764
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 267
+  offset: 6768
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 268
+  offset: 6772
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 269
+  offset: 6776
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 270
+  offset: 6780
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 271
+  offset: 6784
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 272
+  offset: 6788
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 273
+  offset: 6792
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 274
+  offset: 6796
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 275
+  offset: 6800
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 276
+  offset: 6804
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 277
+  offset: 6808
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 278
+  offset: 6812
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 279
+  offset: 6816
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 280
+  offset: 6820
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 281
+  offset: 6824
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 282
+  offset: 6828
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 283
+  offset: 6832
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 284
+  offset: 6836
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 285
+  offset: 6840
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 286
+  offset: 6844
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 287
+  offset: 6848
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 288
+  offset: 6852
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 289
+  offset: 6856
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 290
+  offset: 6860
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 291
+  offset: 6864
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 292
+  offset: 6868
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 293
+  offset: 6872
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 294
+  offset: 6876
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 295
+  offset: 6880
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 296
+  offset: 6884
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 297
+  offset: 6888
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 298
+  offset: 6892
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 299
+  offset: 6896
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 300
+  offset: 6900
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 301
+  offset: 6904
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 302
+  offset: 6908
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 303
+  offset: 6912
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 304
+  offset: 6916
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 305
+  offset: 6920
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 306
+  offset: 6924
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 307
+  offset: 6928
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 308
+  offset: 6932
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 309
+  offset: 6936
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 310
+  offset: 6940
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 311
+  offset: 6944
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 312
+  offset: 6948
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 313
+  offset: 6952
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 314
+  offset: 6956
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 315
+  offset: 6960
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 316
+  offset: 6964
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 317
+  offset: 6968
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 318
+  offset: 6972
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 319
+  offset: 6976
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 320
+  offset: 6980
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 321
+  offset: 6984
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 322
+  offset: 6988
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 323
+  offset: 6992
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 324
+  offset: 6996
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 325
+  offset: 7000
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 326
+  offset: 7004
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 327
+  offset: 7008
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: Realtime (sec) on Pitch
+  offset: 7012
+  type: uint32
+  count: 1
+  vis: Normal
+  evidence: 616-620 s for full-match players in M1, 0 on the bench; same tail offset as PES 2019
+- name: ?UNKNOWN 329
+  offset: 7016
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 330
+  offset: 7020
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 331
+  offset: 7024
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 332
+  offset: 7028
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 333
+  offset: 7032
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 334
+  offset: 7036
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 335
+  offset: 7040
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 336
+  offset: 7044
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 337
+  offset: 7048
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 338
+  offset: 7052
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 339
+  offset: 7056
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 340
+  offset: 7060
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 341
+  offset: 7064
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 342
+  offset: 7068
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 343
+  offset: 7072
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 344
+  offset: 7076
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 345
+  offset: 7080
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 346
+  offset: 7084
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 347
+  offset: 7088
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 348
+  offset: 7092
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 349
+  offset: 7096
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 350
+  offset: 7100
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 351
+  offset: 7104
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 352
+  offset: 7108
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 353
+  offset: 7112
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 354
+  offset: 7116
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 355
+  offset: 7120
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 356
+  offset: 7124
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 357
+  offset: 7128
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 358
+  offset: 7132
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 359
+  offset: 7136
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 360
+  offset: 7140
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 361
+  offset: 7144
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 362
+  offset: 7148
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 363
+  offset: 7152
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 364
+  offset: 7156
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 365
+  offset: 7160
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 366
+  offset: 7164
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 367
+  offset: 7168
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 368
+  offset: 7172
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 369
+  offset: 7176
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 370
+  offset: 7180
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 371
+  offset: 7184
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 372
+  offset: 7188
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 373
+  offset: 7192
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 374
+  offset: 7196
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 375
+  offset: 7200
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 376
+  offset: 7204
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 377
+  offset: 7208
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 378
+  offset: 7212
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 379
+  offset: 7216
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 380
+  offset: 7220
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 381
+  offset: 7224
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 382
+  offset: 7228
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 383
+  offset: 7232
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 384
+  offset: 7236
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 385
+  offset: 7240
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 386
+  offset: 7244
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 387
+  offset: 7248
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 388
+  offset: 7252
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 389
+  offset: 7256
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 390
+  offset: 7260
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 391
+  offset: 7264
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 392
+  offset: 7268
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 393
+  offset: 7272
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 394
+  offset: 7276
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 395
+  offset: 7280
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 396
+  offset: 7284
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 397
+  offset: 7288
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 398
+  offset: 7292
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 399
+  offset: 7296
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 400
+  offset: 7300
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 401
+  offset: 7304
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 402
+  offset: 7308
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 403
+  offset: 7312
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 404
+  offset: 7316
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 405
+  offset: 7320
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 406
+  offset: 7324
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 407
+  offset: 7328
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 408
+  offset: 7332
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 409
+  offset: 7336
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 410
+  offset: 7340
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 411
+  offset: 7344
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 412
+  offset: 7348
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 413
+  offset: 7352
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 414
+  offset: 7356
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 415
+  offset: 7360
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 416
+  offset: 7364
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 417
+  offset: 7368
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 418
+  offset: 7372
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 419
+  offset: 7376
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 420
+  offset: 7380
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 421
+  offset: 7384
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 422
+  offset: 7388
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 423
+  offset: 7392
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 424
+  offset: 7396
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 425
+  offset: 7400
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 426
+  offset: 7404
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 427
+  offset: 7408
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 428
+  offset: 7412
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 429
+  offset: 7416
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 430
+  offset: 7420
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 431
+  offset: 7424
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 432
+  offset: 7428
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 433
+  offset: 7432
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 434
+  offset: 7436
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 435
+  offset: 7440
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 436
+  offset: 7444
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 437
+  offset: 7448
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 438
+  offset: 7452
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 439
+  offset: 7456
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 440
+  offset: 7460
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 441
+  offset: 7464
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 442
+  offset: 7468
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 443
+  offset: 7472
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 444
+  offset: 7476
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 445
+  offset: 7480
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 446
+  offset: 7484
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 447
+  offset: 7488
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 448
+  offset: 7492
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 449
+  offset: 7496
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 450
+  offset: 7500
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 451
+  offset: 7504
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 452
+  offset: 7508
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 453
+  offset: 7512
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 454
+  offset: 7516
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 455
+  offset: 7520
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 456
+  offset: 7524
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 457
+  offset: 7528
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 458
+  offset: 7532
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 459
+  offset: 7536
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 460
+  offset: 7540
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 461
+  offset: 7544
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 462
+  offset: 7548
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 463
+  offset: 7552
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 464
+  offset: 7556
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 465
+  offset: 7560
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 466
+  offset: 7564
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 467
+  offset: 7568
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 468
+  offset: 7572
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 469
+  offset: 7576
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 470
+  offset: 7580
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 471
+  offset: 7584
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 472
+  offset: 7588
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 473
+  offset: 7592
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 474
+  offset: 7596
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 475
+  offset: 7600
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 476
+  offset: 7604
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 477
+  offset: 7608
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 478
+  offset: 7612
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 479
+  offset: 7616
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 480
+  offset: 7620
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 481
+  offset: 7624
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 482
+  offset: 7628
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 483
+  offset: 7632
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 484
+  offset: 7636
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 485
+  offset: 7640
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 486
+  offset: 7644
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 487
+  offset: 7648
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 488
+  offset: 7652
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 489
+  offset: 7656
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 490
+  offset: 7660
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 491
+  offset: 7664
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 492
+  offset: 7668
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 493
+  offset: 7672
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 494
+  offset: 7676
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 495
+  offset: 7680
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 496
+  offset: 7684
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 497
+  offset: 7688
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 498
+  offset: 7692
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 499
+  offset: 7696
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 500
+  offset: 7700
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 501
+  offset: 7704
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 502
+  offset: 7708
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 503
+  offset: 7712
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 504
+  offset: 7716
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 505
+  offset: 7720
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 506
+  offset: 7724
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 507
+  offset: 7728
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 508
+  offset: 7732
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 509
+  offset: 7736
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 510
+  offset: 7740
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 511
+  offset: 7744
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 512
+  offset: 7748
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 513
+  offset: 7752
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 514
+  offset: 7756
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 515
+  offset: 7760
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 516
+  offset: 7764
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 517
+  offset: 7768
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 518
+  offset: 7772
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 519
+  offset: 7776
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 520
+  offset: 7780
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 521
+  offset: 7784
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 522
+  offset: 7788
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 523
+  offset: 7792
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 524
+  offset: 7796
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 525
+  offset: 7800
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 526
+  offset: 7804
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 527
+  offset: 7808
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 528
+  offset: 7812
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 529
+  offset: 7816
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 530
+  offset: 7820
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 531
+  offset: 7824
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 532
+  offset: 7828
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 533
+  offset: 7832
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 534
+  offset: 7836
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 535
+  offset: 7840
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 536
+  offset: 7844
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 537
+  offset: 7848
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 538
+  offset: 7852
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 539
+  offset: 7856
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 540
+  offset: 7860
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 541
+  offset: 7864
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 542
+  offset: 7868
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 543
+  offset: 7872
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 544
+  offset: 7876
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 545
+  offset: 7880
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 546
+  offset: 7884
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 547
+  offset: 7888
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 548
+  offset: 7892
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 549
+  offset: 7896
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 550
+  offset: 7900
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 551
+  offset: 7904
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 552
+  offset: 7908
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 553
+  offset: 7912
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 554
+  offset: 7916
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 555
+  offset: 7920
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 556
+  offset: 7924
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 557
+  offset: 7928
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 558
+  offset: 7932
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 559
+  offset: 7936
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 560
+  offset: 7940
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 561
+  offset: 7944
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 562
+  offset: 7948
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 563
+  offset: 7952
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 564
+  offset: 7956
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 565
+  offset: 7960
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 566
+  offset: 7964
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 567
+  offset: 7968
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 568
+  offset: 7972
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 569
+  offset: 7976
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 570
+  offset: 7980
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 571
+  offset: 7984
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 572
+  offset: 7988
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 573
+  offset: 7992
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 574
+  offset: 7996
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 575
+  offset: 8000
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 576
+  offset: 8004
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 577
+  offset: 8008
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 578
+  offset: 8012
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 579
+  offset: 8016
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 580
+  offset: 8020
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 581
+  offset: 8024
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 582
+  offset: 8028
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 583
+  offset: 8032
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 584
+  offset: 8036
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 585
+  offset: 8040
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 586
+  offset: 8044
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 587
+  offset: 8048
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 588
+  offset: 8052
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 589
+  offset: 8056
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 590
+  offset: 8060
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 591
+  offset: 8064
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 592
+  offset: 8068
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 593
+  offset: 8072
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 594
+  offset: 8076
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 595
+  offset: 8080
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 596
+  offset: 8084
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 597
+  offset: 8088
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 598
+  offset: 8092
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 599
+  offset: 8096
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 600
+  offset: 8100
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 601
+  offset: 8104
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 602
+  offset: 8108
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 603
+  offset: 8112
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 604
+  offset: 8116
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 605
+  offset: 8120
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 606
+  offset: 8124
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 607
+  offset: 8128
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 608
+  offset: 8132
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 609
+  offset: 8136
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 610
+  offset: 8140
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 611
+  offset: 8144
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 612
+  offset: 8148
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 613
+  offset: 8152
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 614
+  offset: 8156
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 615
+  offset: 8160
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 616
+  offset: 8164
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 617
+  offset: 8168
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 618
+  offset: 8172
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 619
+  offset: 8176
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 620
+  offset: 8180
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 621
+  offset: 8184
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 622
+  offset: 8188
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 623
+  offset: 8192
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 624
+  offset: 8196
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 625
+  offset: 8200
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 626
+  offset: 8204
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 627
+  offset: 8208
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 628
+  offset: 8212
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 629
+  offset: 8216
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 630
+  offset: 8220
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 631
+  offset: 8224
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 632
+  offset: 8228
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 633
+  offset: 8232
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 634
+  offset: 8236
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 635
+  offset: 8240
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 636
+  offset: 8244
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 637
+  offset: 8248
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 638
+  offset: 8252
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 639
+  offset: 8256
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 640
+  offset: 8260
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 641
+  offset: 8264
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 642
+  offset: 8268
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 643
+  offset: 8272
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 644
+  offset: 8276
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 645
+  offset: 8280
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 646
+  offset: 8284
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 647
+  offset: 8288
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 648
+  offset: 8292
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 649
+  offset: 8296
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 650
+  offset: 8300
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 651
+  offset: 8304
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 652
+  offset: 8308
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 653
+  offset: 8312
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 654
+  offset: 8316
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 655
+  offset: 8320
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 656
+  offset: 8324
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 657
+  offset: 8328
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 658
+  offset: 8332
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 659
+  offset: 8336
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 660
+  offset: 8340
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 661
+  offset: 8344
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 662
+  offset: 8348
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 663
+  offset: 8352
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 664
+  offset: 8356
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 665
+  offset: 8360
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 666
+  offset: 8364
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 667
+  offset: 8368
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 668
+  offset: 8372
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 669
+  offset: 8376
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 670
+  offset: 8380
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 671
+  offset: 8384
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 672
+  offset: 8388
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 673
+  offset: 8392
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 674
+  offset: 8396
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 675
+  offset: 8400
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 676
+  offset: 8404
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 677
+  offset: 8408
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 678
+  offset: 8412
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 679
+  offset: 8416
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 680
+  offset: 8420
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 681
+  offset: 8424
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 682
+  offset: 8428
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 683
+  offset: 8432
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 684
+  offset: 8436
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 685
+  offset: 8440
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 686
+  offset: 8444
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 687
+  offset: 8448
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 688
+  offset: 8452
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 689
+  offset: 8456
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 690
+  offset: 8460
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 691
+  offset: 8464
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 692
+  offset: 8468
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 693
+  offset: 8472
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 694
+  offset: 8476
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 695
+  offset: 8480
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 696
+  offset: 8484
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 697
+  offset: 8488
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 698
+  offset: 8492
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: ?UNKNOWN 699
+  offset: 8496
+  type: uint32
+  count: 1
+  vis: Unknown
+  evidence: 'rule 5: tail byte without a measured meaning'
+- name: Headers
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Shots (Strong Foot)
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Shots (Weak Foot)
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Free kicks shot
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Penalty kicks shot
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Crosses Made
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Ground Passes
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Ground Passes Made
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Aerial Passes
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Aerial Passes Made
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Low Thru Balls
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Low Thru Balls Made
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Chipped Thru Balls
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Chipped Thru Balls Made
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Tackles
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Touches
+  offset: -1
+  type: uint32
+  count: 9
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Play Area Grid
+  offset: -1
+  type: uint32
+  count: 140
+  vis: DontCare
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Stamina
+  offset: -1
+  type: uint32
+  count: 1
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
+- name: Distance Dribbled
+  offset: -1
+  type: float32
+  count: 1
+  vis: Normal
+  evidence: 'absent: not found in this version (spec 4.5)'
