@@ -53,8 +53,32 @@ const GameLayout PES2019_LAYOUT = {
     pes19Stats, pes19StatCount,                            // src/catalogs/Pes19Stats.cpp from docs/measurements/pes19/catalog.yaml
 };
 
+extern PESstat pes21Stats[]; extern const size_t pes21StatCount, pes21EntrySize;
+// docs/measurements/pes21/layout.yaml, measured 2026-10-08 on testbot matches /g/ vs /sp/
+// (22:01 1-0 and 22:22 0-0, 5-4 pens) with tools/regions.exe + tools/analyze; evidence per value there.
+static const TeamTableLayout PES2021_TEAM_TABLE = {
+    /*size*/ 32780,              // awayPlayersOffset + 32 * playerStride
+    /*sideStride*/ 1680,         // away pairs 221828 - home pairs 220148
+    /*teamNameOffset*/ 4, /*teamNameMax*/ 70,
+    /*pairsOffset*/ 332,         // 40 pairs per side; the reader uses the first 32
+    /*teamIdOffset*/ 656,        // after 40 pairs and a validPair
+    /*playersOffset*/ 4556,      // first home name 224432 - 60 - table start 219816
+    /*awayPlayersOffset*/ 20236, // first away name 240112 - 60 - table start
+    /*playerStride*/ 392,
+    /*playerNameOffset*/ 60, /*playerNameMax*/ 61,
+    /*playerIdOffset*/ 52,       // player_entries name_minus_id [4, 8]
+    /*playerConditionOffset*/ 331, // 0x10 | condition ordinal; 17/17 = Team Sheet arrows
+};
+const GameLayout PES2021_LAYOUT = {
+    L"PES2021.exe", "PES2021",
+    0x50000, 0x35AA8, 0xFFFD, 0xFFFE, &PES2021_TEAM_TABLE, // team region: same base and offset at two pre-games
+    0x190000, 0x7B5C4, 0xD4C14, 0x59650,                  // find_stats_blocks: [505284, 23, 8500] / [871444, 23, 8500], both matches
+    pes21EntrySize, 70099, 91100,                          // spec 6: EDIT IDs 70101-91023
+    pes21Stats, pes21StatCount,                            // src/catalogs/Pes21Stats.cpp from docs/measurements/pes21/catalog.yaml
+};
+
 const std::vector<const GameLayout*>& GameLayout::all() {
-    static const std::vector<const GameLayout*> layouts = { &PES2017_LAYOUT, &PES2019_LAYOUT };
+    static const std::vector<const GameLayout*> layouts = { &PES2017_LAYOUT, &PES2019_LAYOUT, &PES2021_LAYOUT };
     return layouts;
 }
 
