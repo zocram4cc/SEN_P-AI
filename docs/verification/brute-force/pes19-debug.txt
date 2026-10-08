@@ -1,0 +1,4 @@
+Debug: Function Entered  (line 305 of StatTableReader::bruteForceStats)
+Debug: Function returned (line 352 of StatTableReader::bruteForceStats)
+Debug: Function Entered  (line 249 of StatTableReader::doStatsFound)
+Debug: Function returned (line 268 of StatTableReader::doStatsFound)
