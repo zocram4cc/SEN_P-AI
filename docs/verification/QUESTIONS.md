@@ -17,3 +17,7 @@ Cosmetic, left as upstream: with GCC's `__PRETTY_FUNCTION__`, constructors have 
 - The testbot log has no `last_clock` lines and logs substitutions at their *scheduled* minute ("sub at 15'"); the game applies a sub at the next stoppage. Neither is a ±1-minute oracle for `Player Sub` or `Clock Updated`. `tools/analyze/hud_clock.py` records the HUD clock (OCR through rigbot's own clock region) with wall timestamps instead.
 - `diff_events.py` as planned applied `--tap` to both inputs, so log-vs-tap comparison (Task 3 Step 5) crashed; it now detects each file's format.
 - `edit_names.py` as planned resolved squads by record ID for every version; that is only valid for PES 2017. It now uses the same resolution as `rigbot.core.editfile.parse_squads`.
+
+## Spec 7.2 "sub minute ±1" conflicts with the 1:1 algorithm
+
+Upstream's clock estimate can jump ahead at a substitution made during a stoppage. PES 2017 parity match (`pes17-parity/`): at 18:50:36 `Clock Stopped` 25.12 (Corner kick); at 18:50:54 `Player Sub` and `Clock Updated` 27.91 while the HUD read 25:05 before and 25:07 after; at 18:51:08 `Clock Stopped` 28.88 with the HUD at 25:51. The upstream build and the fork produce the same events (parity holds), so `tools/accept.py` reports `sub minute 27.9 vs HUD 25..25` for **upstream itself**. Since spec 4.4 forbids changing the algorithm, a sub minute outside ±1 is reported as this finding when the same pattern (clock jump at the sub, during a stoppage) is visible in the events; it is not a porting error. Owner: confirm, or relax 7.2 for subs.
