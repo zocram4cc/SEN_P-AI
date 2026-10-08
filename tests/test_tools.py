@@ -45,3 +45,48 @@ def _sen(tmp, final):
 
 def test_sen_section_reads_by_name(tmp_path):
     assert sen_sections.section(_sen(tmp_path, b"\x01\x02\x03"), "finalStats") == b"\x01\x02\x03"
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools" / "analyze"))
+import find_stats_blocks, find_team_table, player_entries, block_profile, emit_catalog
+
+def _u32(*vals):
+    return b"".join(struct.pack("<I", v) for v in vals)
+
+def test_stats_runs_find_a_strided_team_block():
+    stride = 64
+    buf = bytearray(4096)
+    for k in range(14):                       # 14 players of team 721 at stride 64 from 0x100
+        struct.pack_into("<I", buf, 0x100 + k * stride, 72101 + k)
+    struct.pack_into("<I", buf, 0x900, 72150)  # a stray mention elsewhere
+    assert find_stats_blocks.runs(bytes(buf), 721) == [(0x100, 14, 64)]
+
+def test_team_pairs_found_with_marker_and_team_id():
+    pairs = b"".join(_u32(0x0001FFFD, 72101 + k) for k in range(23)) + _u32(0xFFFFFFFF, 0) * 9
+    buf = b"\0" * 64 + b"/g/\0".ljust(70, b"\0") + b"\0" * 10 + pairs + _u32(0, 721)
+    found = find_team_table.pair_runs(buf, 721)
+    assert found == [(64 + 80, 23, 0xFFFD)]
+    assert find_team_table.team_name_offset(buf, 64 + 80, "/g/") == 64
+
+def test_player_entries_stride_and_name_offset():
+    stride, ids = 200, {72101: "TORVALDS", 72102: "STALLMAN"}
+    buf = bytearray(1000)
+    for k, (pid, name) in enumerate(ids.items()):
+        struct.pack_into("<I", buf, 100 + k * stride + 40, pid)
+        buf[100 + k * stride + 52: 100 + k * stride + 52 + len(name)] = name.encode()
+    assert player_entries.entries(bytes(buf), ids) == {"stride": 200, "name_minus_id": 12, "first_name_at": 152}
+
+def test_block_profile_sums_u32x9_blocks():
+    row = _u32(72101) + _u32(*([0] * 8 + [1])) + _u32(*([2] + [0] * 8))
+    prof = block_profile.blocks([row], [row], start=4, width=36)
+    assert prof[0] == {"offset": 4, "home_sum": 1, "away_sum": 1, "segments_nonzero": [8]}
+    assert prof[1]["home_sum"] == 2 and prof[1]["segments_nonzero"] == [0]
+
+def test_emit_catalog_writes_pes_stat_rows(tmp_path):
+    y = tmp_path / "c.yaml"
+    y.write_text("tag: pes19\nentry_size: 8\nstats:\n"
+                 "  - {name: Player ID, offset: 0x0, type: uint32, count: 1, vis: DontCare, evidence: e}\n"
+                 "  - {name: Goals Scored, offset: -1, type: uint32, count: 9, vis: Important, evidence: absent}\n")
+    text = emit_catalog.emit(y)
+    assert '{  0, 0x0000, uint32,1,  L("Player ID"), DontCare},' in text
+    assert '{  1, -1, uint32,9,  L("Goals Scored"), false, false},' in text
+    assert "PESstat pes19Stats[2]" in text
