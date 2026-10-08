@@ -30,7 +30,8 @@ SOURCES +=\
     src/QrTimestamp.cpp \
     src/MatchReader.cpp \
     src/GameLayout.cpp \
-    src/catalogs/Pes17Stats.cpp
+    src/catalogs/Pes17Stats.cpp \
+    src/catalogs/Pes19Stats.cpp
 
 HEADERS  += \
     src/Common.h \
