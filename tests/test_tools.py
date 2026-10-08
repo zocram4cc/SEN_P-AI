@@ -146,3 +146,15 @@ def test_invariants_flag_made_above_attempts():
     bad = struct.pack("<I9I9I", 72102, 1, *[0] * 8, 3, *[0] * 8)
     assert align_catalog.invariants(rows, [good]) == []
     assert align_catalog.invariants(rows, [good, bad]) == [("Passes Made", "Passes", 72102, 3, 1)]
+
+import accept
+
+def test_accept_clock_check_ignores_hud_misreads_after_half_time():
+    # HUD 0..44 one reading per "minute"; then 45; then a stoppage-time '90:00' OCR'd as '9:00'
+    hud = [(1000 * m, m) for m in range(45)] + [(45000, 45), (99000, 9)]
+    ev = [{"event": "Clock Updated", "timestamp": 1000 * m + 500, "gameMinute": float(m)} for m in range(45)]
+    ev += [{"event": "Clock Updated", "timestamp": 99500, "gameMinute": 90.0}]
+    fails, compared = accept.check(ev, ev, "", hud)
+    assert compared == 45 and not [f for f in fails if f.startswith("clock")]
+    ev[10]["gameMinute"] = 14.0                                   # a real first-half error still fails
+    assert any(f.startswith("clock 14.0") for f in accept.check(ev, ev, "", hud)[0])

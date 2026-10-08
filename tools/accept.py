@@ -57,8 +57,13 @@ def check(ev, tap, bot, hud):
     if any(a == b == "Clock Stopped" for a, b in zip(clock, clock[1:])):
         fails.append("two consecutive Clock Stopped")
     compared = 0
+    # First half = before the HUD reaches 45' straight after 43'/44'. OCR misreads ("7:42" as
+    # "71:42"; stoppage "90:00 +0:32" as "9:00") do not follow that sequence.
+    start = min(e["timestamp"] for e in ev if "timestamp" in e)
+    clip = [(t, m) for t, m in hud if t >= start]
+    half_time = next((t for (_, p), (t, m) in zip(clip, clip[1:]) if m == 45 and p in (43, 44)), float("inf"))
     for e in ev:
-        if e["event"] != "Clock Updated":
+        if e["event"] != "Clock Updated" or e["timestamp"] >= half_time:
             continue
         m = hud_minute(hud, e["timestamp"], 3000)
         if m is None or m >= 45:
