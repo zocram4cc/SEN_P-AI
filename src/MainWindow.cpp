@@ -4,6 +4,9 @@
 #include <QHeaderView>
 #include <algorithm>
 #include "QrTimestamp.h"
+#include "GameLayout.h"
+#include <QMessageBox>
+#include <QFile>
 //#include <QDebug>
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -19,7 +22,6 @@ MainWindow::MainWindow(QWidget *parent) :
 
     ui->matchTabs->setStyle(new MyStyle(style(),ui->matchTabs));
 
-    statsSelect = new statSelectionDialog(info,this);
     settingsDialog = new SettingsDialog(this);
 
     reader = ui->reader;
@@ -29,6 +31,7 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(reader,&MatchReader::invalidate_match, this,&MainWindow::invalidateMatch);
     connect(reader,&MatchReader::matchUpdated, this,&MainWindow::currentMatchUpdated);
     connect(ui->showBenched,&QPushButton::toggled, reader,&MatchReader::show_benced);
+    connect(reader,&MatchReader::catalog_changed, this,&MainWindow::makeStatsDialog);
 
     autosaveTimer = new QTimer(this);
     autosaveTimer->setInterval(settings.value("MatchAutosaveInterval",10000).toInt());
@@ -48,12 +51,18 @@ MainWindow::MainWindow(QWidget *parent) :
             autosaveTimer->stop();
     });
 
+    makeStatsDialog();
+
+}
+
+void MainWindow::makeStatsDialog(){
+    delete statsSelect;
+    statsSelect = new statSelectionDialog(info,this);
     statsSelect->setModal(true);
     connect(ui->columnsButton,&QPushButton::clicked, statsSelect,&statSelectionDialog::exec);
     connect(statsSelect,&statSelectionDialog::accepted, this, [this]{
         emit statsDisplayChanged(info);
     });
-
 }
 
 MainWindow::~MainWindow(){
@@ -102,6 +111,12 @@ void MainWindow::invalidateMatch(){
 
 
 #include <QFileDialog>
+static size_t sen_statCount(const QString &path){
+    QFile f(path);
+    if(!f.open(QIODevice::ReadOnly) || !f.seek(12)) return 0;
+    QByteArray b = f.read(2);
+    return b.size() == 2 ? (uint8_t)b[0] | ((uint8_t)b[1] << 8) : 0;
+}
 void MainWindow::on_openButton_clicked(){
     qDebug("Function Entered");
     int tab = 0;
@@ -111,6 +126,16 @@ void MainWindow::on_openButton_clicked(){
     for(QString &name: names){
         if(names.isEmpty())
             continue;
+        if(const GameLayout *fileLayout = GameLayout::byStatCount(sen_statCount(name))){
+            bool changed = false;
+            if(!statsInfo::select(*fileLayout, &changed)){
+                QMessageBox::warning(this, QStringLiteral("SEN:P-AI"),
+                    QStringLiteral("This match is from %1; restart SEN:P-AI to open it.")
+                        .arg(QString::fromWCharArray(fileLayout->processName)));
+                continue;
+            }
+            if(changed){ reader->indexStats(); makeStatsDialog(); }
+        }
         Match *match = new Match();
         if(!Match::file<load>(match,name))
             continue;

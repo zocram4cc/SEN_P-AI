@@ -16,7 +16,7 @@ MatchReader::MatchReader(QWidget *parent) :
 
     QSettings settings;
 
-    reader = new StatTableReader(L"PES2017.exe",ui->bruteForce,this);
+    reader = new StatTableReader(ui->bruteForce,this);
     server = new PipeServer(this);
 
     updateTimer = new QTimer(this);
@@ -27,13 +27,16 @@ MatchReader::MatchReader(QWidget *parent) :
     connect(reader,&StatTableReader::table_found,      this,&MatchReader::stats_found);
     connect(reader,&StatTableReader::teamsChanged,     this,&MatchReader::teams_changed);
     connect(reader,&StatTableReader::statTableUpdate,  this,&MatchReader::update);
+    connect(reader,&StatTableReader::catalog_changed,  this,[this]{ indexStats(); emit catalog_changed(); });
     updateTimer->start(settings.value("UpdateRate",100).toInt());
 
     connect(this, &MatchReader::table_found_event, server,&PipeServer::table_found);
     connect(this, &MatchReader::table_lost_event,  server,&PipeServer::table_lost);
     connect(this, &MatchReader::newEvent,          server,&PipeServer::newEvent);
+    indexStats();
+}
 
-
+void MatchReader::indexStats(){
     //Save indicies of important stats, along with some properties
 #define INDEX(IDX,NAME) (si[IDX] = statsInfo::getStatIndex(NAME))
 #define PAIR(IDX,IS1,TYPE) std::pair<int,pEvent>(IDX, pEvent{IS1,TYPE})

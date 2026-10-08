@@ -38,8 +38,10 @@ signals:
     void table_found_event(match_time *when);
 
     void matchUpdated();
+    void catalog_changed();
 
 public slots:
+    void indexStats();
     void settingsChanged(){
         updateTimer->setInterval(QSettings().value("UpdateRate",100).toInt());
     }

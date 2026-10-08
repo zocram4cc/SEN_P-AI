@@ -2,6 +2,13 @@
 #include "ui_StatSelectionDialog.h"
 #include <QSettings>
 #include <QBitArray>
+#include "GameLayout.h"
+#include <cstring>
+static QString statKey(const char *base){
+    const GameLayout *l = statsInfo::lockedLayout();
+    if(!l || std::strcmp(l->tag, "PES2017") == 0) return QString::fromLatin1(base);
+    return QStringLiteral("%1/%2").arg(QString::fromLatin1(base), QString::fromLatin1(l->tag));
+}
 
 statSelectionDialog::statSelectionDialog(statsInfo &_info, QWidget *parent) :
     QDialog(parent),
@@ -15,8 +22,8 @@ statSelectionDialog::statSelectionDialog(statsInfo &_info, QWidget *parent) :
     header->setSectionResizeMode(QHeaderView::Fixed);
 
     QSettings settings;
-    QList<QVariant> visualIndicies = settings.value("StatDisplayOrder",QList<QVariant>()).toList();
-    QList<QVariant> isShown = settings.value("StatIsShown",QList<QVariant>()).toList();
+    QList<QVariant> visualIndicies = settings.value(statKey("StatDisplayOrder"),QList<QVariant>()).toList();
+    QList<QVariant> isShown = settings.value(statKey("StatIsShown"),QList<QVariant>()).toList();
 
     if(isShown.size() == info.count())
         for(int i = 0; i < info.count(); ++i)
@@ -80,7 +87,7 @@ void statSelectionDialog::on_statSelectionDialog_accepted()
         isShown.append(info[i].shown);
     }
     QSettings settings;
-    settings.setValue("StatDisplayOrder",visualIndicies);
-    settings.setValue("StatIsShown",isShown);
+    settings.setValue(statKey("StatDisplayOrder"),visualIndicies);
+    settings.setValue(statKey("StatIsShown"),isShown);
 
 }

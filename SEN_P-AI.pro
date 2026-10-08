@@ -28,7 +28,9 @@ SOURCES +=\
     lib/QR-Code-generator/QrCode.cpp \
     lib/QR-Code-generator/BitBuffer.cpp \
     src/QrTimestamp.cpp \
-    src/MatchReader.cpp
+    src/MatchReader.cpp \
+    src/GameLayout.cpp \
+    src/catalogs/Pes17Stats.cpp
 
 HEADERS  += \
     src/Common.h \
@@ -47,7 +49,8 @@ HEADERS  += \
     lib/QR-Code-generator/QrCode.hpp \
     lib/QR-Code-generator/BitBuffer.hpp \
     src/QrTimestamp.h \
-    src/MatchReader.h
+    src/MatchReader.h \
+    src/GameLayout.h
 
 FORMS    += \
     ui/MainWindow.ui \

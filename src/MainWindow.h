@@ -34,6 +34,7 @@ private slots:
     void currentMatchUpdated();
 
     void on_matchTabs_tabCloseRequested(int index);
+    void makeStatsDialog();
 
 signals:
     void statsDisplayChanged(statsInfo &info);

@@ -51,6 +51,7 @@ struct PESstat {
     }
 
     double getSegmentDouble(uint8_t *data, uint8_t segment = 0) const{
+        if(offset < 0) return std::nan("");
         if(segment >= count) return std::nan("");
         switch (statType) {
 #define CASE(VAL,TYPE) case VAL: return *(TYPE*)(data + offset + segment * sizeof(TYPE))
@@ -65,6 +66,7 @@ struct PESstat {
     }
 
     stat_value getSegmentValue(uint8_t *data, uint8_t segment = 0) const{
+        if(offset < 0) return stat_value{std::nanf("")};
         if(segment >= count) return stat_value{std::nanf("")};
         switch (statType) {
 #define CASE(VAL,TYPE) case VAL: return stat_value{*(TYPE*)(data + offset + segment * sizeof(TYPE))}
@@ -96,17 +98,24 @@ struct PESstat {
     }
 };
 
+struct GameLayout;
+#define PES17_STAT_COUNT 175
+extern PESstat pes17Stats[];
+
 class statsInfo
 {
-    static const size_t statCount;
-    static const size_t playerEntrySize;
-    static PESstat * const stats;
+    static size_t statCount;
+    static size_t playerEntrySize;
+    static PESstat *stats;
     static PESstat dummy;
+    static const GameLayout *locked;
 
     static std::map<QString,PESstat*> statMapping;
 public:
     statsInfo();
 
+    static bool select(const GameLayout &layout, bool *changed = nullptr);
+    static const GameLayout* lockedLayout(){ return locked; }
     static void init(){
         qDebug("Function Entered");
         statMapping = std::map<QString,PESstat*>();
@@ -145,13 +154,6 @@ public:
     static size_t entrySize(){
         return playerEntrySize;
     }
-
-
-    enum KnownStats{
-        playerID = 0, goalsScored = 1, assists = 5, yellowCards = 46, redCards = 47, saves = 112, firstMinuteOnPitch = 114, lastMinuteOnPitch = 115, currentPosition = 123,
-        ticksAsGK = 124, ticksAsCF = 136,
-        playerRating = 138, realTimeOnPitch = 140,
-    };
 };
 
 #endif // STATSINFO_H

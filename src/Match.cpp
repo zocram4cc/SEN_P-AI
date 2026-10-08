@@ -200,8 +200,9 @@ void Match::endMatch(int length){
 }
 
 void Match::showBenched(bool shown){
+    const int firstMinute = statsInfo::getStatIndex(QStringLiteral("First Minute on Pitch"));
     for(int p = 0; p < totalPlayers; ++p)
-        ui->statsTable->setRowHidden(p, !shown && 0 > getLastValue(p,statsInfo::firstMinuteOnPitch));
+        ui->statsTable->setRowHidden(p, !shown && 0 > getLastValue(p,firstMinute));
 }
 
 Match::~Match()

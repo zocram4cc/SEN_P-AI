@@ -48,3 +48,4 @@ CMakeLists.txt.user*
 build/
 tools/*.exe
 !tools/build-win.sh
+__pycache__/
