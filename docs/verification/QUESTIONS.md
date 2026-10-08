@@ -9,3 +9,11 @@ The spec allows exactly three MinGW portability edits plus the `clock_updated` d
 3. `src/main.cpp:24-28`: the debug message handler did `std::strchr(context.function,'(')-1` unconditionally. Messages emitted inside the release Qt DLLs carry no context (`function == NULL`), so any Qt-internal warning crashed the handler. Under Wine, Qt warns `EnableNonClientDpiScaling() failed` inside `WM_NCCREATE`; the crash there made `CreateWindowEx` fail and the main window never appeared. The handler now treats a missing function name as empty; such messages are logged as `...(line   0 of )`. Messages with a function name are formatted exactly as before.
 
 Cosmetic, left as upstream: with GCC's `__PRETTY_FUNCTION__`, constructors have no return type before the name, so the debug log prints e.g. `tatTableReader::StatTableReader` (first character dropped). The format code is upstream's and unchanged.
+
+## Plan assumptions that did not hold on the rig
+
+- `/sp/`'s team ID is 750 in the PES 2017 EDIT and 749 in PES 2019 and PES 2021 (`tools/analyze/edit_names.py`), not 794.
+- SEN:P-AI status texts go to the UI only; the debug log does not mirror them. Status was checked with window screenshots.
+- The testbot log has no `last_clock` lines and logs substitutions at their *scheduled* minute ("sub at 15'"); the game applies a sub at the next stoppage. Neither is a ±1-minute oracle for `Player Sub` or `Clock Updated`. `tools/analyze/hud_clock.py` records the HUD clock (OCR through rigbot's own clock region) with wall timestamps instead.
+- `diff_events.py` as planned applied `--tap` to both inputs, so log-vs-tap comparison (Task 3 Step 5) crashed; it now detects each file's format.
+- `edit_names.py` as planned resolved squads by record ID for every version; that is only valid for PES 2017. It now uses the same resolution as `rigbot.core.editfile.parse_squads`.
