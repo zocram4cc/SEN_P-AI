@@ -1,0 +1,787 @@
+2026-10-08 23:38:09,448 [INFO] Testbot mode activated with config: $RIG_DOCS/plans/senpai/scenario_subs_bestxi.yaml
+2026-10-08 23:38:09,620 [DEBUG] Using selector: EpollSelector
+2026-10-08 23:38:09,759 [INFO] OBS_CAPTURE_SCENE environment variable set. Capturing from scene: rigbot
+2026-10-08 23:38:09,768 [INFO] Connected to OBS
+2026-10-08 23:38:09,887 [INFO] kernel build: spec ok
+/opt/amdgpu/share/libdrm/amdgpu.ids: No such file or directory
+2026-10-08 23:38:22,342 [INFO] ocr ready: device=gpu warmup=0.23s
+2026-10-08 23:38:22,342 [INFO] kernel build: vision ok
+2026-10-08 23:38:22,342 [INFO] kernel build: source ok (scene screenshots @ 15fps)
+2026-10-08 23:38:22,343 [INFO] kernel build: broker ok
+2026-10-08 23:38:22,346 [INFO] kernel build: pads ok (held by padd)
+2026-10-08 23:38:22,347 [INFO] kernel build: detector ok
+2026-10-08 23:38:22,419 [INFO] EDIT roster source: $HEROIC_PREFIXES/default/Pro Evolution Soccer 2017/drive_c/users/$USER/Documents/KONAMI/Pro Evolution Soccer 2017/save/EDIT00000000
+2026-10-08 23:38:25,911 [INFO] kernel build: home medals excluded from subs: *BSD, AMD-chan, Green Is My Pepper, Housefires, Install Gentoo, No Time For Love, Something Happened, Terry A. Davis, Thinkpad, Use Case for Theorems?
+2026-10-08 23:38:25,917 [INFO] kernel build: away medals excluded from subs: MESSI, PERRO CACA, SO, IT HAPPENED AGAIN, TSUUUUUUUUUUUUUUUUU
+2026-10-08 23:38:25,922 [INFO] kernel build: EDIT rosters ok (/g/=23, /sp/=23)
+2026-10-08 23:38:25,928 [INFO] kernel build: goal attribution ok (46 players)
+2026-10-08 23:38:26,167 [INFO] kernel build: sub watcher ok (3 scheduled)
+2026-10-08 23:38:26,208 [INFO] kernel build: runners ok, count=12
+2026-10-08 23:38:26,208 [INFO] kernel build: machine ok
+2026-10-08 23:38:26,208 [INFO] entering machine.run
+2026-10-08 23:38:26,208 [INFO] entering state INITIALIZATION
+2026-10-08 23:38:27,076 [DEBUG] await_screen(refuse_to_boot_over_a_match) satisfied after 1 polls
+2026-10-08 23:38:27,672 [INFO] entering state MAINMENU
+2026-10-08 23:38:30,785 [DEBUG] ocr skipped a degenerate crop (50, 380, 3): OpenCV(5.0.0) /io/opencv/modules/imgproc/src/resize.cpp:4217: error: (-215:Assertion failed) !ssize.empty() in function 'resize'
+
+2026-10-08 23:38:31,168 [DEBUG] await_screen(enter_exhibition) satisfied after 27 polls
+2026-10-08 23:38:31,236 [INFO] entering state SIDE_SELECT
+2026-10-08 23:38:31,439 [DEBUG] await_screen(stick_left_p1) satisfied after 1 polls
+2026-10-08 23:38:31,739 [DEBUG] await_screen(stick_right_p2) satisfied after 1 polls
+2026-10-08 23:38:31,840 [DEBUG] await_screen(confirm_p1_side) satisfied after 1 polls
+2026-10-08 23:38:31,921 [DEBUG] await_screen(confirm_p2_side) satisfied after 1 polls
+2026-10-08 23:38:33,236 [INFO] entering state LEAGUE_SELECT
+2026-10-08 23:38:33,640 [DEBUG] search(find_league_p1): ocr='4chan b  cup' matched='4chan Cup Main' score=0.73 second=0.17 target='4chan Cup Main'
+2026-10-08 23:38:33,904 [DEBUG] search(find_league_p2): ocr="4chan g ' cup" matched='4chan Cup Main' score=0.73 second=0.21 target='4chan Cup Main'
+2026-10-08 23:38:34,263 [DEBUG] await_screen(confirm_league_p1) satisfied after 2 polls
+2026-10-08 23:38:34,655 [DEBUG] await_screen(confirm_league_p2) satisfied after 2 polls
+2026-10-08 23:38:35,825 [INFO] entering state TEAM_SELECT
+2026-10-08 23:38:36,242 [DEBUG] search(find_team_p1): ocr='igl' matched='/g/' score=0.93 second=0.70 target='/g/'
+2026-10-08 23:38:36,367 [DEBUG] await_screen(confirm_team_p1) satisfied after 1 polls
+2026-10-08 23:38:36,386 [DEBUG] search(find_team_p2): ocr='ispl' matched='/sp/' score=0.95 second=0.76 target='/sp/'
+2026-10-08 23:38:36,503 [DEBUG] await_screen(confirm_team_p2) satisfied after 1 polls
+2026-10-08 23:38:39,601 [DEBUG] await_screen(settle_into_pre_game) satisfied after 31 polls
+2026-10-08 23:38:41,531 [INFO] entering state PRE_GAME
+2026-10-08 23:38:43,504 [DEBUG] await_screen(pre_match_wait) satisfied after 20 polls
+2026-10-08 23:38:48,570 [DEBUG] bar_to_general_settings: no change within 1.50s, proceeding on 'strip'
+2026-10-08 23:38:55,713 [DEBUG] ocr skipped a degenerate crop (50, 380, 3): OpenCV(5.0.0) /io/opencv/modules/imgproc/src/resize.cpp:4217: error: (-215:Assertion failed) !ssize.empty() in function 'resize'
+
+2026-10-08 23:38:55,777 [DEBUG] await_screen(enter_general_settings) satisfied after 4 polls
+2026-10-08 23:38:55,869 [DEBUG] await_screen(check_match_level) satisfied after 1 polls
+2026-10-08 23:38:55,941 [DEBUG] await_screen(check_match_time) satisfied after 1 polls
+2026-10-08 23:38:56,318 [DEBUG] await_screen(check_injuries) satisfied after 1 polls
+2026-10-08 23:38:58,906 [WARNING] verified_press(row_to_extra_time) attempt 1/5 did not confirm
+2026-10-08 23:38:59,095 [DEBUG] await_screen(row_to_extra_time) satisfied after 2 polls
+2026-10-08 23:38:59,454 [DEBUG] set_extra_time: ocr='off' matched='Off' score=1.00 want='off'
+2026-10-08 23:38:59,698 [DEBUG] await_screen(row_to_pk) satisfied after 2 polls
+2026-10-08 23:39:00,056 [DEBUG] set_pk: ocr='on' matched='On' score=1.00 want='on'
+2026-10-08 23:39:02,669 [WARNING] verified_press(row_to_condition_home) attempt 1/8 did not confirm
+2026-10-08 23:39:05,253 [WARNING] verified_press(row_to_condition_home) attempt 2/8 did not confirm
+2026-10-08 23:39:05,485 [DEBUG] await_screen(row_to_condition_home) satisfied after 2 polls
+2026-10-08 23:39:05,964 [DEBUG] await_screen(row_to_condition_away) satisfied after 2 polls
+2026-10-08 23:39:07,222 [DEBUG] await_screen(leave_general_settings) satisfied after 3 polls
+2026-10-08 23:39:15,921 [DEBUG] cursor_to_game_plan: no change within 1.50s, proceeding on 'strip'
+2026-10-08 23:39:21,391 [DEBUG] await_screen(enter_game_plan) satisfied after 4 polls
+2026-10-08 23:39:22,217 [DEBUG] await_screen(open_preset_tactics_tab) satisfied after 2 polls
+2026-10-08 23:39:22,556 [DEBUG] await_screen(open_preset_tactics_tab) satisfied after 2 polls
+2026-10-08 23:39:22,693 [DEBUG] ensure(start_on_preset_1): already satisfied, no press
+2026-10-08 23:39:23,029 [DEBUG] ensure(start_on_preset_1): already satisfied, no press
+2026-10-08 23:39:24,288 [DEBUG] await_screen(enter_preset_editor) satisfied after 2 polls
+2026-10-08 23:39:24,993 [DEBUG] await_screen(enter_preset_editor) satisfied after 2 polls
+2026-10-08 23:39:25,352 [DEBUG] await_screen(confirm_preset_under_edit) satisfied after 1 polls
+2026-10-08 23:39:25,486 [DEBUG] await_screen(goto_attacking_instructions) satisfied after 1 polls
+2026-10-08 23:39:25,696 [DEBUG] await_screen(confirm_preset_under_edit) satisfied after 1 polls
+2026-10-08 23:39:25,778 [DEBUG] await_screen(goto_attacking_instructions) satisfied after 1 polls
+2026-10-08 23:39:26,527 [DEBUG] await_screen(settle_before_entering_attacking) satisfied after 11 polls
+2026-10-08 23:39:26,813 [DEBUG] await_screen(settle_before_entering_attacking) satisfied after 11 polls
+2026-10-08 23:39:27,271 [DEBUG] await_screen(enter_attacking_instructions) satisfied after 2 polls
+2026-10-08 23:39:27,672 [DEBUG] await_screen(enter_attacking_instructions) satisfied after 2 polls
+2026-10-08 23:39:27,762 [DEBUG] set_attacking_style: ocr='possession game' matched='Possession Game' score=1.00 want='possession game'
+2026-10-08 23:39:27,892 [DEBUG] await_screen(cursor_to_build_up) satisfied after 1 polls
+2026-10-08 23:39:28,370 [DEBUG] set_attacking_style: ocr='counter attack sn' matched='Counter Attack' score=0.82 want='possession game'
+2026-10-08 23:39:28,501 [DEBUG] set_build_up: ocr='short-pass' matched='Short-pass' score=1.00 want='long-pass'
+2026-10-08 23:39:28,956 [DEBUG] set_attacking_style: ocr='possession game' matched='Possession Game' score=1.00 want='possession game'
+2026-10-08 23:39:29,038 [DEBUG] await_screen(cursor_to_build_up) satisfied after 1 polls
+2026-10-08 23:39:29,230 [DEBUG] set_build_up: ocr='long-pass' matched='Long-pass' score=1.00 want='long-pass'
+2026-10-08 23:39:29,312 [DEBUG] await_screen(cursor_to_attacking_area) satisfied after 1 polls
+2026-10-08 23:39:29,579 [DEBUG] set_build_up: ocr='short-pass' matched='Short-pass' score=1.00 want='short-pass'
+2026-10-08 23:39:29,697 [DEBUG] await_screen(cursor_to_attacking_area) satisfied after 1 polls
+2026-10-08 23:39:29,969 [DEBUG] set_attacking_area: ocr='centre' matched='Centre' score=1.00 want='wide'
+2026-10-08 23:39:30,122 [DEBUG] set_attacking_area: ocr='centre' matched='Centre' score=1.00 want='centre'
+2026-10-08 23:39:30,237 [DEBUG] await_screen(cursor_to_positioning) satisfied after 1 polls
+2026-10-08 23:39:30,453 [DEBUG] set_attacking_area: ocr='wide' matched='Wide' score=1.00 want='wide'
+2026-10-08 23:39:30,578 [DEBUG] await_screen(cursor_to_positioning) satisfied after 1 polls
+2026-10-08 23:39:30,721 [DEBUG] set_positioning: ocr='maintain formation' matched='Maintain Formation' score=1.00 want='maintain formation'
+2026-10-08 23:39:30,992 [DEBUG] set_positioning: ocr='flexible' matched='Flexible' score=1.00 want='flexible'
+2026-10-08 23:39:31,389 [DEBUG] await_screen(cursor_to_support_range) satisfied after 2 polls
+2026-10-08 23:39:31,524 [DEBUG] await_screen(cursor_to_support_range) satisfied after 2 polls
+2026-10-08 23:39:31,862 [DEBUG] set_support_range: settled at 7
+2026-10-08 23:39:32,552 [DEBUG] set_support_range: settled at 5
+2026-10-08 23:39:33,093 [DEBUG] await_screen(leave_attacking_instructions) satisfied after 2 polls
+2026-10-08 23:39:33,175 [DEBUG] await_screen(goto_defensive_instructions) satisfied after 1 polls
+2026-10-08 23:39:34,070 [DEBUG] await_screen(leave_attacking_instructions) satisfied after 2 polls
+2026-10-08 23:39:34,154 [DEBUG] await_screen(goto_defensive_instructions) satisfied after 1 polls
+2026-10-08 23:39:34,311 [DEBUG] await_screen(settle_after_goto_defensive) satisfied after 12 polls
+2026-10-08 23:39:34,904 [DEBUG] await_screen(enter_defensive_instructions) satisfied after 2 polls
+2026-10-08 23:39:35,178 [DEBUG] await_screen(settle_after_goto_defensive) satisfied after 11 polls
+2026-10-08 23:39:35,513 [DEBUG] set_defensive_style: ocr='all-out defence 1' matched='All-out Defense' score=0.82 want='frontline pressure'
+2026-10-08 23:39:36,242 [DEBUG] await_screen(enter_defensive_instructions) satisfied after 2 polls
+2026-10-08 23:39:36,446 [DEBUG] set_defensive_style: ocr='frontline pressure' matched='Frontline Pressure' score=1.00 want='frontline pressure'
+2026-10-08 23:39:36,529 [DEBUG] await_screen(cursor_to_containment_area) satisfied after 1 polls
+2026-10-08 23:39:36,781 [DEBUG] set_defensive_style: ocr='all-out defence' matched='All-out Defense' score=1.00 want='all-out defense'
+2026-10-08 23:39:36,864 [DEBUG] await_screen(cursor_to_containment_area) satisfied after 1 polls
+2026-10-08 23:39:36,936 [DEBUG] set_containment_area: ocr='wide' matched='Wide' score=1.00 want='middle'
+2026-10-08 23:39:37,592 [DEBUG] set_containment_area: ocr='middle' matched='Middle' score=1.00 want='middle'
+2026-10-08 23:39:37,657 [DEBUG] set_containment_area: ocr='middle' matched='Middle' score=1.00 want='middle'
+2026-10-08 23:39:37,674 [DEBUG] await_screen(cursor_to_pressing) satisfied after 1 polls
+2026-10-08 23:39:37,739 [DEBUG] await_screen(cursor_to_pressing) satisfied after 1 polls
+2026-10-08 23:39:38,060 [DEBUG] set_pressing: ocr='aggressive' matched='Aggressive' score=1.00 want='aggressive'
+2026-10-08 23:39:38,261 [DEBUG] set_pressing: ocr='aggressive' matched='Aggressive' score=1.00 want='aggressive'
+2026-10-08 23:39:38,330 [DEBUG] await_screen(cursor_to_defensive_line) satisfied after 1 polls
+2026-10-08 23:39:38,485 [DEBUG] await_screen(cursor_to_defensive_line) satisfied after 1 polls
+2026-10-08 23:39:38,668 [DEBUG] set_defensive_line: settled at 8
+2026-10-08 23:39:39,142 [DEBUG] set_defensive_line: settled at 5
+2026-10-08 23:39:39,292 [DEBUG] await_screen(cursor_to_compactness) satisfied after 2 polls
+2026-10-08 23:39:39,746 [DEBUG] await_screen(cursor_to_compactness) satisfied after 2 polls
+2026-10-08 23:39:39,950 [DEBUG] set_compactness: no change within 0.40s, proceeding on np.int64(5)
+2026-10-08 23:39:40,764 [DEBUG] set_compactness: no change within 0.40s, proceeding on np.int64(3)
+2026-10-08 23:39:40,765 [DEBUG] set_compactness: no change within 0.40s, proceeding on np.int64(7)
+2026-10-08 23:39:40,897 [DEBUG] set_compactness: settled at 8
+2026-10-08 23:39:41,033 [DEBUG] set_compactness: settled at 5
+2026-10-08 23:39:42,737 [DEBUG] await_screen(leave_defensive_instructions) satisfied after 2 polls
+2026-10-08 23:39:42,820 [DEBUG] await_screen(goto_advanced_instructions) satisfied after 1 polls
+2026-10-08 23:39:43,222 [DEBUG] await_screen(leave_defensive_instructions) satisfied after 2 polls
+2026-10-08 23:39:43,305 [DEBUG] await_screen(goto_advanced_instructions) satisfied after 1 polls
+2026-10-08 23:39:43,858 [DEBUG] await_screen(settle_after_goto_advanced) satisfied after 11 polls
+2026-10-08 23:39:44,338 [DEBUG] await_screen(settle_after_goto_advanced) satisfied after 11 polls
+2026-10-08 23:39:44,984 [DEBUG] await_screen(enter_advanced_instructions) satisfied after 2 polls
+2026-10-08 23:39:45,390 [DEBUG] ensure(cursor_to_attack_1_for_reset): already satisfied, no press
+2026-10-08 23:39:45,390 [DEBUG] reset_attack_1: ctx=139817161984832 pad=p1 slot=(360, 538, 640, 570) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:39:45,471 [DEBUG] await_screen(enter_advanced_instructions) satisfied after 2 polls
+2026-10-08 23:39:45,889 [DEBUG] reset_attack_1: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:39:46,031 [DEBUG] ensure(cursor_to_attack_1_for_reset): already satisfied, no press
+2026-10-08 23:39:46,032 [DEBUG] reset_attack_1: ctx=139817161751936 pad=p2 slot=(970, 538, 1220, 570) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:39:46,378 [DEBUG] reset_attack_1: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:39:47,540 [DEBUG] await_screen(cursor_to_attack_2_for_reset) satisfied after 2 polls
+2026-10-08 23:39:47,541 [DEBUG] reset_attack_2: ctx=139817161984832 pad=p1 slot=(360, 566, 640, 598) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:39:47,897 [DEBUG] await_screen(cursor_to_attack_2_for_reset) satisfied after 2 polls
+2026-10-08 23:39:47,898 [DEBUG] reset_attack_2: ctx=139817161751936 pad=p2 slot=(970, 566, 1220, 598) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:39:47,981 [DEBUG] reset_attack_2: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:39:48,330 [DEBUG] reset_attack_2: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:39:49,500 [DEBUG] await_screen(cursor_to_defence_1_for_reset) satisfied after 2 polls
+2026-10-08 23:39:49,500 [DEBUG] reset_defence_1: ctx=139817161984832 pad=p1 slot=(360, 594, 640, 626) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:39:50,075 [DEBUG] await_screen(cursor_to_defence_1_for_reset) satisfied after 2 polls
+2026-10-08 23:39:50,075 [DEBUG] reset_defence_1: ctx=139817161751936 pad=p2 slot=(970, 594, 1220, 626) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:39:50,288 [DEBUG] reset_defence_1: slot ocr='counter target' matched='Counter Target' score=1.00 want='off'
+2026-10-08 23:39:51,383 [DEBUG] reset_defence_1: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:39:51,597 [DEBUG] reset_defence_1: hint 'Counter Target', -11 to go
+2026-10-08 23:39:52,437 [DEBUG] reset_defence_1: hint 'Swarm the Box', -10 to go
+2026-10-08 23:39:52,912 [DEBUG] reset_defence_1: hint 'Deep Defensive Line', -9 to go
+2026-10-08 23:39:53,772 [DEBUG] reset_defence_1: hint 'Tight Marking', -8 to go
+2026-10-08 23:39:54,410 [DEBUG] reset_defence_1: hint 'False Full Backs', -7 to go
+2026-10-08 23:39:55,067 [DEBUG] reset_defence_1: hint 'Centring Targets', -6 to go
+2026-10-08 23:39:55,656 [DEBUG] reset_defence_1: hint 'False No. 9', -5 to go
+2026-10-08 23:39:56,174 [DEBUG] reset_defence_1: hint 'Tiki-Taka', -4 to go
+2026-10-08 23:39:57,097 [DEBUG] reset_defence_1: hint 'Wing Rotation', -3 to go
+2026-10-08 23:39:57,977 [DEBUG] reset_defence_1: hint 'Attacking Full Backs', -2 to go
+2026-10-08 23:39:58,875 [DEBUG] reset_defence_1: hint 'Hug the Touchline', -1 to go
+2026-10-08 23:39:59,432 [DEBUG] reset_defence_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:39:59,560 [INFO] reset_defence_1: attempt 1 moved +0 toward 'Off'
+2026-10-08 23:39:59,997 [DEBUG] reset_defence_1: waiting for (360, 594, 640, 626) to render, got 'off'
+2026-10-08 23:40:00,001 [DEBUG] reset_defence_1: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:40:00,349 [DEBUG] reset_defence_1: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:40:01,612 [DEBUG] await_screen(cursor_to_defence_2_for_reset) satisfied after 2 polls
+2026-10-08 23:40:01,612 [DEBUG] reset_defence_2: ctx=139817161984832 pad=p1 slot=(360, 622, 640, 654) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:40:02,174 [DEBUG] reset_defence_2: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:40:02,309 [DEBUG] await_screen(cursor_to_defence_2_for_reset) satisfied after 2 polls
+2026-10-08 23:40:02,309 [DEBUG] reset_defence_2: ctx=139817161751936 pad=p2 slot=(970, 622, 1220, 654) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:40:02,641 [DEBUG] reset_defence_2: slot ocr='off' matched='OFF' score=1.00 want='off'
+2026-10-08 23:40:05,144 [WARNING] verified_press(cursor_back_to_attack_1) attempt 1/4 did not confirm
+2026-10-08 23:40:05,565 [WARNING] verified_press(cursor_back_to_attack_1) attempt 1/4 did not confirm
+2026-10-08 23:40:08,005 [WARNING] verified_press(cursor_back_to_attack_1) attempt 2/4 did not confirm
+2026-10-08 23:40:08,335 [WARNING] verified_press(cursor_back_to_attack_1) attempt 2/4 did not confirm
+2026-10-08 23:40:08,415 [DEBUG] await_screen(cursor_back_to_attack_1) satisfied after 2 polls
+2026-10-08 23:40:08,415 [DEBUG] set_advanced_attack_1: ctx=139817161984832 pad=p1 slot=(360, 538, 640, 570) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:40:08,550 [DEBUG] set_advanced_attack_1: slot ocr='off' matched='OFF' score=1.00 want='tiki-taka'
+2026-10-08 23:40:08,897 [DEBUG] await_screen(cursor_back_to_attack_1) satisfied after 2 polls
+2026-10-08 23:40:08,897 [DEBUG] set_advanced_attack_1: ctx=139817161751936 pad=p2 slot=(970, 538, 1220, 570) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:40:09,375 [DEBUG] set_advanced_attack_1: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:09,757 [DEBUG] set_advanced_attack_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:09,894 [DEBUG] set_advanced_attack_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:10,171 [DEBUG] set_advanced_attack_1 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:10,505 [DEBUG] set_advanced_attack_1 hint: waiting for (385, 145, 640, 182) to render, got 'attacking full backs'
+2026-10-08 23:40:10,529 [DEBUG] set_advanced_attack_1: hint 'Attacking Full Backs', +2 to go
+2026-10-08 23:40:11,214 [DEBUG] set_advanced_attack_1: hint 'Wing Rotation', +1 to go
+2026-10-08 23:40:11,816 [INFO] set_advanced_attack_1: attempt 1 moved +0 toward 'Tiki-Taka'
+2026-10-08 23:40:11,952 [DEBUG] set_advanced_attack_1: waiting for (360, 538, 640, 570) to render, got '7a'
+2026-10-08 23:40:11,954 [DEBUG] set_advanced_attack_1: slot ocr='7a' matched='Tiki-Taka' score=0.21 want='tiki-taka'
+2026-10-08 23:40:11,954 [DEBUG] set_advanced_attack_1: ignoring '7a' -> 'Tiki-Taka' at score 0.21 (below 0.60)
+2026-10-08 23:40:12,382 [DEBUG] set_advanced_attack_1: slot blank and no picker open (hint ''); waiting for the repaint
+2026-10-08 23:40:12,962 [DEBUG] set_advanced_attack_1: slot ocr='tiki-taka' matched='Tiki-Taka' score=1.00 want='tiki-taka'
+2026-10-08 23:40:13,174 [DEBUG] set_advanced_attack_1: slot ocr='off' matched='OFF' score=1.00 want='false no. 9'
+2026-10-08 23:40:14,430 [DEBUG] set_advanced_attack_1: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:14,539 [DEBUG] await_screen(cursor_to_attack_2) satisfied after 2 polls
+2026-10-08 23:40:14,540 [DEBUG] set_advanced_attack_2: ctx=139817161984832 pad=p1 slot=(360, 566, 640, 598) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:40:14,695 [DEBUG] set_advanced_attack_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:14,825 [DEBUG] set_advanced_attack_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:15,026 [DEBUG] set_advanced_attack_1 hint: waiting for (960, 145, 1215, 182) to render, got ''
+2026-10-08 23:40:15,031 [DEBUG] set_advanced_attack_1 hint: waiting for (960, 145, 1215, 182) to render, got ''
+2026-10-08 23:40:15,097 [DEBUG] set_advanced_attack_1 hint: waiting for (960, 145, 1215, 182) to render, got ''
+2026-10-08 23:40:15,364 [DEBUG] set_advanced_attack_1 hint: waiting for (960, 145, 1215, 182) to render, got 'attacking full backs'
+2026-10-08 23:40:15,387 [DEBUG] set_advanced_attack_1: hint 'Attacking Full Backs', +3 to go
+2026-10-08 23:40:16,057 [DEBUG] set_advanced_attack_1: hint 'Wing Rotation', +2 to go
+2026-10-08 23:40:16,648 [DEBUG] set_advanced_attack_1: hint 'Tiki-Taka', +1 to go
+2026-10-08 23:40:17,235 [INFO] set_advanced_attack_1: attempt 1 moved +0 toward 'False No. 9'
+2026-10-08 23:40:17,350 [DEBUG] set_advanced_attack_1: waiting for (970, 538, 1220, 570) to render, got ''
+2026-10-08 23:40:17,565 [DEBUG] set_advanced_attack_1: waiting for (970, 538, 1220, 570) to render, got ''
+2026-10-08 23:40:17,711 [DEBUG] set_advanced_attack_1: waiting for (970, 538, 1220, 570) to render, got 'false no. 9'
+2026-10-08 23:40:17,723 [DEBUG] set_advanced_attack_1: slot ocr='false no. 9' matched='False No. 9' score=1.00 want='false no. 9'
+2026-10-08 23:40:17,810 [DEBUG] set_advanced_attack_2: slot ocr='off' matched='OFF' score=1.00 want='centring targets'
+2026-10-08 23:40:18,343 [DEBUG] set_advanced_attack_2: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:18,805 [DEBUG] await_screen(cursor_to_attack_2) satisfied after 2 polls
+2026-10-08 23:40:18,806 [DEBUG] set_advanced_attack_2: ctx=139817161751936 pad=p2 slot=(970, 566, 1220, 598) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:40:18,890 [DEBUG] set_advanced_attack_2 hint: waiting for (385, 145, 640, 182) to render, got 'no advanced'
+2026-10-08 23:40:18,902 [DEBUG] set_advanced_attack_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:19,037 [DEBUG] set_advanced_attack_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:19,216 [DEBUG] set_advanced_attack_2 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:19,281 [DEBUG] set_advanced_attack_2 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:19,354 [DEBUG] set_advanced_attack_2 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:19,698 [DEBUG] set_advanced_attack_2 hint: waiting for (385, 145, 640, 182) to render, got 'attacking full backs'
+2026-10-08 23:40:19,722 [DEBUG] set_advanced_attack_2: hint 'Attacking Full Backs', +4 to go
+2026-10-08 23:40:20,235 [DEBUG] set_advanced_attack_2: hint 'Wing Rotation', +3 to go
+2026-10-08 23:40:20,696 [DEBUG] set_advanced_attack_2: hint 'Tiki-Taka', +2 to go
+2026-10-08 23:40:21,327 [DEBUG] set_advanced_attack_2: hint 'False No. 9', +1 to go
+2026-10-08 23:40:22,037 [INFO] set_advanced_attack_2: attempt 1 moved +0 toward 'Centring Targets'
+2026-10-08 23:40:22,328 [DEBUG] set_advanced_attack_2: waiting for (360, 566, 640, 598) to render, got '2e] /fl'
+2026-10-08 23:40:22,336 [DEBUG] set_advanced_attack_2: slot ocr='2e] /fl' matched='Deep Defensive Line' score=0.21 want='centring targets'
+2026-10-08 23:40:22,336 [DEBUG] set_advanced_attack_2: ignoring '2e] /fl' -> 'Deep Defensive Line' at score 0.21 (below 0.60)
+2026-10-08 23:40:23,033 [DEBUG] set_advanced_attack_2: slot blank and no picker open (hint ''); waiting for the repaint
+2026-10-08 23:40:23,192 [DEBUG] set_advanced_attack_2: slot ocr='centring targets' matched='Centring Targets' score=1.00 want='centring targets'
+2026-10-08 23:40:23,271 [DEBUG] set_advanced_attack_2: slot ocr='off' matched='OFF' score=1.00 want='hug the touchline'
+2026-10-08 23:40:24,016 [DEBUG] set_advanced_attack_2: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:24,238 [DEBUG] set_advanced_attack_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:24,373 [DEBUG] set_advanced_attack_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:24,490 [DEBUG] await_screen(cursor_to_defence_1) satisfied after 2 polls
+2026-10-08 23:40:24,490 [DEBUG] set_advanced_defence_1: ctx=139817161984832 pad=p1 slot=(360, 594, 640, 626) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:40:24,639 [DEBUG] set_advanced_attack_2 hint: waiting for (960, 145, 1215, 182) to render, got ''
+2026-10-08 23:40:24,693 [DEBUG] set_advanced_attack_2 hint: waiting for (960, 145, 1215, 182) to render, got ''
+2026-10-08 23:40:25,240 [DEBUG] set_advanced_attack_2 hint: waiting for (960, 145, 1215, 182) to render, got 'attacking full backs'
+2026-10-08 23:40:25,265 [DEBUG] set_advanced_attack_2: hint 'Attacking Full Backs', -1 to go
+2026-10-08 23:40:26,280 [INFO] set_advanced_attack_2: attempt 1 moved +0 toward 'Hug the Touchline'
+2026-10-08 23:40:27,143 [DEBUG] set_advanced_attack_2: waiting for (970, 566, 1220, 598) to render, got 'e'
+2026-10-08 23:40:27,145 [DEBUG] set_advanced_attack_2: slot ocr='e' matched='Gegenpress' score=0.10 want='hug the touchline'
+2026-10-08 23:40:27,145 [DEBUG] set_advanced_attack_2: ignoring 'e' -> 'Gegenpress' at score 0.10 (below 0.60)
+2026-10-08 23:40:28,142 [DEBUG] set_advanced_attack_2: slot blank and no picker open (hint ''); waiting for the repaint
+2026-10-08 23:40:28,519 [DEBUG] set_advanced_attack_2: slot ocr='hug the touchline' matched='Hug the Touchline' score=1.00 want='hug the touchline'
+2026-10-08 23:40:28,811 [DEBUG] set_advanced_defence_1: slot ocr='off' matched='OFF' score=1.00 want='gegenpress'
+2026-10-08 23:40:29,889 [DEBUG] set_advanced_defence_1: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:30,014 [DEBUG] await_screen(cursor_to_defence_1) satisfied after 2 polls
+2026-10-08 23:40:30,014 [DEBUG] set_advanced_defence_1: ctx=139817161751936 pad=p2 slot=(970, 594, 1220, 626) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:40:30,113 [DEBUG] set_advanced_defence_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:30,256 [DEBUG] set_advanced_defence_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:30,382 [DEBUG] set_advanced_defence_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:30,589 [DEBUG] set_advanced_defence_1 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:30,649 [DEBUG] set_advanced_defence_1 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:31,053 [DEBUG] set_advanced_defence_1 hint: waiting for (385, 145, 640, 182) to render, got 'wing rotation'
+2026-10-08 23:40:31,067 [DEBUG] set_advanced_defence_1: hint 'Wing Rotation', +9 to go
+2026-10-08 23:40:31,862 [DEBUG] set_advanced_defence_1: hint 'Tiki-Taka', +8 to go
+2026-10-08 23:40:32,645 [DEBUG] set_advanced_defence_1: hint 'False No. 9', +7 to go
+2026-10-08 23:40:33,279 [DEBUG] set_advanced_defence_1: hint 'Centring Targets', +6 to go
+2026-10-08 23:40:33,854 [DEBUG] set_advanced_defence_1: hint 'False Full Backs', +5 to go
+2026-10-08 23:40:34,536 [DEBUG] set_advanced_defence_1: hint 'Tight Marking', +4 to go
+2026-10-08 23:40:35,576 [DEBUG] set_advanced_defence_1: hint 'Deep Defensive Line', +3 to go
+2026-10-08 23:40:36,234 [DEBUG] set_advanced_defence_1: hint 'Swarm the Box', +2 to go
+2026-10-08 23:40:36,907 [DEBUG] set_advanced_defence_1: hint 'Counter Target', +1 to go
+2026-10-08 23:40:37,868 [INFO] set_advanced_defence_1: attempt 1 moved +0 toward 'Gegenpress'
+2026-10-08 23:40:38,432 [DEBUG] set_advanced_defence_1: waiting for (360, 594, 640, 626) to render, got ''
+2026-10-08 23:40:39,120 [DEBUG] set_advanced_defence_1: waiting for (360, 594, 640, 626) to render, got 'gegenpress'
+2026-10-08 23:40:39,138 [DEBUG] set_advanced_defence_1: slot ocr='gegenpress' matched='Gegenpress' score=1.00 want='gegenpress'
+2026-10-08 23:40:39,714 [DEBUG] set_advanced_defence_1: slot ocr='off' matched='OFF' score=1.00 want='deep defensive line'
+2026-10-08 23:40:41,083 [DEBUG] set_advanced_defence_1: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:41,159 [DEBUG] await_screen(cursor_to_defence_2) satisfied after 2 polls
+2026-10-08 23:40:41,159 [DEBUG] set_advanced_defence_2: ctx=139817161984832 pad=p1 slot=(360, 622, 640, 654) hint=(385, 145, 640, 182) player=(290, 545, 415, 650) caption=(75, 90, 400, 122)
+2026-10-08 23:40:41,426 [DEBUG] set_advanced_defence_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:41,573 [DEBUG] set_advanced_defence_1: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:42,306 [DEBUG] set_advanced_defence_1 hint: waiting for (960, 145, 1215, 182) to render, got 'hug the touchline'
+2026-10-08 23:40:42,327 [DEBUG] set_advanced_defence_1: hint 'Hug the Touchline', +8 to go
+2026-10-08 23:40:42,952 [DEBUG] set_advanced_defence_1: hint 'Attacking Full Backs', +7 to go
+2026-10-08 23:40:43,556 [DEBUG] set_advanced_defence_1: hint 'Wing Rotation', +6 to go
+2026-10-08 23:40:44,081 [DEBUG] set_advanced_defence_1: hint 'Tiki-Taka', +5 to go
+2026-10-08 23:40:44,627 [DEBUG] set_advanced_defence_1: hint 'False No. 9', +4 to go
+2026-10-08 23:40:45,228 [DEBUG] set_advanced_defence_1: hint 'Centring Targets', +3 to go
+2026-10-08 23:40:45,774 [DEBUG] set_advanced_defence_1: hint 'False Full Backs', +2 to go
+2026-10-08 23:40:46,438 [DEBUG] set_advanced_defence_1: hint 'Tight Marking', +1 to go
+2026-10-08 23:40:47,188 [INFO] set_advanced_defence_1: attempt 1 moved +0 toward 'Deep Defensive Line'
+2026-10-08 23:40:47,969 [DEBUG] set_advanced_defence_1: waiting for (970, 594, 1220, 626) to render, got 's  la'
+2026-10-08 23:40:47,975 [DEBUG] set_advanced_defence_1: slot ocr='s  la' matched='False Full Backs' score=0.25 want='deep defensive line'
+2026-10-08 23:40:47,975 [DEBUG] set_advanced_defence_1: ignoring 's  la' -> 'False Full Backs' at score 0.25 (below 0.60)
+2026-10-08 23:40:49,275 [DEBUG] set_advanced_defence_1: slot blank and no picker open (hint ''); waiting for the repaint
+2026-10-08 23:40:49,953 [DEBUG] set_advanced_defence_1: slot ocr='deep defensive line' matched='Deep Defensive Line' score=1.00 want='deep defensive line'
+2026-10-08 23:40:50,258 [DEBUG] set_advanced_defence_2: slot ocr='off' matched='OFF' score=1.00 want='counter target'
+2026-10-08 23:40:51,567 [DEBUG] set_advanced_defence_2: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:40:51,700 [DEBUG] await_screen(cursor_to_defence_2) satisfied after 2 polls
+2026-10-08 23:40:51,700 [DEBUG] set_advanced_defence_2: ctx=139817161751936 pad=p2 slot=(970, 622, 1220, 654) hint=(960, 145, 1215, 182) player=(860, 545, 1000, 650) caption=(655, 90, 980, 122)
+2026-10-08 23:40:52,040 [DEBUG] set_advanced_defence_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:52,181 [DEBUG] set_advanced_defence_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:40:52,370 [DEBUG] set_advanced_defence_2 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:52,381 [DEBUG] set_advanced_defence_2 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:52,449 [DEBUG] set_advanced_defence_2 hint: waiting for (385, 145, 640, 182) to render, got ''
+2026-10-08 23:40:52,646 [DEBUG] set_advanced_defence_2 hint: waiting for (385, 145, 640, 182) to render, got 'attacking full backs'
+2026-10-08 23:40:52,669 [DEBUG] set_advanced_defence_2: hint 'Attacking Full Backs', +9 to go
+2026-10-08 23:40:53,183 [DEBUG] set_advanced_defence_2: hint 'Wing Rotation', +8 to go
+2026-10-08 23:40:53,762 [DEBUG] set_advanced_defence_2: hint 'Tiki-Taka', +7 to go
+2026-10-08 23:40:54,324 [DEBUG] set_advanced_defence_2: hint 'False No. 9', +6 to go
+2026-10-08 23:40:54,897 [DEBUG] set_advanced_defence_2: hint 'Centring Targets', +5 to go
+2026-10-08 23:40:55,475 [DEBUG] set_advanced_defence_2: hint 'False Full Backs', +4 to go
+2026-10-08 23:40:56,022 [DEBUG] set_advanced_defence_2: hint 'Tight Marking', +3 to go
+2026-10-08 23:40:56,625 [DEBUG] set_advanced_defence_2: hint 'Deep Defensive Line', +2 to go
+2026-10-08 23:40:57,311 [DEBUG] set_advanced_defence_2: hint 'Swarm the Box', +1 to go
+2026-10-08 23:40:58,514 [INFO] set_advanced_defence_2: attempt 1 moved +0 toward 'Counter Target'
+2026-10-08 23:40:58,796 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:58,797 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:58,851 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:58,919 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:58,986 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,056 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,124 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,191 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,256 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,323 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,387 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,458 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,525 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,590 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,661 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,729 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,800 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,870 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:40:59,939 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,008 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,073 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,146 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,222 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,286 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,363 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,442 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,517 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,588 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,662 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,729 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,796 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,872 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:00,943 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:01,017 [DEBUG] set_advanced_defence_2: waiting for (360, 622, 640, 654) to render, got ''
+2026-10-08 23:41:01,017 [DEBUG] set_advanced_defence_2: slot ocr='' matched=None score=0.00 want='counter target'
+2026-10-08 23:41:01,374 [INFO] set_advanced_defence_2: unexpected player prompt ("dri sht spd phy 'def"); accepting to get back to the slots
+2026-10-08 23:41:02,103 [DEBUG] set_advanced_defence_2: slot ocr='counter target' matched='Counter Target' score=1.00 want='counter target'
+2026-10-08 23:41:02,470 [DEBUG] set_advanced_defence_2: slot ocr='off' matched='OFF' score=1.00 want='counter target'
+2026-10-08 23:41:03,486 [DEBUG] await_screen(leave_advanced_instructions) satisfied after 2 polls
+2026-10-08 23:41:04,034 [DEBUG] set_advanced_defence_2: hint 'possession game' (0.36) not a highlight; waiting for the picker to paint
+2026-10-08 23:41:04,460 [DEBUG] set_advanced_defence_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:41:04,602 [DEBUG] set_advanced_defence_2: hint 'no advanced' is the Off blurb
+2026-10-08 23:41:05,138 [DEBUG] set_advanced_defence_2 hint: waiting for (960, 145, 1215, 182) to render, got 'hug the touchline'
+2026-10-08 23:41:05,159 [DEBUG] set_advanced_defence_2: hint 'Hug the Touchline', +10 to go
+2026-10-08 23:41:05,980 [DEBUG] set_advanced_defence_2: hint 'Attacking Full Backs', +9 to go
+2026-10-08 23:41:06,581 [DEBUG] set_advanced_defence_2: hint 'Wing Rotation', +8 to go
+2026-10-08 23:41:06,777 [WARNING] verified_press(scroll_fluid_formation_into_view) attempt 1/5 did not confirm
+2026-10-08 23:41:07,075 [DEBUG] set_advanced_defence_2: hint 'Tiki-Taka', +7 to go
+2026-10-08 23:41:07,239 [DEBUG] await_screen(scroll_fluid_formation_into_view) satisfied after 2 polls
+2026-10-08 23:41:07,634 [DEBUG] set_advanced_defence_2: hint 'False No. 9', +6 to go
+2026-10-08 23:41:07,947 [DEBUG] set_fluid_formation: ocr='off' matched='Off' score=1.00 want='off'
+2026-10-08 23:41:08,540 [DEBUG] set_advanced_defence_2: hint 'Centring Targets', +5 to go
+2026-10-08 23:41:08,891 [DEBUG] await_screen(back_to_preset_list) satisfied after 2 polls
+2026-10-08 23:41:09,019 [DEBUG] await_screen(next_preset) satisfied after 1 polls
+2026-10-08 23:41:09,194 [DEBUG] set_advanced_defence_2: hint 'False Full Backs', +4 to go
+2026-10-08 23:41:09,794 [DEBUG] set_advanced_defence_2: hint 'Tight Marking', +3 to go
+2026-10-08 23:41:10,369 [DEBUG] await_screen(reopen_preset_editor) satisfied after 2 polls
+2026-10-08 23:41:10,760 [DEBUG] set_advanced_defence_2: hint 'Deep Defensive Line', +2 to go
+2026-10-08 23:41:11,271 [DEBUG] await_screen(leave_preset_editor) satisfied after 2 polls
+2026-10-08 23:41:11,437 [DEBUG] set_advanced_defence_2: hint 'Swarm the Box', +1 to go
+2026-10-08 23:41:12,569 [INFO] set_advanced_defence_2: attempt 1 moved +0 toward 'Counter Target'
+2026-10-08 23:41:12,768 [DEBUG] await_screen(select_starting_preset) satisfied after 2 polls
+2026-10-08 23:41:12,782 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:12,838 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:12,851 [DEBUG] await_screen(leave_preset_tab) satisfied after 1 polls
+2026-10-08 23:41:12,910 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:12,967 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,035 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,104 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,180 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,240 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,311 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,382 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,440 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,511 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,578 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,647 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,719 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,780 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,849 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,889 [DEBUG] await_screen(settle_at_gameplan_index) satisfied after 11 polls
+2026-10-08 23:41:13,919 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:13,991 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,058 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,118 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,189 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,253 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,320 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,391 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,459 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,529 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,598 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,663 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,727 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,794 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,860 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,926 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:14,992 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:15,061 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:15,126 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got ''
+2026-10-08 23:41:15,126 [DEBUG] set_advanced_defence_2: slot ocr='' matched=None score=0.00 want='counter target'
+2026-10-08 23:41:15,342 [INFO] set_advanced_defence_2: unexpected player prompt ("pas dri ssht spb phy 'def"); accepting to get back to the slots
+2026-10-08 23:41:16,308 [DEBUG] set_advanced_defence_2: waiting for (970, 622, 1220, 654) to render, got 'counter target'
+2026-10-08 23:41:16,326 [DEBUG] set_advanced_defence_2: slot ocr='counter target' matched='Counter Target' score=1.00 want='counter target'
+2026-10-08 23:41:17,414 [DEBUG] await_screen(leave_advanced_instructions) satisfied after 2 polls
+2026-10-08 23:41:20,200 [WARNING] verified_press(scroll_fluid_formation_into_view) attempt 1/5 did not confirm
+2026-10-08 23:41:20,811 [DEBUG] await_screen(scroll_fluid_formation_into_view) satisfied after 2 polls
+2026-10-08 23:41:21,332 [DEBUG] set_fluid_formation: ocr='off' matched='Off' score=1.00 want='off'
+2026-10-08 23:41:22,023 [DEBUG] await_screen(back_to_preset_list) satisfied after 2 polls
+2026-10-08 23:41:22,145 [DEBUG] await_screen(next_preset) satisfied after 1 polls
+2026-10-08 23:41:22,967 [DEBUG] await_screen(reopen_preset_editor) satisfied after 2 polls
+2026-10-08 23:41:23,785 [DEBUG] await_screen(leave_preset_editor) satisfied after 2 polls
+2026-10-08 23:41:24,679 [DEBUG] await_screen(select_starting_preset) satisfied after 2 polls
+2026-10-08 23:41:24,792 [DEBUG] await_screen(leave_preset_tab) satisfied after 1 polls
+2026-10-08 23:41:25,851 [DEBUG] await_screen(settle_at_gameplan_index) satisfied after 11 polls
+2026-10-08 23:41:27,032 [DEBUG] await_screen(back_on_bar_after_tactics) satisfied after 1 polls
+2026-10-08 23:41:31,771 [WARNING] verified_press(coach_both_sides) attempt 1/4 did not confirm
+2026-10-08 23:41:34,356 [WARNING] verified_press(coach_both_sides) attempt 2/4 did not confirm
+2026-10-08 23:41:34,632 [DEBUG] await_screen(coach_both_sides) satisfied after 2 polls
+2026-10-08 23:41:37,549 [DEBUG] open_team_sheet(home): DPAD_RIGHT (caption='stadium' bar='leal f strip stadium kick-off game plan general settings' pre_game='lel f strip stadium kick-off game plan general settings' hints='confirm back coach mode' selected='kick-off')
+2026-10-08 23:41:41,205 [DEBUG] open_team_sheet(home): A (caption='stadium' bar='lal f strip stadium kick-off game plan general settings' pre_game='1 lcal f strip stadium kick-off game plan general settings' hints='confirm back coach mode' selected='game plan')
+2026-10-08 23:41:43,217 [DEBUG] open_team_sheet(home): A (caption='lineup/edit position' bar='3 1 lineup/edit position lineup/edit position' pre_game='lineup/edit position lineup/edit position' hints='help confirm back lt g  switch player icons' selected='game plan')
+2026-10-08 23:41:52,512 [DEBUG] focus 'develo': hand (np.int32(277), np.int32(513)) on 'stallman' -> DPAD_LEFT
+2026-10-08 23:41:52,941 [DEBUG] focus 'develo': hand (np.int32(227), np.int32(483)) on 'ng [ pes' -> DPAD_LEFT
+2026-10-08 23:41:53,803 [DEBUG] home: card reads '0 botnet', not 'develo' - steering again
+2026-10-08 23:41:53,805 [DEBUG] focus 'develo': hand (np.int32(158), np.int32(362)) on 'botnet' -> DPAD_DOWN
+2026-10-08 23:41:57,389 [DEBUG] substitution: '59 developers' picked up, in the list (+2.8s)
+2026-10-08 23:42:02,536 [DEBUG] substitution: on '0 mommy lisa', confirming (+8.0s)
+2026-10-08 23:42:02,750 [INFO] substitution: 59 developers -> 0 mommy lisa ( -> ) in 8.2s
+2026-10-08 23:42:02,750 [INFO] best_xi home: develo (bad) off for 0 mommy lisa (average)
+2026-10-08 23:42:03,300 [DEBUG] focus 'louis rc': hand None on None -> DPAD_LEFT
+2026-10-08 23:42:03,854 [DEBUG] focus 'louis rc': hand (np.int32(382), np.int32(362)) on 'torvalds' -> DPAD_DOWN
+2026-10-08 23:42:07,389 [DEBUG] substitution: '88 louis rossmann' picked up, in the list (+2.9s)
+2026-10-08 23:42:11,552 [DEBUG] substitution: on ') mr. nagoor babu saar', confirming (+7.0s)
+2026-10-08 23:42:11,756 [INFO] substitution: 88 louis rossmann -> ) mr. nagoor babu saar ( -> ) in 7.2s
+2026-10-08 23:42:11,757 [INFO] best_xi home: louis rc (poor) off for ) mr. nagoor babu saar (average)
+2026-10-08 23:42:12,375 [DEBUG] focus 'stallman': hand None on None -> DPAD_LEFT
+2026-10-08 23:42:12,817 [DEBUG] focus 'stallman': hand (np.int32(382), np.int32(362)) on 'torvalds' -> DPAD_DOWN
+2026-10-08 23:42:13,452 [DEBUG] focus 'stallman': hand (np.int32(362), np.int32(464)) on 'goor ba' -> DPAD_LEFT
+2026-10-08 23:42:13,955 [DEBUG] focus 'stallman': hand (np.int32(280), np.int32(451)) on "'ee" -> DPAD_DOWN
+2026-10-08 23:42:14,095 [DEBUG] focus 'stallman': hand (np.int32(277), np.int32(451)) on "'ee" -> DPAD_LEFT
+2026-10-08 23:42:14,655 [DEBUG] focus 'stallman': hand (np.int32(195), np.int32(464)) on 'imy lisa' -> DPAD_RIGHT
+2026-10-08 23:42:15,012 [DEBUG] focus 'stallman': hand (np.int32(274), np.int32(451)) on "'ee" -> DPAD_LEFT
+2026-10-08 23:42:15,152 [DEBUG] focus 'stallman': hand (np.int32(277), np.int32(451)) on 'imy lisa' -> DPAD_DOWN
+2026-10-08 23:42:15,294 [DEBUG] focus 'stallman': hand (np.int32(227), np.int32(459)) on 'imy lisa' -> DPAD_DOWN
+2026-10-08 23:42:15,940 [INFO] best_xi home: stallman (GK 70, average) has no fresher cover
+2026-10-08 23:42:16,470 [DEBUG] focus 'torvalds': hand (np.int32(277), np.int32(513)) on 'stallman' -> DPAD_UP
+2026-10-08 23:42:16,896 [DEBUG] focus 'torvalds': hand (np.int32(277), np.int32(451)) on "jc'" -> DPAD_RIGHT
+2026-10-08 23:42:17,116 [DEBUG] focus 'torvalds': hand (np.int32(288), np.int32(452)) on 'u saar' -> DPAD_UP
+2026-10-08 23:42:20,846 [DEBUG] substitution: '91 torvalds' picked up, in the list (+2.9s)
+2026-10-08 23:42:22,900 [DEBUG] substitution: on '0 iuse arch btw', confirming (+5.0s)
+2026-10-08 23:42:23,030 [INFO] substitution: 91 torvalds -> 0 iuse arch btw ( -> ) in 5.1s
+2026-10-08 23:42:23,031 [INFO] best_xi home: torvalds (average) off for 0 iuse arch btw (good)
+2026-10-08 23:42:23,475 [DEBUG] best_xi home: stop - worst starter ('botnet', 'excellent'), best bench rank 0 (bench [('torvalds', 'average'), ('give it back', 'poor'), ('amd-chan', 'average'), ('something ha', 'average'), ('housefires', 'good'), ('develo', 'bad'), ('thinkpad', 'excellent'), ('buy an ad', 'good'), ('louis rc', 'poor'), ('zase for theor', 'poor'), ('sicp', 'average'), ("'tfo   itoddi", 'good')])
+2026-10-08 23:42:23,476 [INFO] best_xi home: 3 swap(s) [('develo', '0 mommy lisa'), ('louis rc', ') mr. nagoor babu saar'), ('torvalds', '0 iuse arch btw')]
+2026-10-08 23:42:30,752 [DEBUG] open_team_sheet(away): A (caption='lineup/edit position' bar='lineup/edit position' pre_game='lineup/edit position' hints='help lt) gt  switch player icons' selected='')
+2026-10-08 23:42:30,889 [DEBUG] open_team_sheet(away): A (caption='lineup/edit position' bar='2 lineup/edit position' pre_game='lineup/edit position' hints='help lt) gt  switch player icons' selected='')
+2026-10-08 23:42:37,083 [DEBUG] focus 'we didi': hand (np.int32(853), np.int32(513)) on 'bald fin' -> DPAD_LEFT
+2026-10-08 23:42:37,633 [DEBUG] focus 'we didi': hand (np.int32(822), np.int32(464)) on "an hor'" -> DPAD_LEFT
+2026-10-08 23:42:40,928 [DEBUG] substitution: '0 we didnteven care' picked up, in the list (+2.5s)
+2026-10-08 23:42:45,699 [DEBUG] substitution: on '77 gimi', confirming (+7.3s)
+2026-10-08 23:42:45,829 [INFO] substitution: 0 we didnteven care -> 77 gimi ( -> ) in 7.4s
+2026-10-08 23:42:45,829 [INFO] best_xi away: we didi (bad) off for 77 gimi (excellent)
+2026-10-08 23:42:46,400 [DEBUG] focus 'agubu': hand None on None -> DPAD_LEFT
+2026-10-08 23:42:46,960 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'reorgi' -> DPAD_DOWN
+2026-10-08 23:42:47,435 [DEBUG] focus 'agubu': hand (np.int32(856), np.int32(392)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:42:47,582 [DEBUG] focus 'agubu': hand (np.int32(853), np.int32(396)) on "an hor'" -> DPAD_UP
+2026-10-08 23:42:47,787 [DEBUG] focus 'agubu': hand (np.int32(889), np.int32(350)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:48,327 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_DOWN
+2026-10-08 23:42:48,740 [DEBUG] focus 'agubu': hand (np.int32(853), np.int32(396)) on "an hor'" -> DPAD_UP
+2026-10-08 23:42:49,219 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:49,697 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:50,107 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:50,527 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:51,006 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:51,414 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:51,686 [DEBUG] focus 'agubu': hand (np.int32(861), np.int32(343)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:51,823 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:52,096 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:52,521 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:52,948 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:53,458 [DEBUG] focus 'agubu': hand (np.int32(890), np.int32(348)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:53,811 [DEBUG] focus 'agubu': hand (np.int32(819), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:53,950 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:54,436 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:54,726 [DEBUG] focus 'agubu': hand (np.int32(861), np.int32(343)) on 'reorgi' -> DPAD_LEFT
+2026-10-08 23:42:55,161 [DEBUG] focus 'agubu': hand (np.int32(816), np.int32(335)) on 'sop it k' -> DPAD_RIGHT
+2026-10-08 23:42:55,641 [INFO] best_xi away: agubu stays on - substitution: could not put the cursor on 'agubu' in 24 steps
+2026-10-08 23:42:56,212 [DEBUG] focus 'univer': hand (np.int32(890), np.int32(348)) on "'georgi" -> DPAD_DOWN
+2026-10-08 23:42:56,488 [DEBUG] focus 'univer': hand (np.int32(868), np.int32(378)) on ':does /' -> DPAD_RIGHT
+2026-10-08 23:42:56,707 [DEBUG] focus 'univer': hand (np.int32(863), np.int32(384)) on "'georgi" -> DPAD_RIGHT
+2026-10-08 23:43:00,327 [DEBUG] substitution: '5 uniersal choking sign' picked up, in the list (+3.1s)
+2026-10-08 23:43:02,297 [INFO] best_xi away: univer stays on - substitution: '0 haliban' ('cb') cannot cover 'univer' ('rb'); nothing was confirmed
+2026-10-08 23:43:03,290 [DEBUG] focus 'juuuuu': hand (np.int32(958), np.int32(437)) on 'univer' -> DPAD_UP
+2026-10-08 23:43:03,499 [DEBUG] focus 'juuuuu': hand (np.int32(949), np.int32(425)) on 'an hor:' -> DPAD_UP
+2026-10-08 23:43:03,838 [DEBUG] focus 'juuuuu': hand (np.int32(892), np.int32(335)) on ':aca [' -> DPAD_LEFT
+2026-10-08 23:43:04,110 [DEBUG] focus 'juuuuu': hand (np.int32(904), np.int32(247)) on ':aca [' -> DPAD_UP
+2026-10-08 23:43:04,462 [INFO] best_xi away: juuuuu is a medal, left alone
+2026-10-08 23:43:04,955 [DEBUG] focus 'sop it k': hand (np.int32(853), np.int32(213)) on 'tsuuulr' -> DPAD_DOWN
+2026-10-08 23:43:05,778 [DEBUG] focus 'sop it k': hand (np.int32(904), np.int32(247)) on None -> DPAD_DOWN
+2026-10-08 23:43:06,184 [DEBUG] focus 'sop it k': hand (np.int32(890), np.int32(348)) on 'sge co' -> DPAD_LEFT
+2026-10-08 23:43:06,744 [INFO] best_xi away: sop it k is a medal, left alone
+2026-10-08 23:43:07,518 [DEBUG] focus "'ie do": hand (np.int32(816), np.int32(335)) on 'so  it ha' -> DPAD_DOWN
+2026-10-08 23:43:07,793 [DEBUG] focus "'ie do": hand (np.int32(839), np.int32(372)) on "an hor'" -> DPAD_UP
+2026-10-08 23:43:07,995 [DEBUG] focus "'ie do": hand (np.int32(858), np.int32(390)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:08,411 [DEBUG] focus "'ie do": hand (np.int32(958), np.int32(437)) on 'in   uni' -> DPAD_LEFT
+2026-10-08 23:43:08,958 [DEBUG] focus "'ie do": hand (np.int32(884), np.int32(464)) on 'agubu' -> DPAD_UP
+2026-10-08 23:43:09,454 [DEBUG] focus "'ie do": hand (np.int32(853), np.int32(396)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:09,805 [DEBUG] focus "'ie do": hand (np.int32(889), np.int32(350)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:10,014 [DEBUG] focus "'ie do": hand (np.int32(899), np.int32(360)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:10,420 [DEBUG] focus "'ie do": hand (np.int32(890), np.int32(348)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:10,825 [DEBUG] focus "'ie do": hand (np.int32(958), np.int32(437)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:11,304 [DEBUG] focus "'ie do": hand (np.int32(890), np.int32(348)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:11,717 [DEBUG] focus "'ie do": hand (np.int32(958), np.int32(437)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:11,989 [DEBUG] focus "'ie do": hand (np.int32(917), np.int32(383)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:12,192 [DEBUG] focus "'ie do": hand (np.int32(899), np.int32(360)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:12,331 [DEBUG] focus "'ie do": hand (np.int32(949), np.int32(425)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:12,608 [DEBUG] focus "'ie do": hand (np.int32(929), np.int32(399)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:13,029 [DEBUG] focus "'ie do": hand (np.int32(890), np.int32(348)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:13,504 [DEBUG] focus "'ie do": hand (np.int32(958), np.int32(437)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:13,985 [DEBUG] focus "'ie do": hand (np.int32(890), np.int32(348)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:14,398 [DEBUG] focus "'ie do": hand (np.int32(958), np.int32(437)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:14,604 [DEBUG] focus "'ie do": hand (np.int32(949), np.int32(425)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:15,020 [DEBUG] focus "'ie do": hand (np.int32(958), np.int32(437)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:15,297 [DEBUG] focus "'ie do": hand (np.int32(917), np.int32(383)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:43:15,435 [DEBUG] focus "'ie do": hand (np.int32(890), np.int32(348)) on 'in   uni' -> DPAD_UP
+2026-10-08 23:43:15,708 [INFO] best_xi away: 'ie do stays on - substitution: could not put the cursor on "'ie do" in 24 steps
+2026-10-08 23:43:16,184 [DEBUG] focus "an hor'": hand (np.int32(890), np.int32(348)) on "'georgi" -> DPAD_DOWN
+2026-10-08 23:43:20,725 [DEBUG] substitution: '13 she does it for free' picked up, in the list (+3.8s)
+2026-10-08 23:43:26,459 [DEBUG] substitution: on 'this does not fookw slpnow', confirming (+9.6s)
+2026-10-08 23:43:26,663 [INFO] substitution: 13 she does it for free -> this does not fookw slpnow ( -> ) in 9.8s
+2026-10-08 23:43:26,663 [INFO] best_xi away: an hor' (average) off for this does not fookw slpnow (good)
+2026-10-08 23:43:27,427 [DEBUG] best_xi away: stop - worst starter ('jaud', 'good'), best bench rank 1 (bench [("'s a disgrace", 'good'), ('amd amx', 'good'), ('el var sinson', 'average'), ('apologize', 'good'), ('zschalke', 'average'), ('haliban', 'average'), ('we didi', 'bad'), ('21993', 'good'), ('this does nc', 'average'), ("an hor'", 'average'), (']cam on /', 'good'), ('my reffies :)', 'poor')])
+2026-10-08 23:43:27,427 [INFO] best_xi away: 2 swap(s) [('we didi', '77 gimi'), ("an hor'", 'this does not fookw slpnow')]
+2026-10-08 23:43:32,988 [DEBUG] ensure(leave_home_pane): already satisfied, no press
+2026-10-08 23:43:34,337 [DEBUG] ensure(leave_away_pane): already satisfied, no press
+2026-10-08 23:43:35,345 [DEBUG] await_screen(back_on_pre_game_bar) satisfied after 1 polls
+2026-10-08 23:43:37,788 [DEBUG] await_screen(confirm_on_kick_off) satisfied after 1 polls
+2026-10-08 23:43:37,913 [DEBUG] await_screen(start_the_match) satisfied after 1 polls
+2026-10-08 23:43:37,915 [ERROR] rigdio /api/load failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/load (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-08 23:43:38,773 [DEBUG] ocr skipped a degenerate crop (50, 380, 3): OpenCV(5.0.0) /io/opencv/modules/imgproc/src/resize.cpp:4217: error: (-215:Assertion failed) !ssize.empty() in function 'resize'
+
+2026-10-08 23:44:12,993 [DEBUG] await_screen(anthems_play) satisfied after 341 polls
+2026-10-08 23:44:13,110 [DEBUG] await_screen(skip_intros_for_testbot) satisfied after 1 polls
+2026-10-08 23:44:13,112 [ERROR] rigdio /api/anthems failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/anthems (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+$RIG/venv/lib/python3.13/site-packages/easyocr/utils.py:561: RuntimeWarning: divide by zero encountered in scalar divide
+  ratio = width/height
+2026-10-08 23:44:55,566 [DEBUG] ocr skipped a degenerate crop (26, 400, 3): cannot convert float infinity to integer
+2026-10-08 23:44:59,904 [DEBUG] ocr skipped a degenerate crop (26, 400, 3): cannot convert float infinity to integer
+2026-10-08 23:45:44,295 [INFO] entering state MATCH_ONGOING
+2026-10-08 23:47:44,202 [DEBUG] open_team_sheet(away): START (caption='' bar='' pre_game='' hints='0 botnet' selected='')
+2026-10-08 23:47:51,681 [DEBUG] open_team_sheet(away): A (caption='replay' bar='alal select sides help 2game plan replay  camera settings' pre_game='l select sides help 2game plan replay  camera settings' hints='confirm backs' selected='1 2 game plan')
+2026-10-08 23:47:54,767 [DEBUG] open_team_sheet(away): A (caption='lineup/edit position' bar='lineup/edit position lineup/edit position' pre_game='lineup/edit position lineup/edit position' hints='help 0 confirm maekld) g7owtt splave icon t' selected='1 2 game plan')
+2026-10-08 23:48:06,728 [DEBUG] away: pitch + bench read (+9.5s)
+2026-10-08 23:48:06,864 [DEBUG] focus 'univer': hand (np.int32(853), np.int32(513)) on 'bald fin' -> DPAD_RIGHT
+2026-10-08 23:48:07,537 [DEBUG] focus 'univer': hand (np.int32(884), np.int32(464)) on 'agubu' -> DPAD_RIGHT
+2026-10-08 23:48:08,306 [DEBUG] away: univer chosen, cover row 1 'amd amx' (+11.0s)
+2026-10-08 23:48:11,737 [DEBUG] substitution: '5 uniersal choking sign' picked up, in the list (+3.4s)
+2026-10-08 23:48:15,278 [DEBUG] substitution: on '33 amd amx', confirming (+7.0s)
+2026-10-08 23:48:15,580 [INFO] substitution: 5 uniersal choking sign -> 33 amd amx (subs. 4/4 -> ubs. 3/4) in 7.3s
+2026-10-08 23:48:15,581 [INFO] away: univer (stamina 0.66) off for 33 amd amx
+2026-10-08 23:48:25,330 [INFO] sub at 15': univer -> 33 amd amx
+2026-10-08 23:48:25,462 [DEBUG] goal pump: not a scoreboard ('')
+2026-10-08 23:49:10,754 [DEBUG] goal pump: not a scoreboard ('')
+2026-10-08 23:49:53,915 [DEBUG] goal pump: not a scoreboard ('070')
+2026-10-08 23:50:15,634 [DEBUG] goal pump: not a scoreboard ('')
+2026-10-08 23:50:51,774 [DEBUG] open_team_sheet(home): START (caption='' bar='' pre_game='' hints='93 bsd' selected='')
+2026-10-08 23:51:02,408 [DEBUG] open_team_sheet(home): A (caption='help' bar='all select sides 2game plan replay camera settings help' pre_game='aal select sides help 2game plan replay camera settings' hints='iconfirm back' selected='1 2game plan')
+2026-10-08 23:51:03,612 [DEBUG] open_team_sheet(home): A (caption='' bar='' pre_game='' hints="0 fheip 0 confirm 'back lt) (rt] switch player icons" selected='1 2game plan')
+2026-10-08 23:51:13,090 [DEBUG] home: pitch + bench read (+5.9s)
+2026-10-08 23:51:13,224 [DEBUG] focus 'iuse art': hand (np.int32(277), np.int32(513)) on 'stallmar' -> DPAD_UP
+2026-10-08 23:51:13,906 [DEBUG] focus 'iuse art': hand (np.int32(277), np.int32(451)) on 'acki' -> DPAD_RIGHT
+2026-10-08 23:51:14,589 [DEBUG] focus 'iuse art': hand (np.int32(362), np.int32(464)) on 'mr. nag' -> DPAD_UP
+2026-10-08 23:51:15,437 [DEBUG] home: iuse art chosen, cover row 11 'itoddlers /' (+8.2s)
+2026-10-08 23:51:18,745 [DEBUG] substitution: '20 iuse arch btw' picked up, in the list (+3.3s)
+2026-10-08 23:51:24,699 [DEBUG] substitution: on '6 itoddlers btfo', confirming (+9.3s)
+2026-10-08 23:51:24,979 [INFO] substitution: 20 iuse arch btw -> 6 itoddlers btfo (jubs. 4/4 -> jubs. 3/4) in 9.5s
+2026-10-08 23:51:24,979 [INFO] home: iuse art (stamina 0.43) off for 6 itoddlers btfo
+2026-10-08 23:51:37,448 [INFO] sub at 30': iuse art -> 6 itoddlers btfo
+2026-10-08 23:52:13,715 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:13,716 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-08 23:52:14,345 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:14,648 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:14,650 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-08 23:52:14,926 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:14,928 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-08 23:52:15,263 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:15,600 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:16,076 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:16,314 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:16,617 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:16,962 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:17,256 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:17,553 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:17,855 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:18,198 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:18,501 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:18,878 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:19,232 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:19,580 [DEBUG] goal pump: banner shows MESSI
+2026-10-08 23:52:59,101 [INFO] goal: scorer MESSI (stashed banner)
+2026-10-08 23:52:59,101 [INFO] goal: away scored at 35:19 (now 0-1)
+2026-10-08 23:55:02,993 [INFO] entering state HALF_TIME
+2026-10-08 23:55:03,196 [DEBUG] await_screen(leave_stats_page) satisfied after 2 polls
+2026-10-08 23:55:04,837 [DEBUG] await_screen(confirm_second_half_selected) satisfied after 16 polls
+2026-10-08 23:55:12,608 [DEBUG] await_screen(start_second_half) satisfied after 42 polls
+2026-10-08 23:55:14,713 [INFO] entering state MATCH_ONGOING
+2026-10-08 23:55:35,567 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:35,569 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-08 23:55:35,929 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:36,340 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:36,872 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:37,686 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:38,776 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:39,365 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:39,788 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:40,416 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:40,971 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:41,326 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:55:41,890 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-08 23:56:31,719 [DEBUG] scorer 'maaed c)' did not match the roster
+2026-10-08 23:56:31,719 [INFO] goal: scorer Install Gentoo (stashed banner)
+2026-10-08 23:56:31,719 [INFO] goal: home scored at 47:56 (now 1-1)
+2026-10-08 23:57:40,373 [DEBUG] goal pump: not a scoreboard ('1')
+2026-10-08 23:57:58,545 [DEBUG] goal pump: not a scoreboard ('')
+2026-10-08 23:58:25,393 [DEBUG] open_team_sheet(away): START (caption='' bar='' pre_game='' hints='8 ngubu' selected='')
+2026-10-08 23:58:36,881 [DEBUG] open_team_sheet(away): A (caption='replay' bar='all select sides help 2game plan replay camera settings' pre_game='all select sides help 2game plan replay camera settings' hints='confirm back' selected='3 2game plan')
+2026-10-08 23:58:38,176 [DEBUG] open_team_sheet(away): A (caption='' bar='' pre_game='' hints=') help confirm back [lt) (rt ] switch player icons' selected='3 2game plan')
+2026-10-08 23:58:50,645 [DEBUG] away: pitch + bench read (+7.7s)
+2026-10-08 23:58:50,784 [DEBUG] focus 'agubu': hand (np.int32(853), np.int32(513)) on 'bald fin' -> DPAD_UP
+2026-10-08 23:58:51,392 [DEBUG] focus 'agubu': hand (np.int32(822), np.int32(464)) on "an hor'" -> DPAD_RIGHT
+2026-10-08 23:58:52,213 [DEBUG] away: agubu chosen, cover row 3 'apologize' (+9.2s)
+2026-10-08 23:58:55,308 [DEBUG] substitution: '8 ngubu' picked up, in the list (+3.1s)
+2026-10-08 23:58:59,631 [DEBUG] substitution: on '18 apologize', confirming (+7.4s)
+2026-10-08 23:58:59,902 [INFO] substitution: 8 ngubu -> 18 apologize (jubs. 3/4 -> jubs. 2/4) in 7.7s
+2026-10-08 23:58:59,902 [INFO] away: agubu (stamina 0.49) off for 18 apologize
+2026-10-08 23:59:09,046 [INFO] sub at 60': agubu -> 18 apologize
+2026-10-09 00:00:19,007 [DEBUG] goal pump: not a scoreboard ('1')
+2026-10-09 00:00:19,219 [DEBUG] goal pump: not a scoreboard ('11')
+2026-10-09 00:01:07,460 [DEBUG] goal pump: not a scoreboard ('11')
+2026-10-09 00:01:53,250 [DEBUG] goal pump: not a scoreboard ('')
+2026-10-09 00:02:30,713 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:02:30,715 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-09 00:02:30,993 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:02:32,913 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:02:32,914 [WARNING] capture took 1.36s
+2026-10-09 00:02:33,810 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:02:34,554 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:02:35,487 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:02:37,007 [DEBUG] goal pump: banner shows Install Gentoo
+2026-10-09 00:03:15,566 [DEBUG] scorer 'amammed 6)' did not match the roster
+2026-10-09 00:03:15,567 [INFO] goal: scorer Install Gentoo (stashed banner)
+2026-10-09 00:03:15,567 [INFO] goal: home scored at 80:23 (now 2-1)
+2026-10-09 00:03:44,414 [DEBUG] goal pump: not a scoreboard ('')
+2026-10-09 00:03:58,711 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:03:58,713 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-09 00:03:59,654 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:00,264 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:01,066 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:01,936 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:02,523 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:03,324 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:03,865 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:04,331 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:04,717 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:05,256 [DEBUG] goal pump: banner shows TSUUUUUUUUUUUUUUUUU
+2026-10-09 00:04:38,849 [DEBUG] scorer 'amaaaed c)' did not match the roster
+2026-10-09 00:04:38,850 [INFO] goal: scorer TSUUUUUUUUUUUUUUUUU (stashed banner)
+2026-10-09 00:04:38,850 [INFO] goal: away scored at 82:01 (now 2-2)
+2026-10-09 00:05:14,842 [DEBUG] await_screen(hold_during_match) satisfied after 5737 polls
+2026-10-09 00:05:16,312 [INFO] entering state MATCH_ONGOING
+2026-10-09 00:05:59,484 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:05:59,486 [ERROR] rigdio /api/goal failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/goal (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-09 00:05:59,907 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:00,246 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:01,258 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:02,065 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:02,702 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:03,347 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:04,028 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:04,818 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:05,312 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:05,929 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:06,241 [DEBUG] goal pump: banner shows PERRO CACA
+2026-10-09 00:06:47,184 [DEBUG] scorer 'wmaaed c)' did not match the roster
+2026-10-09 00:06:47,184 [INFO] goal: scorer PERRO CACA (stashed banner)
+2026-10-09 00:06:47,184 [INFO] goal: away scored at 90:00 (now 2-3)
+2026-10-09 00:08:07,132 [INFO] entering state HIGHLIGHTS
+2026-10-09 00:08:07,214 [DEBUG] await_screen(skip_highlights) satisfied after 1 polls
+2026-10-09 00:08:10,277 [DEBUG] await_screen(settle_after_skip) satisfied after 31 polls
+2026-10-09 00:08:10,407 [INFO] entering state HIGHLIGHTS
+2026-10-09 00:08:10,490 [DEBUG] await_screen(skip_highlights) satisfied after 1 polls
+$RIGBOT/main.py:1453: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp_utc": datetime.utcnow().isoformat(),
+2026-10-09 00:08:12,444 [INFO] testbot: match results written to testbot_logs/match_results_20261009_000812.json
+2026-10-09 00:08:12,444 [INFO] entering state MATCH_FINISH
+2026-10-09 00:08:15,273 [WARNING] verified_press(to_full_time_menu) attempt 1/3 did not confirm
+2026-10-09 00:08:17,346 [DEBUG] await_screen(to_full_time_menu) satisfied after 9 polls
+2026-10-09 00:08:17,837 [INFO] result: '/g/' vs '/sp/' score=(2, 3) pk='atu.uu' winner='/sp/'
+2026-10-09 00:08:17,862 [ERROR] rigdio /api/victory failed: HTTPConnectionPool(host='localhost', port=31338): Max retries exceeded with url: /api/victory (Caused by NewConnectionError("HTTPConnection(host='localhost', port=31338): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-10-09 00:08:23,024 [WARNING] verified_press(to_match_events) attempt 1/4 did not confirm
+2026-10-09 00:08:23,414 [DEBUG] await_screen(to_match_events) satisfied after 2 polls
+2026-10-09 00:08:25,464 [DEBUG] await_screen(show_match_events) satisfied after 21 polls
+2026-10-09 00:08:28,510 [DEBUG] await_screen(scroll_match_events) satisfied after 1 polls
+2026-10-09 00:08:33,707 [WARNING] verified_press(to_ball_winning_areas) attempt 1/4 did not confirm
+2026-10-09 00:08:34,130 [DEBUG] await_screen(to_ball_winning_areas) satisfied after 2 polls
+2026-10-09 00:08:37,215 [DEBUG] await_screen(show_ball_winning_areas) satisfied after 31 polls
+2026-10-09 00:08:40,168 [DEBUG] cursor_to_select_team: no change within 1.50s, proceeding on 'highlights'
+2026-10-09 00:08:42,923 [DEBUG] await_screen(confirm_select_team) satisfied after 2 polls
+2026-10-09 00:08:45,965 [DEBUG] await_screen(settle_after_select_team) satisfied after 31 polls
+2026-10-09 00:08:46,096 [DEBUG] await_screen(full_time_page_stayed_gone) satisfied after 1 polls
+2026-10-09 00:08:46,281 [INFO] entering state LEAGUE_SELECT
+2026-10-09 00:08:46,581 [DEBUG] search(find_league_p1): ocr='4chan t  cup' matched='4chan Cup Main' score=0.73 second=0.17 target='4chan Cup Main'
+2026-10-09 00:08:46,759 [DEBUG] search(find_league_p2): ocr="4chan g ' cup" matched='4chan Cup Main' score=0.73 second=0.21 target='4chan Cup Main'
+2026-10-09 00:08:47,227 [DEBUG] await_screen(confirm_league_p2) satisfied after 2 polls
+2026-10-09 00:08:47,368 [DEBUG] await_screen(confirm_league_p1) satisfied after 3 polls
+2026-10-09 00:08:48,182 [INFO] entering state TEAM_SELECT
+2026-10-09 00:08:48,586 [DEBUG] search(find_team_p1): ocr='igl' matched='/g/' score=0.93 second=0.70 target='/g/'
+2026-10-09 00:08:48,673 [DEBUG] search(find_team_p2): ocr='ispl' matched='/sp/' score=0.95 second=0.76 target='/sp/'
+2026-10-09 00:08:48,705 [DEBUG] await_screen(confirm_team_p1) satisfied after 1 polls
+2026-10-09 00:08:48,854 [DEBUG] await_screen(confirm_team_p2) satisfied after 1 polls
+2026-10-09 00:08:51,853 [DEBUG] await_screen(settle_into_pre_game) satisfied after 30 polls
+2026-10-09 00:08:53,438 [INFO] entering state PRE_GAME
+2026-10-09 00:08:55,497 [DEBUG] await_screen(pre_match_wait) satisfied after 21 polls
+2026-10-09 00:09:00,936 [DEBUG] bar_to_general_settings: no change within 1.50s, proceeding on 'strip'
+2026-10-09 00:09:07,721 [DEBUG] await_screen(enter_general_settings) satisfied after 3 polls
+2026-10-09 00:09:07,985 [DEBUG] await_screen(check_match_level) satisfied after 1 polls
+2026-10-09 00:09:08,111 [DEBUG] await_screen(check_match_time) satisfied after 1 polls
+2026-10-09 00:09:08,187 [DEBUG] await_screen(check_injuries) satisfied after 1 polls
+2026-10-09 00:09:10,798 [WARNING] verified_press(row_to_extra_time) attempt 1/5 did not confirm
+2026-10-09 00:09:10,991 [DEBUG] await_screen(row_to_extra_time) satisfied after 2 polls
+2026-10-09 00:09:11,206 [DEBUG] set_extra_time: ocr='off' matched='Off' score=1.00 want='off'
+2026-10-09 00:09:11,450 [DEBUG] await_screen(row_to_pk) satisfied after 2 polls
+2026-10-09 00:09:11,682 [DEBUG] set_pk: ocr='on' matched='On' score=1.00 want='on'
+2026-10-09 00:09:14,295 [WARNING] verified_press(row_to_condition_home) attempt 1/8 did not confirm
+2026-10-09 00:09:16,907 [WARNING] verified_press(row_to_condition_home) attempt 2/8 did not confirm
+2026-10-09 00:09:17,115 [DEBUG] await_screen(row_to_condition_home) satisfied after 2 polls
+2026-10-09 00:09:17,566 [DEBUG] await_screen(row_to_condition_away) satisfied after 3 polls
+2026-10-09 00:09:18,409 [DEBUG] await_screen(leave_general_settings) satisfied after 3 polls
+2026-10-09 00:09:28,265 [DEBUG] cursor_to_game_plan: no change within 1.50s, proceeding on 'strip'
+2026-10-09 00:09:33,229 [DEBUG] ocr skipped a degenerate crop (43, 160, 3): OpenCV(5.0.0) /io/opencv/modules/imgproc/src/resize.cpp:4217: error: (-215:Assertion failed) !ssize.empty() in function 'resize'
+
+2026-10-09 00:09:34,789 [DEBUG] await_screen(enter_game_plan) satisfied after 3 polls
+2026-10-09 00:09:35,430 [DEBUG] await_screen(open_preset_tactics_tab) satisfied after 2 polls
+2026-10-09 00:09:35,563 [DEBUG] await_screen(open_preset_tactics_tab) satisfied after 2 polls
+2026-10-09 00:09:35,634 [DEBUG] ensure(start_on_preset_1): already satisfied, no press
+2026-10-09 00:09:36,034 [DEBUG] ensure(start_on_preset_1): already satisfied, no press
+2026-10-09 00:09:36,934 [DEBUG] await_screen(enter_preset_editor) satisfied after 2 polls
+2026-10-09 00:09:37,477 [DEBUG] await_screen(enter_preset_editor) satisfied after 2 polls
+2026-10-09 00:09:37,613 [DEBUG] await_screen(confirm_preset_under_edit) satisfied after 1 polls
+2026-10-09 00:09:37,726 [DEBUG] await_screen(goto_attacking_instructions) satisfied after 1 polls
+2026-10-09 00:09:38,310 [DEBUG] await_screen(confirm_preset_under_edit) satisfied after 1 polls
+2026-10-09 00:09:38,435 [DEBUG] await_screen(goto_attacking_instructions) satisfied after 1 polls
+2026-10-09 00:09:38,781 [DEBUG] await_screen(settle_before_entering_attacking) satisfied after 11 polls
+2026-10-09 00:09:39,392 [DEBUG] await_screen(enter_attacking_instructions) satisfied after 2 polls
+2026-10-09 00:09:39,463 [DEBUG] await_screen(settle_before_entering_attacking) satisfied after 11 polls
+2026-10-09 00:09:39,858 [DEBUG] set_attacking_style: ocr='counter attack' matched='Counter Attack' score=1.00 want='possession game'
+2026-10-09 00:09:40,130 [DEBUG] await_screen(enter_attacking_instructions) satisfied after 2 polls
+2026-10-09 00:09:40,535 [DEBUG] set_attacking_style: ocr='possession game' matched='Possession Game' score=1.00 want='possession game'
+2026-10-09 00:09:40,618 [DEBUG] await_screen(cursor_to_build_up) satisfied after 1 polls
+2026-10-09 00:09:40,802 [DEBUG] set_attacking_style: ocr='possession game' matched='Possession Game' score=1.00 want='possession game'
+2026-10-09 00:09:40,885 [DEBUG] await_screen(cursor_to_build_up) satisfied after 1 polls
+2026-10-09 00:09:40,951 [DEBUG] set_build_up: ocr='short-pass' matched='Short-pass' score=1.00 want='short-pass'
+2026-10-09 00:09:41,072 [DEBUG] await_screen(cursor_to_attacking_area) satisfied after 1 polls
+2026-10-09 00:09:41,545 [DEBUG] set_build_up: ocr='short-pass' matched='Short-pass' score=1.00 want='long-pass'
+2026-10-09 00:09:41,615 [DEBUG] set_attacking_area: ocr='centre' matched='Centre' score=1.00 want='centre'
+2026-10-09 00:09:41,696 [DEBUG] await_screen(cursor_to_positioning) satisfied after 1 polls
+2026-10-09 00:09:42,151 [DEBUG] set_build_up: ocr='long-pass' matched='Long-pass' score=1.00 want='long-pass'
