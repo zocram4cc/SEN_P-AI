@@ -1,0 +1,7499 @@
+{
+    "away": {
+        "id": 749,
+        "name": "/sp/",
+        "players": [
+            {
+                "name": ">DE GAY",
+                "playerId": 74901
+            },
+            {
+                "name": ">HE DOES IT FOR FREE",
+                "playerId": 74902
+            },
+            {
+                "name": "THIS DOES NOT FOOKIN SLIP",
+                "playerId": 74903
+            },
+            {
+                "name": "JOHN MADDEN",
+                "playerId": 74904
+            },
+            {
+                "name": "APOLOGIZE",
+                "playerId": 74905
+            },
+            {
+                "name": "CAM ON INGERLAND SCORE SOME FACKIN GOALS",
+                "playerId": 74906
+            },
+            {
+                "name": "EXPOSED",
+                "playerId": 74907
+            },
+            {
+                "name": "7 (SEVEN)",
+                "playerId": 74908
+            },
+            {
+                "name": "TSUUUUUUUUUU",
+                "playerId": 74909
+            },
+            {
+                "name": "MESSI",
+                "playerId": 74910
+            },
+            {
+                "name": "GEORGE COSTANZA",
+                "playerId": 74911
+            },
+            {
+                "name": "SO, IT HAPPENED AGAIN",
+                "playerId": 74912
+            },
+            {
+                "name": "NOVAXX DEPORTOVIC",
+                "playerId": 74913
+            },
+            {
+                "name": "SAINT BOY",
+                "playerId": 74914
+            },
+            {
+                "name": ">WE",
+                "playerId": 74915
+            },
+            {
+                "name": "AMD AMX",
+                "playerId": 74916
+            },
+            {
+                "name": "NGUBU",
+                "playerId": 74917
+            },
+            {
+                "name": "POOPENSHARTEN 04",
+                "playerId": 74918
+            },
+            {
+                "name": "SUSPICIOUS HEART ATTACK",
+                "playerId": 74919
+            },
+            {
+                "name": "REFBALL",
+                "playerId": 74920
+            },
+            {
+                "name": "WOBBIE",
+                "playerId": 74921
+            },
+            {
+                "name": "PERRO CACA",
+                "playerId": 74922
+            },
+            {
+                "name": "GIMI",
+                "playerId": 74923
+            }
+        ]
+    },
+    "event": "Teams Changed",
+    "home": {
+        "id": 721,
+        "name": "/g/",
+        "players": [
+            {
+                "name": "STALLMAN",
+                "playerId": 72101
+            },
+            {
+                "name": "SICP",
+                "playerId": 72102
+            },
+            {
+                "name": "I USE ARCH BTW",
+                "playerId": 72103
+            },
+            {
+                "name": "iTODDLERS BTFO",
+                "playerId": 72104
+            },
+            {
+                "name": "SOMETHING HAPPENED",
+                "playerId": 72105
+            },
+            {
+                "name": "THINKPAD",
+                "playerId": 72106
+            },
+            {
+                "name": "DEVELOPERS",
+                "playerId": 72107
+            },
+            {
+                "name": "BOTNET",
+                "playerId": 72108
+            },
+            {
+                "name": "NO TIME FOR LOVE",
+                "playerId": 72109
+            },
+            {
+                "name": "TERRY A. DAVIS",
+                "playerId": 72110
+            },
+            {
+                "name": "INSTALL GENTOO",
+                "playerId": 72111
+            },
+            {
+                "name": "TORVALDS",
+                "playerId": 72112
+            },
+            {
+                "name": "GIVE IT BACK JAMAL",
+                "playerId": 72113
+            },
+            {
+                "name": "LOUIS ROSSMANN",
+                "playerId": 72114
+            },
+            {
+                "name": "CONSUMERISM",
+                "playerId": 72115
+            },
+            {
+                "name": ">A FUCKING CHEESE GRATER",
+                "playerId": 72116
+            },
+            {
+                "name": "MOMMY LISA",
+                "playerId": 72117
+            },
+            {
+                "name": "TECHTUBERS",
+                "playerId": 72118
+            },
+            {
+                "name": "*BSD",
+                "playerId": 72119
+            },
+            {
+                "name": "MR. SIR NAGOOR BABU",
+                "playerId": 72120
+            },
+            {
+                "name": "CS GRAD",
+                "playerId": 72121
+            },
+            {
+                "name": "AMD-CHAN",
+                "playerId": 72122
+            },
+            {
+                "name": "GREEN IS MY PEPPER",
+                "playerId": 72123
+            }
+        ]
+    },
+    "timestamp": 1791493747924,
+    "type": "Event"
+}
+{
+    "awayScore": 0,
+    "event": "Stats Found",
+    "gameMinute": 0,
+    "homeScore": 0,
+    "timestamp": 1791493896368,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 0.0031250000465661287,
+    "reason": "Unknown",
+    "timestamp": 1791493896552,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 0.02187499962747097,
+    "timestamp": 1791493898152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 1.0397727489471436,
+    "timestamp": 1791493904452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 2.059659004211426,
+    "timestamp": 1791493910752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 3.079545497894287,
+    "timestamp": 1791493917052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 4.099431991577148,
+    "timestamp": 1791493923352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 5.119318008422852,
+    "timestamp": 1791493929652,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 5.5546875,
+    "reason": "Unknown",
+    "timestamp": 1791493935652,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 5.565104007720947,
+    "timestamp": 1791494014452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 6.153409004211426,
+    "timestamp": 1791494014952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 7.173295497894287,
+    "timestamp": 1791494021252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 8.193181991577148,
+    "timestamp": 1791494027552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 9.213068008422852,
+    "timestamp": 1791494033852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 10.232954978942871,
+    "timestamp": 1791494040152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 11.252840995788574,
+    "timestamp": 1791494046452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 12.286931991577148,
+    "timestamp": 1791494052852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 13.309659004211426,
+    "timestamp": 1791494059152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 14.329545021057129,
+    "timestamp": 1791494065452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 15.349431991577148,
+    "timestamp": 1791494071752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 16.36931800842285,
+    "timestamp": 1791494078052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 17.389204025268555,
+    "timestamp": 1791494084352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 18.426136016845703,
+    "timestamp": 1791494090752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 19.446022033691406,
+    "timestamp": 1791494097052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 20.465909957885742,
+    "timestamp": 1791494103353,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 21.485795974731445,
+    "timestamp": 1791494109652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 22.50568199157715,
+    "timestamp": 1791494115952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 23.52556800842285,
+    "timestamp": 1791494122252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 24.5625,
+    "timestamp": 1791494128652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 25.582386016845703,
+    "timestamp": 1791494134952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 26.602272033691406,
+    "timestamp": 1791494141252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 27.622159957885742,
+    "timestamp": 1791494147552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 28.642045974731445,
+    "timestamp": 1791494153852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 29.66193199157715,
+    "timestamp": 1791494160152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 30.698863983154297,
+    "timestamp": 1791494166552,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 31.142045974731445,
+    "reason": "Goal kick",
+    "timestamp": 1791494169452,
+    "type": "Event"
+}
+{
+    "event": "Player Sub",
+    "gameMinute": 31.142045974731445,
+    "playerIn": {
+        "name": "NGUBU",
+        "playerId": 74917
+    },
+    "team": "Away",
+    "timestamp": 1791494183352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 31.142045974731445,
+    "timestamp": 1791494183352,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 31.147727966308594,
+    "timestamp": 1791494188352,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 31.457386016845703,
+    "reason": "Unknown",
+    "timestamp": 1791494190352,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 31.46306800842285,
+    "timestamp": 1791494302052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 32.6761360168457,
+    "timestamp": 1791494309552,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 32.71590805053711,
+    "reason": "Unknown",
+    "timestamp": 1791494309952,
+    "type": "Event"
+}
+{
+    "event": "Player Sub",
+    "gameMinute": 35.98749923706055,
+    "playerIn": {
+        "name": ">A FUCKING CHEESE GRATER",
+        "playerId": 72116
+    },
+    "team": "Home",
+    "timestamp": 1791494312752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 35.98749923706055,
+    "timestamp": 1791494312752,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 36.00312423706055,
+    "timestamp": 1791494322752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 34.625,
+    "timestamp": 1791494334452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 35.6448860168457,
+    "timestamp": 1791494340752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 36.681819915771484,
+    "timestamp": 1791494347152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 37.70170593261719,
+    "timestamp": 1791494353452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 38.72159194946289,
+    "timestamp": 1791494359752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 39.741477966308594,
+    "timestamp": 1791494366052,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 40.099430084228516,
+    "reason": "Goal kick",
+    "timestamp": 1791494368452,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 40.11079406738281,
+    "timestamp": 1791494396952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 40.693180084228516,
+    "timestamp": 1791494400552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 41.713069915771484,
+    "timestamp": 1791494406852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 42.73295593261719,
+    "timestamp": 1791494413152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 43.7698860168457,
+    "timestamp": 1791494419552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 44.789772033691406,
+    "timestamp": 1791494425852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.8096590638160706,
+    "timestamp": 1791494432155,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.8267045617103577,
+    "timestamp": 1791494432257,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.8409090638160706,
+    "timestamp": 1791494432353,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.8579545617103577,
+    "timestamp": 1791494432452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.875,
+    "timestamp": 1791494432554,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.8920454382896423,
+    "timestamp": 1791494432656,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.9090909361839294,
+    "timestamp": 1791494432759,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.9232954382896423,
+    "timestamp": 1791494432857,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.9403409361839294,
+    "timestamp": 1791494432954,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.9545454382896423,
+    "timestamp": 1791494433053,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.9715909361839294,
+    "timestamp": 1791494433152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 0.9886363744735718,
+    "timestamp": 1791494433254,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.0056818723678589,
+    "timestamp": 1791494433356,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.0198863744735718,
+    "timestamp": 1791494433457,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.0511363744735718,
+    "timestamp": 1791494433655,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.0710227489471436,
+    "timestamp": 1791494433772,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.0994318723678589,
+    "timestamp": 1791494433953,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.1306818723678589,
+    "timestamp": 1791494434152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.1619318723678589,
+    "timestamp": 1791494434352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.1931818723678589,
+    "timestamp": 1791494434552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.2244318723678589,
+    "timestamp": 1791494434752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.2414772510528564,
+    "timestamp": 1791494434862,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.2727272510528564,
+    "timestamp": 1791494435052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.2897727489471436,
+    "timestamp": 1791494435157,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.3068181276321411,
+    "timestamp": 1791494435255,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.3210227489471436,
+    "timestamp": 1791494435356,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.3380681276321411,
+    "timestamp": 1791494435452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.3551136255264282,
+    "timestamp": 1791494435554,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.3693181276321411,
+    "timestamp": 1791494435652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.3863636255264282,
+    "timestamp": 1791494435752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.4034091234207153,
+    "timestamp": 1791494435855,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.4176136255264282,
+    "timestamp": 1791494435952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.4346591234207153,
+    "timestamp": 1791494436054,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.451704502105713,
+    "timestamp": 1791494436162,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.4659091234207153,
+    "timestamp": 1791494436253,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.482954502105713,
+    "timestamp": 1791494436355,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.5,
+    "timestamp": 1791494436459,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.517045497894287,
+    "timestamp": 1791494436558,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.5340908765792847,
+    "timestamp": 1791494436658,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.548295497894287,
+    "timestamp": 1791494436752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.5625,
+    "timestamp": 1791494436853,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.579545497894287,
+    "timestamp": 1791494436957,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.5965908765792847,
+    "timestamp": 1791494437059,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.6278408765792847,
+    "timestamp": 1791494437252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.6619318723678589,
+    "timestamp": 1791494437452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.6761363744735718,
+    "timestamp": 1791494437556,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.7102272510528564,
+    "timestamp": 1791494437753,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.7272727489471436,
+    "timestamp": 1791494437857,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.7414772510528564,
+    "timestamp": 1791494437956,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.7585227489471436,
+    "timestamp": 1791494438055,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.7755681276321411,
+    "timestamp": 1791494438157,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.7897727489471436,
+    "timestamp": 1791494438253,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.8068181276321411,
+    "timestamp": 1791494438359,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.8210227489471436,
+    "timestamp": 1791494438456,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.8380681276321411,
+    "timestamp": 1791494438552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.8551136255264282,
+    "timestamp": 1791494438652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.8693181276321411,
+    "timestamp": 1791494438752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.8863636255264282,
+    "timestamp": 1791494438851,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9034091234207153,
+    "timestamp": 1791494438951,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439051,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439151,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "reason": "Unknown",
+    "timestamp": 1791494439151,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494439952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494440952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441453,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494441952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494442952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494443952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494444952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445857,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494445952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446064,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446553,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446659,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446854,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494446952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494447952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448053,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448453,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448655,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494448952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449154,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449753,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494449952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450257,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450453,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450557,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494450952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451156,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494451954,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494452952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494453953,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494454952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455053,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455253,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455353,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494455952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456453,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456853,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494456952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494457952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494458952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494459952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494460952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494461952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494462052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494462152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494462252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494462352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494462452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494462552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 45.0113639831543,
+    "timestamp": 1791494462652,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 45.0113639831543,
+    "timestamp": 1791494462652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 46.01420593261719,
+    "timestamp": 1791494468952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 47.0113639831543,
+    "timestamp": 1791494475352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 48.01420593261719,
+    "timestamp": 1791494481652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 49.0113639831543,
+    "timestamp": 1791494487952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 50.0113639831543,
+    "timestamp": 1791494494252,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 50.8323860168457,
+    "reason": "Goal kick",
+    "timestamp": 1791494499452,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 50.838069915771484,
+    "timestamp": 1791494526652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 51,
+    "timestamp": 1791494527552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 52.01420593261719,
+    "timestamp": 1791494533852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 53.01420593261719,
+    "timestamp": 1791494540152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 54.0113639831543,
+    "timestamp": 1791494546452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 55.0113639831543,
+    "timestamp": 1791494552752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 56.01420593261719,
+    "timestamp": 1791494559052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 57.01420593261719,
+    "timestamp": 1791494565352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 58.0113639831543,
+    "timestamp": 1791494571752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 59.0113639831543,
+    "timestamp": 1791494578052,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 59.46590805053711,
+    "reason": "Unknown",
+    "timestamp": 1791494580952,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 59.474430084228516,
+    "timestamp": 1791494584552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 60.008522033691406,
+    "timestamp": 1791494587852,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 60.65340805053711,
+    "reason": "Unknown",
+    "timestamp": 1791494591952,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 60.65625,
+    "timestamp": 1791494678752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 61.01420593261719,
+    "timestamp": 1791494681052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 62.01420593261719,
+    "timestamp": 1791494687352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 63.01420593261719,
+    "timestamp": 1791494693652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 64.01420593261719,
+    "timestamp": 1791494699952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 65.01420593261719,
+    "timestamp": 1791494706352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 66.01420593261719,
+    "timestamp": 1791494712652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 67.01420593261719,
+    "timestamp": 1791494718952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 68.01420593261719,
+    "timestamp": 1791494725252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 69.01420593261719,
+    "timestamp": 1791494731552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 70.01420593261719,
+    "timestamp": 1791494737852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 71.01420593261719,
+    "timestamp": 1791494744252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 72.01420593261719,
+    "timestamp": 1791494750552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 73.01420593261719,
+    "timestamp": 1791494756852,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 73.1335220336914,
+    "reason": "Unknown",
+    "timestamp": 1791494757752,
+    "type": "Event"
+}
+{
+    "event": "Player Sub",
+    "gameMinute": 74,
+    "playerIn": {
+        "name": "WOBBIE",
+        "playerId": 74921
+    },
+    "team": "Away",
+    "timestamp": 1791494760552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 74,
+    "timestamp": 1791494760552,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 74.0085220336914,
+    "timestamp": 1791494770552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 75.01420593261719,
+    "timestamp": 1791494781752,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 75.07386016845703,
+    "reason": "Foul",
+    "timestamp": 1791494782252,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 75.08806610107422,
+    "timestamp": 1791494808352,
+    "type": "Event"
+}
+{
+    "event": "Goal",
+    "gameMinute": 75.1647720336914,
+    "scorer": {
+        "name": "TERRY A. DAVIS",
+        "playerId": 72110
+    },
+    "team": "Home",
+    "timestamp": 1791494808852,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 75.1647720336914,
+    "reason": "Goal",
+    "timestamp": 1791494808952,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 75.18181610107422,
+    "timestamp": 1791494859352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 76,
+    "timestamp": 1791494862352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 77.01420593261719,
+    "timestamp": 1791494868652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 78.01420593261719,
+    "timestamp": 1791494874952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 79.01420593261719,
+    "timestamp": 1791494881252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 80.01420593261719,
+    "timestamp": 1791494887552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 81.01420593261719,
+    "timestamp": 1791494893852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 82.01420593261719,
+    "timestamp": 1791494900252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 83.01420593261719,
+    "timestamp": 1791494906552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 84.01420593261719,
+    "timestamp": 1791494912852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 85.01420593261719,
+    "timestamp": 1791494919152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 86.01136016845703,
+    "timestamp": 1791494925452,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 86.29545593261719,
+    "reason": "Unknown",
+    "timestamp": 1791494927352,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 86.30681610107422,
+    "timestamp": 1791494933452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 87,
+    "timestamp": 1791494937652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 88.01420593261719,
+    "timestamp": 1791494943952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 89.01136016845703,
+    "timestamp": 1791494950352,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 89.11363983154297,
+    "reason": "Unknown",
+    "timestamp": 1791494951152,
+    "type": "Event"
+}
+{
+    "event": "Clock Started",
+    "gameMinute": 89.12216186523438,
+    "timestamp": 1791494956352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "timestamp": 1791494961652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "timestamp": 1791494961752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.014204545877873898,
+    "timestamp": 1791494961852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.03125,
+    "timestamp": 1791494961952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.04545454680919647,
+    "timestamp": 1791494962052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.0625,
+    "timestamp": 1791494962152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.07954545319080353,
+    "timestamp": 1791494962252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.09375,
+    "timestamp": 1791494962352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.11079545319080353,
+    "timestamp": 1791494962452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.12784090638160706,
+    "timestamp": 1791494962552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.14488635957241058,
+    "timestamp": 1791494962652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.15909090638160706,
+    "timestamp": 1791494962752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.17613635957241058,
+    "timestamp": 1791494962852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.1931818127632141,
+    "timestamp": 1791494962952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.20738635957241058,
+    "timestamp": 1791494963052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.2244318127632141,
+    "timestamp": 1791494963152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.24147726595401764,
+    "timestamp": 1791494963252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.2556818127632141,
+    "timestamp": 1791494963352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.27272728085517883,
+    "timestamp": 1791494963452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.28977271914482117,
+    "timestamp": 1791494963552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.3068181872367859,
+    "timestamp": 1791494963652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.32102271914482117,
+    "timestamp": 1791494963752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.3380681872367859,
+    "timestamp": 1791494963852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.3551136255264282,
+    "timestamp": 1791494963952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.3693181872367859,
+    "timestamp": 1791494964052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.3863636255264282,
+    "timestamp": 1791494964152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.40340909361839294,
+    "timestamp": 1791494964252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.4176136255264282,
+    "timestamp": 1791494964352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.43465909361839294,
+    "timestamp": 1791494964452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.4517045319080353,
+    "timestamp": 1791494964552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.46875,
+    "timestamp": 1791494964652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.4829545319080353,
+    "timestamp": 1791494964752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.5,
+    "timestamp": 1791494964852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.5170454382896423,
+    "timestamp": 1791494964952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.53125,
+    "timestamp": 1791494965052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.5482954382896423,
+    "timestamp": 1791494965152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.5653409361839294,
+    "timestamp": 1791494965252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.5795454382896423,
+    "timestamp": 1791494965352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.5965909361839294,
+    "timestamp": 1791494965452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.6136363744735718,
+    "timestamp": 1791494965552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.6306818127632141,
+    "timestamp": 1791494965652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.6448863744735718,
+    "timestamp": 1791494965752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.6619318127632141,
+    "timestamp": 1791494965852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.6789772510528564,
+    "timestamp": 1791494965952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.6931818127632141,
+    "timestamp": 1791494966052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.7102272510528564,
+    "timestamp": 1791494966152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.7272727489471436,
+    "timestamp": 1791494966252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.7414772510528564,
+    "timestamp": 1791494966352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.7585227489471436,
+    "timestamp": 1791494966452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.7755681872367859,
+    "timestamp": 1791494966552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.7926136255264282,
+    "timestamp": 1791494966652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.8068181872367859,
+    "timestamp": 1791494966752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.8238636255264282,
+    "timestamp": 1791494966852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.8409090638160706,
+    "timestamp": 1791494966952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.8551136255264282,
+    "timestamp": 1791494967052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.8721590638160706,
+    "timestamp": 1791494967152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.8892045617103577,
+    "timestamp": 1791494967252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.9034090638160706,
+    "timestamp": 1791494967352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.9204545617103577,
+    "timestamp": 1791494967452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.9375,
+    "timestamp": 1791494967552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.9545454382896423,
+    "timestamp": 1791494967652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.96875,
+    "timestamp": 1791494967752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 0.9857954382896423,
+    "timestamp": 1791494967852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.0028408765792847,
+    "timestamp": 1791494967952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.017045497894287,
+    "timestamp": 1791494968052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.0340908765792847,
+    "timestamp": 1791494968152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.0511363744735718,
+    "timestamp": 1791494968252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.0653408765792847,
+    "timestamp": 1791494968352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.0823863744735718,
+    "timestamp": 1791494968453,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.0994318723678589,
+    "timestamp": 1791494968552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.1164772510528564,
+    "timestamp": 1791494968652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.1306818723678589,
+    "timestamp": 1791494968752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.1477272510528564,
+    "timestamp": 1791494968852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.1647727489471436,
+    "timestamp": 1791494968952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.1789772510528564,
+    "timestamp": 1791494969052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.1960227489471436,
+    "timestamp": 1791494969152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.2130681276321411,
+    "timestamp": 1791494969252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.2272727489471436,
+    "timestamp": 1791494969352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.2443181276321411,
+    "timestamp": 1791494969452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.2613636255264282,
+    "timestamp": 1791494969552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.2784091234207153,
+    "timestamp": 1791494969652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.2926136255264282,
+    "timestamp": 1791494969752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.3096591234207153,
+    "timestamp": 1791494969852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.326704502105713,
+    "timestamp": 1791494969952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.3409091234207153,
+    "timestamp": 1791494970052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.357954502105713,
+    "timestamp": 1791494970152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.375,
+    "timestamp": 1791494970252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.389204502105713,
+    "timestamp": 1791494970352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.40625,
+    "timestamp": 1791494970452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.423295497894287,
+    "timestamp": 1791494970552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.4375,
+    "timestamp": 1791494970652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.454545497894287,
+    "timestamp": 1791494970752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.4715908765792847,
+    "timestamp": 1791494970852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.4886363744735718,
+    "timestamp": 1791494970952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5028408765792847,
+    "timestamp": 1791494971052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5198863744735718,
+    "timestamp": 1791494971152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5369318723678589,
+    "timestamp": 1791494971252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5511363744735718,
+    "timestamp": 1791494971352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5681818723678589,
+    "timestamp": 1791494971452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5852272510528564,
+    "timestamp": 1791494971552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.5994318723678589,
+    "timestamp": 1791494971652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.6164772510528564,
+    "timestamp": 1791494971752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.6335227489471436,
+    "timestamp": 1791494971852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.6505681276321411,
+    "timestamp": 1791494971952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.6647727489471436,
+    "timestamp": 1791494972053,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.6818181276321411,
+    "timestamp": 1791494972152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.6988636255264282,
+    "timestamp": 1791494972252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.7130681276321411,
+    "timestamp": 1791494972352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.7301136255264282,
+    "timestamp": 1791494972452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.7471591234207153,
+    "timestamp": 1791494972552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.764204502105713,
+    "timestamp": 1791494972652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.7784091234207153,
+    "timestamp": 1791494972752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.795454502105713,
+    "timestamp": 1791494972852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.8125,
+    "timestamp": 1791494972952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.826704502105713,
+    "timestamp": 1791494973052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.84375,
+    "timestamp": 1791494973152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.860795497894287,
+    "timestamp": 1791494973252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.875,
+    "timestamp": 1791494973352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.892045497894287,
+    "timestamp": 1791494973452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.9090908765792847,
+    "timestamp": 1791494973552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.9261363744735718,
+    "timestamp": 1791494973652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.9403408765792847,
+    "timestamp": 1791494973752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.9573863744735718,
+    "timestamp": 1791494973852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.9744318723678589,
+    "timestamp": 1791494973952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 1.9886363744735718,
+    "timestamp": 1791494974052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.0056817531585693,
+    "timestamp": 1791494974152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.0227272510528564,
+    "timestamp": 1791494974252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.0369317531585693,
+    "timestamp": 1791494974352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.0539772510528564,
+    "timestamp": 1791494974452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.0710227489471436,
+    "timestamp": 1791494974552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.0880682468414307,
+    "timestamp": 1791494974652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.1022727489471436,
+    "timestamp": 1791494974752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.1193182468414307,
+    "timestamp": 1791494974852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.1363637447357178,
+    "timestamp": 1791494974952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.1505682468414307,
+    "timestamp": 1791494975052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.1676137447357178,
+    "timestamp": 1791494975153,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.184659004211426,
+    "timestamp": 1791494975252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.1988637447357178,
+    "timestamp": 1791494975352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.215909004211426,
+    "timestamp": 1791494975452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.232954502105713,
+    "timestamp": 1791494975552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.247159004211426,
+    "timestamp": 1791494975652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.264204502105713,
+    "timestamp": 1791494975752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.28125,
+    "timestamp": 1791494975852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.298295497894287,
+    "timestamp": 1791494975952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.3125,
+    "timestamp": 1791494976052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.329545497894287,
+    "timestamp": 1791494976152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.346590995788574,
+    "timestamp": 1791494976252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.360795497894287,
+    "timestamp": 1791494976352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.377840995788574,
+    "timestamp": 1791494976452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.3948862552642822,
+    "timestamp": 1791494976552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.409090995788574,
+    "timestamp": 1791494976652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.4261362552642822,
+    "timestamp": 1791494976752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.4431817531585693,
+    "timestamp": 1791494976852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.4602272510528564,
+    "timestamp": 1791494976952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.4744317531585693,
+    "timestamp": 1791494977052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.4914772510528564,
+    "timestamp": 1791494977152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.5085227489471436,
+    "timestamp": 1791494977252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.5227272510528564,
+    "timestamp": 1791494977352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.5397727489471436,
+    "timestamp": 1791494977452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.5568182468414307,
+    "timestamp": 1791494977552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.5710227489471436,
+    "timestamp": 1791494977652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.5880682468414307,
+    "timestamp": 1791494977752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.6051137447357178,
+    "timestamp": 1791494977852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494977952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978052,
+    "type": "Event"
+}
+{
+    "event": "Clock Stopped",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "reason": "Unknown",
+    "timestamp": 1791494978052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494978952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494979952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494980952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494981952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494982952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494983952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494984952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494985952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986651,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986751,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986851,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494986951,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987051,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494987952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494988952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494989952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494990952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494991952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494992952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494993952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494994952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494995952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494996952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494997952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494998952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791494999952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495000952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495001952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495002952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495003952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495004952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495005952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006753,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495006952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007153,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495007952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495008952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495009952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495010952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495011952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495012952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495013952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495014952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495015952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495016952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017353,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495017952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495018952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495019952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495020952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495021952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495022952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495023952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024252,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024352,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024452,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024552,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024652,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024752,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024852,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495024952,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495025052,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495025152,
+    "type": "Event"
+}
+{
+    "event": "Clock Updated",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495025252,
+    "type": "Event"
+}
+{
+    "event": "Stats Lost",
+    "gameMinute": 90,
+    "injuryMinute": 2.610795497894287,
+    "timestamp": 1791495025351,
+    "type": "Event"
+}
