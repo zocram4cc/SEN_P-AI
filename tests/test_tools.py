@@ -67,13 +67,13 @@ def test_team_pairs_found_with_marker_and_team_id():
     assert found == [(64 + 80, 23, 0xFFFD)]
     assert find_team_table.team_name_offset(buf, 64 + 80, "/g/") == 64
 
-def test_player_entries_stride_and_name_offset():
+def test_player_entries_stride_and_every_name_offset():
     stride, ids = 200, {72101: "TORVALDS", 72102: "STALLMAN"}
     buf = bytearray(1000)
     for k, (pid, name) in enumerate(ids.items()):
-        struct.pack_into("<I", buf, 100 + k * stride + 40, pid)
+        struct.pack_into("<II", buf, 100 + k * stride + 40, pid, pid)   # ID, then a copy (PES 2017 commentaryID)
         buf[100 + k * stride + 52: 100 + k * stride + 52 + len(name)] = name.encode()
-    assert player_entries.entries(bytes(buf), ids) == {"stride": 200, "name_minus_id": 12, "first_name_at": 152}
+    assert player_entries.entries(bytes(buf), ids) == {"stride": 200, "name_minus_id": [8, 12], "first_name_at": 152}
 
 def test_block_profile_sums_u32x9_blocks():
     row = _u32(72101) + _u32(*([0] * 8 + [1])) + _u32(*([2] + [0] * 8))
