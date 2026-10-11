@@ -47,7 +47,7 @@ static const TeamTableLayout PES2019_TEAM_TABLE = {
 };
 const GameLayout PES2019_LAYOUT = {
     L"PES2019.exe", "PES2019",
-    0x50000, 0x32A58, 0xFFFD, 0xFFFE, &PES2019_TEAM_TABLE, // team region: same base and offset in both matches
+    0x50000, 0x32A58, 0xFFFD, 0xFFFE, &PES2019_TEAM_TABLE, // team region; the offset holds within one launch only (2026-10-11: 0x38168, 0x2B5B8, 0x2F218), so locateTeamTable searches the region
     0x190000, 0x7B5A4, 0xD18EC, 0x56348,                  // find_stats_blocks: [505252, 23, 8176] / [858348, 23, 8176], both matches
     pes19EntrySize, 70099, 91100,                          // spec 6: EDIT IDs 70101-91023
     pes19Stats, pes19StatCount,                            // src/catalogs/Pes19Stats.cpp from docs/measurements/pes19/catalog.yaml

@@ -62,6 +62,27 @@ static int8_t countTeamPlayerEntries(HANDLE PES, uintptr_t tableAddr, const Game
     dbgReturn(return count);
 }
 
+// The table's address in its region: the layout's offset when that holds two teams, else the
+// first place in the region whose home slot 0 is a pair {homePairMarker, player of the team at
+// teamIdOffset} that also holds two teams. PES 2019 moves the table inside the region between
+// launches (docs/verification/2026-10-11); PES 2017 and PES 2021 keep the layout's offset.
+static uintptr_t locateTeamTable(HANDLE PES, uintptr_t region, size_t regionSize, const GameLayout &L){
+    if(countTeamPlayerEntries(PES, region + L.teamTableOffset, L) >= 22) return region + L.teamTableOffset;
+    const TeamTableLayout &T = *L.teamTable;
+    std::vector<uint8_t> buf(regionSize);
+    if(!ReadProcessMemory(PES, (void*)region, buf.data(), regionSize, NULL)) return 0;
+    for(size_t at = T.pairsOffset; at + T.teamIdOffset - T.pairsOffset + 4 <= regionSize; at += 4){
+        uint32_t marker, player, team;
+        std::memcpy(&marker, &buf[at], 4);
+        if((marker & 0xFFFF) != L.homePairMarker) continue;
+        std::memcpy(&player, &buf[at + 4], 4);
+        std::memcpy(&team, &buf[at - T.pairsOffset + T.teamIdOffset], 4);
+        if(teamIdOf(player) != team || player <= L.playerIdMin || player >= L.playerIdMax) continue;
+        if(countTeamPlayerEntries(PES, region + at - T.pairsOffset, L) >= 22) return region + at - T.pairsOffset;
+    }
+    return 0;
+}
+
 static uint32_t readTeamId(const uint8_t *table, const GameLayout &L, bool away){
     const TeamTableLayout &T = *L.teamTable;
     uint32_t id;
@@ -201,11 +222,10 @@ bool StatTableReader::findTeams(){
         mappingAddr = mappingAddr + info.RegionSize) {
         //If the properties of the memory block match what we're looking for
         if ((info.State & TEAM_MEM_STATE) && (info.Type & TEAM_MEM_TYPE) && (info.Protect & TEAM_MEM_PROTEC) && (_layout->teamRegionSize == 0 || info.RegionSize == _layout->teamRegionSize)) {
-            //Check set memory offsets in the block and count how many Player IDs are found
-            int8_t playerCount = countTeamPlayerEntries(processHandle, mappingAddr + _layout->teamTableOffset, *_layout);
-            //If there are enough players to make two valid teams
-            if(playerCount >= 22){
-                teamDataPtr = (void*)(mappingAddr + _layout->teamTableOffset);
+            //Find the table in the block: two teams of valid players
+            uintptr_t tableAddr = locateTeamTable(processHandle, mappingAddr, info.RegionSize, *_layout);
+            if(tableAddr){
+                teamDataPtr = (void*)tableAddr;
                 //Do an initial read of the team data
                 if(0 >= ReadProcessMemory(processHandle, teamDataPtr, currTeamData, _layout->teamTable->size, NULL))
                     ;//dbgReturn(return false);
