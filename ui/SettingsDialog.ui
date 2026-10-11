@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>374</width>
-    <height>153</height>
+    <height>230</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -181,7 +181,48 @@
      </item>
     </layout>
    </item>
-   <item row="5" column="0" colspan="2">
+   <item row="5" column="0">
+    <widget class="QLabel" name="rigdioUrlLabel">
+     <property name="text">
+      <string>Rigdio URL:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="rigdioUrlEdit">
+     <property name="placeholderText">
+      <string>http://localhost:31338 (empty = off)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QCheckBox" name="rigdioLoadTeams">
+     <property name="text">
+      <string>Load team exports when the teams change</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="rigdioChantLabel">
+     <property name="text">
+      <string>Chant at a stoppage:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QSpinBox" name="rigdioChantChance">
+     <property name="suffix">
+      <string>%</string>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>15</number>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="2">
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>

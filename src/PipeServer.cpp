@@ -1,6 +1,9 @@
 #include "PipeServer.h"
 #include <algorithm>
 #include <QFile>
+#include <QCoreApplication>
+#include <QNetworkReply>
+#include <QRandomGenerator>
 
 
 PipeServer::PipeServer(QObject *parent) : QObject(parent)
@@ -11,6 +14,63 @@ PipeServer::PipeServer(QObject *parent) : QObject(parent)
     server->listen("\\\\.\\pipe\\SEN_P-AI");
     if(!server->errorString().isEmpty())
         qDebug() << server->errorString();
+    net = new QNetworkAccessManager(this);
+    rigdioDisabled = QCoreApplication::arguments().contains("--no-rigdio");
+}
+
+static QString stripSlashes(QString s){
+    while(s.startsWith('/')) s.remove(0,1);
+    while(s.endsWith('/')) s.chop(1);
+    return s;
+}
+
+static QString nameOf(const QJsonValue &player){ return player.toObject()["name"].toString(); }
+
+// One event -> rigdio's API. Teams load only when opted in; anthems and the
+// victory anthem have no reliable cue in memory, so the streamer plays those.
+void PipeServer::toRigdio(const QJsonObject &e){
+    const QString kind = e["event"].toString();
+    if(rigdioDisabled || kind == "Clock Updated")   // ten a second
+        return;
+    QSettings settings;
+    const QString url = settings.value("RigdioUrl").toString();
+    if(url.isEmpty())
+        return;
+    const QString side = e["team"].toString().toLower();
+    const int minute = (int)e["gameMinute"].toDouble();
+    if(kind == "Teams Changed"){
+        if(settings.value("RigdioLoadTeams", false).toBool())
+            postRigdio(url, "/api/load", {{"home", stripSlashes(nameOf(e["home"]))},
+                                          {"away", stripSlashes(nameOf(e["away"]))}});
+    } else if(kind == "Goal"){
+        postRigdio(url, "/api/goal", {{"side", side}, {"scorer", nameOf(e["scorer"])}});
+    } else if(kind == "Own Goal"){
+        // "team" is the player's side; the goal counts for the other one
+        postRigdio(url, "/api/goal", {{"side", side == "home" ? "away" : "home"}});
+        postRigdio(url, "/api/event", {{"event", "owngoal"}, {"player", nameOf(e["player"])}, {"minute", minute}});
+    } else if(kind == "Card"){
+        postRigdio(url, "/api/event", {{"event", e["card"].toString().toLower()}, {"player", nameOf(e["player"])}, {"minute", minute}});
+    } else if(kind == "Player Sub"){
+        postRigdio(url, "/api/event", {{"event", "sub"}, {"player", nameOf(e["playerIn"])}, {"minute", minute}});
+    } else if(kind == "Clock Stopped"){
+        const QString reason = e["reason"].toString();
+        if(e["gameMinute"].toDouble() > 1 && reason != "Goal" && reason != "Own Goal" && reason != "Half End"
+           && QRandomGenerator::global()->bounded(100) < settings.value("RigdioChantChance", 15).toInt())
+            postRigdio(url, "/api/chant", QJsonObject());
+    }
+}
+
+void PipeServer::postRigdio(const QString &url, const QString &path, const QJsonObject &body){
+    QNetworkRequest req(QUrl(url + path));
+    req.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
+    req.setTransferTimeout(5000);
+    QNetworkReply *reply = net->post(req, QJsonDocument(body).toJson(QJsonDocument::Compact));
+    connect(reply, &QNetworkReply::finished, reply, [reply, path]{
+        qDebug().noquote() << "rigdio" << path
+                           << reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt()
+                           << (reply->error() ? reply->errorString() : QString()) << reply->readAll();
+        reply->deleteLater();
+    });
 }
 
 
@@ -123,5 +183,6 @@ void PipeServer::broadcastEvent(QJsonDocument event, Match *match, qint64 timest
             --i;
         }
     }
+    toRigdio(event.object());
     dbgReturn();
 }

@@ -6,6 +6,7 @@
 #include <QLocalSocket>
 #include <QString>
 #include <QJsonDocument>
+#include <QNetworkAccessManager>
 #include <vector>
 #include "Common.h"
 #include "Match.h"
@@ -102,6 +103,13 @@ private:
 
     std::vector<PipeClient*> clients;
     QLocalServer *server;
+
+    // Rigdio's local HTTP API (RigdioUrl setting; "--no-rigdio" when another
+    // program, e.g. rigbot, already drives rigdio).
+    QNetworkAccessManager *net;
+    bool rigdioDisabled;
+    void toRigdio(const QJsonObject &event);
+    void postRigdio(const QString &url, const QString &path, const QJsonObject &body);
 
     void broadcastEvent(QJsonDocument event, Match *match, qint64 timestamp);
     void broadcastEvent(QJsonDocument event, Match *match){ broadcastEvent(event,match,match->timestamp()); }
