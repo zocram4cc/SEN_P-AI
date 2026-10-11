@@ -1,6 +1,6 @@
-# Fresh launches of PES 2019 and PES 2021 (2026-10-11)
+# Fresh launches of PES 2017, PES 2019 and PES 2021 (2026-10-11)
 
-One testbot match per version, `/g/` vs `/sp/`, Match Time 10, extra time and penalties on, each in a new game launch (not the session the layouts were measured in). Alongside SEN:P-AI 1.3.0 (`eeeada2`): `tools/analyze/seg_sampler.py` dumped both stats blocks every 3 s (read-only, `regions.exe dump`), `tools/analyze/hud_clock.py` read the HUD clock, and the full-time pages were captured from OBS. Results: PES 2019 0–3, PES 2021 3–1, so neither went to extra time.
+One testbot match per version (PES 2017 added the same night), `/g/` vs `/sp/`, Match Time 10, extra time and penalties on, each in a new game launch (not the session the layouts were measured in). Alongside SEN:P-AI 1.3.0 (`eeeada2`): `tools/analyze/seg_sampler.py` dumped both stats blocks every 3 s (read-only, `regions.exe dump`), `tools/analyze/hud_clock.py` read the HUD clock, and the full-time pages were captured from OBS. Results: PES 2017 0–2, PES 2019 0–3, PES 2021 3–1, so none went to extra time.
 
 ## Results
 
@@ -16,9 +16,35 @@ One testbot match per version, `/g/` vs `/sp/`, Match Time 10, extra time and pe
 
 `*-buckets.txt` is `seg_report.py` over the samples: one line per 3 s sample where a counter changed, with the latest HUD reading and its age; each bucket's first line marks the boundary to within one sample. The raw samples (127 MB per match) are not committed; `seg_sampler.py` reproduces them.
 
-## Consequence for the PES 2019 layout
+## Heatmap grids ("Play Area Grid", 140 × u32)
 
-`PES2019_LAYOUT.teamTableOffset` is valid only for the launch it was measured in. A reader has to locate the table by its pairs (`find_team_table.py`'s signature: 0xFFFD/0xFFFE markers with one team's player IDs) inside the 0x50000 region. Not fixed in this commit.
+`tools/analyze/grid_report.py` over the same samples (`pes17-grid.txt`, `pes21-grid.txt`):
+
+| | PES 2017 (entry+0x1034) | PES 2021 (entry+0x1938) |
+|---|---|---|
+| Populates, cumulative | yes; no cell decreased in 327 samples | yes; no cell decreased in 364 samples |
+| Shape | 14 rows × 10, row-major, all 140 values are cells | 14 rows × 10, row-major, but the 140th position is not a cell; value 140 = sum of the others (±1 in flight), a sample count |
+| Rows | row 0 at the player's own goal, both sides, both halves: both goalkeepers stay in rows 0–2 all match (checked mid-second-half and at full time) | same |
+| Rate | ≈630 per full-match player (one per ≈48 ticks) | ≈1270 (one per ≈27 ticks) |
+| Column 0's touchline | not determined | not determined |
+
+## PES 2017: the unofficial fork's pointer chain
+
+`tools/analyze/chain17.py` follows the fork's PES 2017 profile (`root = *(0x400000 + 0x21A9E68)`; readiness `*(*(root + 0x124) + 0x1168)`; stats base `*(root + 0x2890) + 0x317FC`, home entry `+0x3804`) and compares it with the scan. In the pre-game menu the root is 0 (`pes17-chain-pregame.txt`); 60 s into the match the readiness flag is 1 (the profile says 0 = live) and `*(root + 0x2890)` is 0x8000, so the derived home entry 0x3D000 holds no player while the scan finds the home block at 0x66505010 (`pes17-chain-live.txt`). The profile does not hold on this executable.
+
+PES 2017's buckets match PES 2019's and 2021's (`pes17-buckets.txt`). SEN:P-AI found teams and stats at the layout's fixed offsets on PES 2017 with the `locateTeamTable` build.
+
+## The PES 2019 team table, fixed
+
+`PES2019_LAYOUT.teamTableOffset` holds only for the launch it was measured in. Over five launches of PES 2019 the table started at 0x32A58 (2026-10-08), 0x38168, 0x2B5B8, 0x2F218 and 0x2F388 inside its 0x50000 region, with the same layout each time. `StatTableReader`'s `locateTeamTable` now tries the layout's offset first (where PES 2017 and PES 2021 have kept it in every launch seen) and otherwise searches the region for the table's signature: a home pair {0xFFFD, a player of the team at `teamIdOffset`} at slot 0, confirmed by the two-team count `countTeamPlayerEntries` already used.
+
+Verified on the rebuilt exe, each in a fresh launch:
+
+| Launch | Teams | Table at | Result |
+|---|---|---|---|
+| testbot | /g/ vs /sp/ | 0x2B5B8 | Teams Changed (pre-game) |
+| testbot, attached mid-match | /g/ vs /sp/ | 0x2F218 | Teams Changed, Stats Found, Clock Updated |
+| betting rotation | /lgbt/ (730) vs /int/ (733) | 0x2F388 | Teams Changed, Stats Found, Clock Started/Stopped/Updated |
 
 ## Executables
 

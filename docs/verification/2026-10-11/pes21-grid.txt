@@ -1,0 +1,83 @@
+samples 364; cell decreases between consecutive samples: 0
+ 0 72101 grid_total    1266 ticks_total   34246 nonzero_cells  11 ticks [34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ 2 72103 grid_total    1274 ticks_total   34246 nonzero_cells  40 ticks [0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ 3 72104 grid_total    1271 ticks_total   34246 nonzero_cells  51 ticks [0, 0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ 4 72105 grid_total    1272 ticks_total   34246 nonzero_cells  65 ticks [0, 0, 0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+ 5 72106 grid_total    1276 ticks_total   34246 nonzero_cells  52 ticks [0, 0, 0, 0, 34246, 0, 0, 0, 0, 0, 0, 0, 0]
+ 6 72107 grid_total    1266 ticks_total   34246 nonzero_cells  78 ticks [0, 0, 0, 0, 0, 34246, 0, 0, 0, 0, 0, 0, 0]
+ 7 72108 grid_total    1272 ticks_total   34246 nonzero_cells  62 ticks [0, 0, 0, 0, 0, 0, 0, 34246, 0, 0, 0, 0, 0]
+ 8 72109 grid_total    1275 ticks_total   34246 nonzero_cells  68 ticks [0, 0, 0, 0, 0, 0, 34246, 0, 0, 0, 0, 0, 0]
+ 9 72110 grid_total    1272 ticks_total   34246 nonzero_cells  74 ticks [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34246, 0]
+10 72111 grid_total    1272 ticks_total   34246 nonzero_cells  40 ticks [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34246]
+11 72112 grid_total    1272 ticks_total   34246 nonzero_cells  40 ticks [0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+23 74901 grid_total    1266 ticks_total   34246 nonzero_cells   7 ticks [34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+24 74902 grid_total    1266 ticks_total   34246 nonzero_cells  38 ticks [0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+25 74903 grid_total    1272 ticks_total   34246 nonzero_cells  64 ticks [0, 0, 0, 0, 34246, 0, 0, 0, 0, 0, 0, 0, 0]
+30 74908 grid_total    1278 ticks_total   34246 nonzero_cells  65 ticks [0, 0, 0, 0, 0, 0, 34246, 0, 0, 0, 0, 0, 0]
+31 74909 grid_total    1272 ticks_total   34246 nonzero_cells  35 ticks [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34246]
+32 74910 grid_total    1272 ticks_total   34246 nonzero_cells  75 ticks [0, 0, 0, 0, 0, 0, 0, 0, 34246, 0, 0, 0, 0]
+33 74911 grid_total    1260 ticks_total   34246 nonzero_cells  62 ticks [0, 0, 0, 0, 0, 34246, 0, 0, 0, 0, 0, 0, 0]
+36 74914 grid_total    1272 ticks_total   34246 nonzero_cells  36 ticks [0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+38 74916 grid_total    1276 ticks_total   34246 nonzero_cells  76 ticks [0, 0, 0, 0, 0, 0, 0, 0, 34246, 0, 0, 0, 0]
+42 74920 grid_total    1274 ticks_total   34246 nonzero_cells  32 ticks [0, 34246, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+44 74922 grid_total    1274 ticks_total   34246 nonzero_cells  67 ticks [0, 0, 0, 0, 0, 0, 0, 34246, 0, 0, 0, 0, 0]
+entry 0 (72101): 14 rows x 10
+   0    0    0  179  160    3    0    0    0    0
+   0    0    1   95   96    5    2    0    0    0
+   0    0    0   45   47    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0  633
+entry 10 (72111): 14 rows x 10
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0   24    5    4    2    0    0    0    0
+   0   13   71   15   10    1    0    0    0    0
+   0    6   84   23    4    1    0    0    0    0
+   0    9   53   20    5    2    0    0    0    0
+   0    6   49   24    1    6    0    0    0    0
+   0    2   32   22    5    2    1    0    0    0
+   0    6   31   22    8    1    0    0    0    0
+   0    0   12   30   19    0    0    0    0    0
+   0    0    0    5    0    0    0    0    0  636
+entry 23 (74901): 14 rows x 10
+   0    0    0  136  165    0    0    0    0    0
+   0    0    0   87   94    0    0    0    0    0
+   0    0    0   63   88    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0  633
+entry 31 (74909): 14 rows x 10
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    0    0    0    0    0    0    0    0
+   0    0    2    0    0    0    0    0    0    0
+   0    0    3   11    0    0    0    0    0    0
+   0    0   21   33   29    3    0    0    0    0
+   0    0   16   34   41    6    0    0    0    0
+   0    1    5   29   55    9    0    0    0    0
+   0    3   15   38   42    5    0    0    0    0
+   0    7    5   34   38    4    0    0    0    0
+   0    0    0   26   31    4    0    0    0    0
+   0    0    0   26   35    2    0    0    0    0
+   0    0    0    0   16    7    0    0    0  636

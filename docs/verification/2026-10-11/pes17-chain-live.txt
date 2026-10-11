@@ -1,0 +1,3 @@
+module 400000 root 125d46c8 container f5aae3c flag 1 sub 8000
+chain home entry 3d000; scan hits [('66505010', '664d0000'), ('6655375c', '664d0000')]
+id at chain home entry: 0
