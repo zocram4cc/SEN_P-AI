@@ -17,4 +17,7 @@
 
 #define dbgReturn(...) do{ qDebug("Function returned"); __VA_ARGS__; }while(false)
 
+// Rigdio's own default (webserver_host:webserver_port).
+#define RIGDIO_DEFAULT_URL "http://127.0.0.1:31338"
+
 #endif // COMMON_H

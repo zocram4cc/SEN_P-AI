@@ -26,20 +26,20 @@ static QString stripSlashes(QString s){
 
 static QString nameOf(const QJsonValue &player){ return player.toObject()["name"].toString(); }
 
-// One event -> rigdio's API. Teams load only when opted in; anthems and the
+// One event -> rigdio's API. Anthems and the
 // victory anthem have no reliable cue in memory, so the streamer plays those.
 void PipeServer::toRigdio(const QJsonObject &e){
     const QString kind = e["event"].toString();
     if(rigdioDisabled || kind == "Clock Updated")   // ten a second
         return;
     QSettings settings;
-    const QString url = settings.value("RigdioUrl").toString();
-    if(url.isEmpty())
+    if(!settings.value("RigdioEnabled", false).toBool())
         return;
+    const QString url = settings.value("RigdioUrl", RIGDIO_DEFAULT_URL).toString();
     const QString side = e["team"].toString().toLower();
     const int minute = (int)e["gameMinute"].toDouble();
     if(kind == "Teams Changed"){
-        if(settings.value("RigdioLoadTeams", false).toBool())
+        if(settings.value("RigdioLoadTeams", true).toBool())
             postRigdio(url, "/api/load", {{"home", stripSlashes(nameOf(e["home"]))},
                                           {"away", stripSlashes(nameOf(e["away"]))}});
     } else if(kind == "Goal"){

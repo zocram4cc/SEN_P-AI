@@ -7,6 +7,8 @@ SettingsDialog::SettingsDialog(QWidget *parent) :
     ui(new Ui::SettingsDialog)
 {
     ui->setupUi(this);
+    for(QWidget *w : {(QWidget*)ui->rigdioUrlEdit, (QWidget*)ui->rigdioLoadTeams, (QWidget*)ui->rigdioChantChance})
+        connect(ui->rigdioEnabled, &QCheckBox::toggled, w, &QWidget::setEnabled);
     on_SettingsDialog_rejected();
 }
 
@@ -24,6 +26,7 @@ void SettingsDialog::on_SettingsDialog_accepted()
     settings.setValue("MatchAutosaveTimed",ui->autosaveTimed->isChecked());
     settings.setValue("MatchAutosaveInterval",ui->autosaveInterval->value()*1000);
     settings.setValue("UpdateRate",ui->updateRate->value());
+    settings.setValue("RigdioEnabled",ui->rigdioEnabled->isChecked());
     settings.setValue("RigdioUrl",ui->rigdioUrlEdit->text().trimmed());
     settings.setValue("RigdioLoadTeams",ui->rigdioLoadTeams->isChecked());
     settings.setValue("RigdioChantChance",ui->rigdioChantChance->value());
@@ -38,8 +41,10 @@ void SettingsDialog::on_SettingsDialog_rejected()
     ui->autosaveTimed->setChecked(settings.value("MatchAutosaveTimed",ui->autosaveTimed->isChecked()).toBool());
     ui->autosaveInterval->setValue(settings.value("MatchAutosaveInterval",ui->autosaveInterval->value()*1000).toInt()/1000);
     ui->updateRate->setValue(settings.value("UpdateRate",ui->updateRate->value()).toInt());
-    ui->rigdioUrlEdit->setText(settings.value("RigdioUrl").toString());
-    ui->rigdioLoadTeams->setChecked(settings.value("RigdioLoadTeams",false).toBool());
+    ui->rigdioUrlEdit->setText(settings.value("RigdioUrl",RIGDIO_DEFAULT_URL).toString());
+    ui->rigdioLoadTeams->setChecked(settings.value("RigdioLoadTeams",true).toBool());
+    ui->rigdioEnabled->setChecked(settings.value("RigdioEnabled",false).toBool());
+    emit ui->rigdioEnabled->toggled(ui->rigdioEnabled->isChecked());
     ui->rigdioChantChance->setValue(settings.value("RigdioChantChance",ui->rigdioChantChance->value()).toInt());
 }
 

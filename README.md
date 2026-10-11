@@ -15,7 +15,7 @@ Build (Windows Qt 5.15.2 / MinGW 8.1 under Wine, see `docs/verification/TOOLCHAI
 
     QT_WIN=<aqtinstall output dir> tools/build-win.sh
 
-Rigdio: Settings → **Rigdio URL** (e.g. `http://localhost:31338`; empty = off) sends match events to Rigdio's local API (the zocram4cc/rigdio fork):
+Rigdio: Settings → **Send match events to Rigdio** (off by default) posts match events to Rigdio's local API (the zocram4cc/rigdio fork) at **Rigdio URL**, which defaults to Rigdio's own `http://127.0.0.1:31338`:
 
 | SEN:P-AI event | Rigdio call |
 |---|---|
@@ -24,7 +24,7 @@ Rigdio: Settings → **Rigdio URL** (e.g. `http://localhost:31338`; empty = off)
 | Card | `POST /api/event {event: "yellow"/"red", player, minute}` |
 | Player Sub | `POST /api/event {event: "sub", player, minute}` (the player coming on) |
 | Clock Stopped (not a goal or half end) | `POST /api/chant {}` with the **Chant at a stoppage** chance |
-| Teams Changed | `POST /api/load {home, away}`, only with **Load team exports** ticked |
+| Teams Changed | `POST /api/load {home, away}` while **Load team exports** is ticked (the default) |
 
 Teams Changed fires when the teams are picked in the menus, before the anthems. Anthems and the victory anthem have no cue in memory; play those from Rigdio. `--no-rigdio` on the command line turns the option off for that run; rigbot passes it because it drives Rigdio itself.
 
